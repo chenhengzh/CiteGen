@@ -1,0 +1,25 @@
+[
+  {
+    "Citations": [],
+    "Paper": "Exploring the robustness of in-context learning with noisy labels. Chen Cheng, Xinzhi Yu, Haodong Wen, Jingsong Sun, Guanzhang Yue, Yihao Zhang, and Zeming Wei - In ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1-5. IEEE, 2025 - ieeexplore.ieee.org",
+    "ID": 2,
+    "Filename": "Exploring the robustness of in-context learning with noisy"
+  },
+  {
+    "Citations": [
+      {
+        "Text": "CFA [38] customizes training configurations for different classes to enhance both robustness and fairness in adversarial training, addressing disparities in robustness among classes.",
+        "Analysis": "描述了被引论文的方法和贡献，但没有明确称赞或深入参考其内容。",
+        "Positive": false
+      },
+      {
+        "Text": "We compare the PIAT integrated with NMSE regularization with the following AT baselines: ALP [10], TRADES [11], MART [23], MAIL [16], CFA [38], RAT [30] on CNNs.",
+        "Analysis": "作为基线方法之一进行列举，没有特别评价。",
+        "Positive": false
+      }
+    ],
+    "Paper": "Parameter interpolation adversarial training for robust image classification. Xin Liu, Yichen Yang, Kun He, and John E. Hopcroft - IEEE Transactions on Information Forensics and Security (2025) - ieeexplore.ieee.org",
+    "ID": 3,
+    "Filename": "Parameter interpolation adversarial training for robust image classification"
+  }
+]

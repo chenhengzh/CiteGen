@@ -1,0 +1,14 @@
+{
+  "Filename": "Exploring the robustness of in-context learning with noisy",
+  "PaperInfo": "Chen Cheng, Xinzhi Yu, Haodong Wen, Jingsong Sun, Guanzhang Yue, Yihao Zhang, and Zeming Wei - In ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1-5. IEEE, 2025 - ieeexplore.ieee.org",
+  "Citations": [],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "yuan Zha, Le Song, and Shu-Tao Xia. Iterative\nlearning with open-set noisy labels. In CVPR, 2018. 1, 9\nYisen Wang, Xingjun Ma, Zaiyi Chen, Yuan Luo, Jinfeng Yi, and James Bailey. Symmetric cross entropy for\nrobust learning with noisy labels. In ICCV, 2019. 9\n7\nPublished at ICLR 2024 Workshop on Reliable and Responsible Foundation Models\nAlexander Wei, Nika Haghtalab, and Jacob Steinhardt. Jailbroken: How does llm safety training fail?, 2023a. 9\nZeming Wei, Yifei Wang, Yiwen Guo, and Yisen Wang. Cfa: Class-wise calibrated fair adversarial training. In\nCVPR, 2023b. 9\nZeming Wei, Yifei Wang, and Yisen Wang. Jailbreak and guard aligned language models with only few in-context\ndemonstrations. arXiv preprint arXiv:2310.06387, 2023c. 1, 9\nZeming Wei, Jingyu Zhu, and Yihao Zhang. Sharpness-aware minimization alone can improve adversarial\nrobustness. In ICML Workshop on New Frontiers in Adversarial Machine Learning, 2023d. 9\nNoam Wies, Yoav Levine, and Amnon Shashua. The learnability of in-context",
+    "Y AND ALIGNMENT\nWith the milestone success of the fast-paced development of large language models (LLMs), concerns\nregarding their potential for harmful generation and malicious usage have emerged (Bommasani et al.,\n2022; Chen and Shu, 2023; Liu et al., 2023; Zhang et al., 2024b), which are typically referred to as\nthe jailbreaking issue (Zou et al., 2023b; Wei et al., 2023a; Dong et al., 2023b; Zhang and Wei, 2024).\nSuch risks further extend to the in-context learning scenario, as recent work (Wang et al., 2023; Wei\net al., 2023c) showed, it is possible to manipulate the safety and alignment of language models by\nmaliciously inducing noisy labels in the demonstrations. Therefore, it is of significance to study the\nrobustness of in-context learning with label noises.\nMoreover, different from defense against conventional adversarial noises (Goodfellow et al., 2014;\nCarlini and Wagner, 2017b; Liu et al., 2022; Chen et al., 2023; Wei et al., 2023d) among which\nadversarial training methods (Madry et al., 2"
+  ]
+}

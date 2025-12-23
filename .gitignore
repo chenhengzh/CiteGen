@@ -2,5 +2,10 @@ paper_list_*
 test*
 *.zip
 *.pyc
+__pycache__/
 *.DS_Store
 *说明*
+*.log
+.vscode/
+.idea/
+config.py

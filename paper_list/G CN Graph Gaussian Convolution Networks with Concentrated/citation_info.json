@@ -1,0 +1,101 @@
+[
+    {
+        "index": "001",
+        "title": "A comprehensive benchmark on spectral GNNs: The impact on efficiency, memory, and effectiveness",
+        "info": "Ningyi Liao, Haoyu Liu, Zulun Zhu, Siqiang Luo, and Laks VS Lakshmanan - Proceedings of the ACM on Management of Data 3, no. 4 (2025): 1-29 - dl.acm.org",
+        "abstract": "With recent advancements in graph neural networks (GNNs), spectral GNNs have received increasing popularity by virtue of their ability to retrieve graph signals in the spectral domain …",
+        "PDF": "https://dl.acm.org/doi/pdf/10.1145/3749156",
+        "filename": "A comprehensive benchmark on spectral GNNs The impact",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3749156"
+    },
+    {
+        "index": "002",
+        "title": "Graph Classification by Converting Static Graphs into Dynamic Evolutionary Sequences",
+        "info": "Xue Liu, Dan Sun, and Wei Wei - Expert Systems with Applications (2025): 128690 - Elsevier",
+        "abstract": "Graphs are widely used in various fields, including industry, bioinformatics, and social systems. In these systems, individuals create a structured graph through various …",
+        "PDF": "",
+        "filename": "Graph Classification by Converting Static Graphs into Dynamic",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0957417425023085"
+    },
+    {
+        "index": "003",
+        "title": "DTGBA: A stronger graph backdoor attack with dual triggers",
+        "info": "D. Li, Xia, H., Li, X., Zhang, R., & Ma, M. (2025). DTGBA: A stronger graph backdoor attack with dual triggers. Neural Networks, 1077 - i, D., Xia, H., Li, X., Zhang, R., & Ma, M. (2025). DTGBA: A stronger graph backdoor attack with dual triggers. Neural Networks, 107726 - Elsevier",
+        "abstract": "Graph backdoor attacks can significantly degrade the performance of graph neural networks (GNNs). Specifically, during the training phase, graph backdoor attacks inject triggers and …",
+        "PDF": "",
+        "filename": "DTGBA A stronger graph backdoor attack with dual",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0893608025006069"
+    },
+    {
+        "index": "004",
+        "title": "Dynamic Sequential Neighbor Processing: A Liquid Neural Network-Inspired Framework for Enhanced Graph Neural Networks",
+        "info": "Kuijie Zhang, Shanchen Pang, Yuanyuan Zhang, Yun Bai, Luqi Wang, and Jerry Chun-Wei Lin - Information Sciences (2025): 122452 - Elsevier",
+        "abstract": "Integrating information from multi-order neighborhoods is a fundamental strategy in Graph Neural Networks (GNNs) for capturing higher-order structural patterns and enhancing the …",
+        "PDF": "",
+        "filename": "Dynamic Sequential Neighbor Processing A Liquid Neural Network-Inspired",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0020025525005845"
+    },
+    {
+        "index": "005",
+        "title": "TAGDN: type-aligning graph diffusion network for capturing long-range dependencies in heterogeneous graphs without over-squashing and over-smoothing",
+        "info": "Seong Jin Ahn, Min-Soo Kim, and Myoung-Ho Kim - Neural Computing and Applications (2025): 1-31 - Springer",
+        "abstract": "Graph neural networks (GNNs) have seen significant growth in analyzing heterogeneous graphs, which contain different types of nodes and connections. Recent studies have …",
+        "PDF": "https://link.springer.com/content/pdf/10.1007/s00521-025-11684-7.pdf",
+        "filename": "TAGDN type-aligning graph diffusion network for capturing long-range",
+        "link": "https://link.springer.com/article/10.1007/s00521-025-11684-7"
+    },
+    {
+        "index": "006",
+        "title": "EGNN: Exploring Structure-Level Neighborhoods in Graphs With Varying Homophily Ratios",
+        "info": "Songwei Zhao, Bo Yu, Sinuo Zhang, Zhejian Yang, Jifeng Hu, Philip S. Yu, and Hechang Chen - IEEE Transactions on Knowledge and Data Engineering 37, no. 10 (2025): 5852-5865 - ieeexplore.ieee.org",
+        "abstract": "Graph neural networks (GNNs) have garnered significant attention for their competitive performance on graph-structured data. However, many existing methods are commonly …",
+        "PDF": "",
+        "filename": "EGNN Exploring Structure-Level Neighborhoods in Graphs With Varying",
+        "link": "https://ieeexplore.ieee.org/iel8/69/4358933/11091505.pdf"
+    },
+    {
+        "index": "007",
+        "title": "Parameter-Free Hypergraph Neural Network for Few-Shot Node Classification",
+        "info": "Chaewoon Bae, Doyun Choi, Jaehyun Lee, and Jaemin Yoo - arXiv preprint arXiv:2510.21462 (2025) - arxiv.org",
+        "abstract": "Few-shot node classification on hypergraphs requires models that generalize from scarce labels while capturing high-order structures. Existing hypergraph neural networks (HNNs) …",
+        "PDF": "https://arxiv.org/pdf/2510.21462",
+        "filename": "Parameter-Free Hypergraph Neural Network for Few-Shot Node Classification",
+        "link": "https://arxiv.org/abs/2510.21462"
+    },
+    {
+        "index": "008",
+        "title": "Tensor Convolutional Network for Higher-Order Interaction Prediction in Sparse Tensors",
+        "info": "Jun-Gi Jang, Jingrui He, Andrew Margenot, and Hanghang Tong - arXiv preprint arXiv:2503.11786 (2025) - arxiv.org",
+        "abstract": "Many real-world data, such as recommendation data and temporal graphs, can be represented as incomplete sparse tensors where most entries are unobserved. For such …",
+        "PDF": "https://arxiv.org/pdf/2503.11786?",
+        "filename": "Tensor Convolutional Network for Higher-Order Interaction Prediction in",
+        "link": "https://arxiv.org/abs/2503.11786"
+    },
+    {
+        "index": "009",
+        "title": "Measuring Over-smoothing beyond Dirichlet energy",
+        "info": "Weiqi Guan, and Zihao Shi - arXiv preprint arXiv:2512.06782 (2025) - arxiv.org",
+        "abstract": "While Dirichlet energy serves as a prevalent metric for quantifying over-smoothing, it is inherently restricted to capturing first-order feature derivatives. To address this limitation, we …",
+        "PDF": "https://arxiv.org/pdf/2512.06782",
+        "filename": "Measuring Over-smoothing beyond Dirichlet energy",
+        "link": "https://arxiv.org/abs/2512.06782"
+    },
+    {
+        "index": "010",
+        "title": "Scaling up graph neural networks",
+        "info": "Ningyi. Lia - PhD diss., Nanyang Technological University, 2025 - dr.ntu.edu.sg",
+        "abstract": "Recent years have witnessed the burgeoning of services based on data represented by graphs, which leads to rapid increase in the amount and complexity of such graph data …",
+        "PDF": "https://dr.ntu.edu.sg/bitstreams/cdc4bed4-2236-4049-bb44-e654b0738843/download",
+        "filename": "Scaling up graph neural networks",
+        "link": "https://dr.ntu.edu.sg/entities/publication/519516f6-4930-4869-a57d-6da81755c027"
+    },
+    {
+        "index": "011",
+        "title": "Explainable Mining of Graphs and Time Series: Algorithms and Applications",
+        "info": "Meng-Chieh. Le - PhD diss., Carnegie Mellon University, 2025 - reports-archive.adm.cs.cmu.edu",
+        "abstract": "Given a social network graph, how can we predict connections between users and determine whether they are based on shared hobbies or common friends? Given a …",
+        "PDF": "http://reports-archive.adm.cs.cmu.edu/anon/anon/usr0/ftp/usr/ftp/2025/CMU-CS-25-119.pdf",
+        "filename": "Explainable Mining of Graphs and Time Series Algorithms",
+        "link": "http://reports-archive.adm.cs.cmu.edu/anon/anon/usr0/ftp/usr/ftp/2025/CMU-CS-25-119.pdf"
+    }
+]

@@ -1,0 +1,344 @@
+[
+    {
+        "index": "001",
+        "title": "Adversarial training via multi-guidance and historical memory enhancement",
+        "info": "Chenyu Zhao, Yaguan Qian, Bin Wang, Zhaoquan Gu, Shouling Ji, Wei Wang, and Yanchun Zhang - Neurocomputing 619 (2025): 129124 - Elsevier",
+        "abstract": "Deep neural networks (DNNs) are often susceptible to the influence of adversarial examples, potentially leading to severe security issues. Adversarial training stands out as …",
+        "PDF": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4895536",
+        "filename": "Adversarial training via multi-guidance and historical memory enhancement",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0925231224018952"
+    },
+    {
+        "index": "002",
+        "title": "Exploring the robustness of in-context learning with noisy labels",
+        "info": "Chen Cheng, Xinzhi Yu, Haodong Wen, Jingsong Sun, Guanzhang Yue, Yihao Zhang, and Zeming Wei - In ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1-5. IEEE, 2025 - ieeexplore.ieee.org",
+        "abstract": "Recently, the mysterious In-Context Learning (ICL) ability exhibited by Transformer architectures, especially in large language models (LLMs), has sparked significant research …",
+        "PDF": "https://arxiv.org/pdf/2404.18191?",
+        "filename": "Exploring the robustness of in-context learning with noisy",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10889281/"
+    },
+    {
+        "index": "003",
+        "title": "Parameter interpolation adversarial training for robust image classification",
+        "info": "Xin Liu, Yichen Yang, Kun He, and John E. Hopcroft - IEEE Transactions on Information Forensics and Security (2025) - ieeexplore.ieee.org",
+        "abstract": "Though deep neural networks exhibit superior performance on various tasks, they are still plagued by adversarial examples. Adversarial training has been demonstrated to be the …",
+        "PDF": "https://arxiv.org/pdf/2511.00836",
+        "filename": "Parameter interpolation adversarial training for robust image classification",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10852411/"
+    },
+    {
+        "index": "004",
+        "title": "Aroid: Improving adversarial robustness through online instance-wise data augmentation",
+        "info": "Lin Li, Jianing Qiu, and Michael Spratling - International Journal of Computer Vision 133, no. 2 (2025): 929-950 - Springer",
+        "abstract": "Deep neural networks are vulnerable to adversarial examples. Adversarial training (AT) is an effective defense against adversarial examples. However, AT is prone to overfitting which …",
+        "PDF": "https://link.springer.com/content/pdf/10.1007/s11263-024-02206-4.pdf",
+        "filename": "Aroid Improving adversarial robustness through online instance-wise data",
+        "link": "https://link.springer.com/article/10.1007/s11263-024-02206-4"
+    },
+    {
+        "index": "005",
+        "title": "Towards adversarial robustness via debiased high-confidence logit alignment",
+        "info": "Kejia Zhang, Juanjuan Weng, Shaozi Li, and Zhiming Luo - In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 2783-2792. 2025 - openaccess.thecvf.com",
+        "abstract": "Despite the remarkable progress of deep neural networks (DNNs) in various visual tasks, their vulnerability to adversarial examples raises significant security concerns. Recent …",
+        "PDF": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Towards_Adversarial_Robustness_via_Debiased_High-Confidence_Logit_Alignment_ICCV_2025_paper.pdf",
+        "filename": "Towards adversarial robustness via debiased high-confidence logit alignment",
+        "link": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Towards_Adversarial_Robustness_via_Debiased_High-Confidence_Logit_Alignment_ICCV_2025_paper.html"
+    },
+    {
+        "index": "006",
+        "title": "FAIR-TAT: Improving Model Fairness Using Targeted Adversarial Training",
+        "info": "Tejaswini Medi, Steffen Jung, and Margret Keuper - In 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 7827-7836. IEEE, 2025 - ieeexplore.ieee.org",
+        "abstract": "Deep neural networks are susceptible to adversarial attacks and common corruptions, which undermine their robustness. In order to enhance model resilience against such challenges …",
+        "PDF": "https://arxiv.org/pdf/2410.23142?",
+        "filename": "FAIR-TAT Improving Model Fairness Using Targeted Adversarial Training",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10943714/"
+    },
+    {
+        "index": "007",
+        "title": "CATIL: Customized adversarial training based on instance loss",
+        "info": "Z. Zhang, Xia, H., Kang, Z., Zhang, R., & Shi, X. (2025). CATIL: Customized adversarial training based on instance loss. Information Sciences, 689, 1214 - hang, Z., Xia, H., Kang, Z., Zhang, R., & Shi, X. (2025). CATIL: Customized adversarial training based on instance loss. Information Sciences, 689, 121420 - Elsevier",
+        "abstract": "Adversarial training is one of the most effective adversarial defense methods currently recognized. It enhances the robustness of deep neural network (DNN) classifiers by …",
+        "PDF": "",
+        "filename": "CATIL Customized adversarial training based on instance loss",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0020025524013343"
+    },
+    {
+        "index": "008",
+        "title": "Mitigating low-frequency bias: Feature recalibration and frequency attention regularization for adversarial robustness",
+        "info": "Kejia Zhang, Juanjuan Weng, Yuanzheng Cai, Shaozi Li, and Zhiming Luo - Neural Networks (2025): 108070 - Elsevier",
+        "abstract": "Ensuring the robustness of deep neural networks against adversarial attacks remains a fundamental challenge in computer vision. While adversarial training (AT) has emerged as a …",
+        "PDF": "https://arxiv.org/pdf/2407.04016?",
+        "filename": "Mitigating low-frequency bias Feature recalibration and frequency attention",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0893608025009505"
+    },
+    {
+        "index": "009",
+        "title": "Enhancing Robust Fairness via Confusional Spectral Regularization",
+        "info": "Gaojie Jin, Sihao Wu, Jiaxu Liu, Tianjin Huang, and Ronghui Mu - arXiv preprint arXiv:2501.13273 (2025) - arxiv.org",
+        "abstract": "Recent research has highlighted a critical issue known as``robust fairness\", where robust accuracy varies significantly across different classes, undermining the reliability of deep …",
+        "PDF": "https://arxiv.org/pdf/2501.13273?",
+        "filename": "Enhancing Robust Fairness via Confusional Spectral Regularization",
+        "link": "https://arxiv.org/abs/2501.13273"
+    },
+    {
+        "index": "010",
+        "title": "Mitigate discrimination caused by data bias: Learning fair representations with information reinforcement via recurrent encoding",
+        "info": "Jialing Cai, and Fei Zhu - Expert Systems with Applications (2025): 129379 - Elsevier",
+        "abstract": "With the wide application of artificial intelligence in information management and assisted decision-making, biases in the data have become an inevitable issue. Algorithms may …",
+        "PDF": "",
+        "filename": "Mitigate discrimination caused by data bias Learning fair",
+        "link": "https://www.sciencedirect.com/science/article/pii/S095741742502994X"
+    },
+    {
+        "index": "011",
+        "title": "Fast adversarial training with weak-to-strong spatial-temporal consistency in the frequency domain on videos",
+        "info": "Songping Wang, Hanqing Liu, Yueming Lyu, Xiantao Hu, Ziwen He, Wei Wang, Caifeng Shan, and Liang Wang - arXiv preprint arXiv:2504.14921 (2025) - arxiv.org",
+        "abstract": "Adversarial Training (AT) has been shown to significantly enhance adversarial robustness via a min-max optimization approach. However, its effectiveness in video recognition tasks is …",
+        "PDF": "",
+        "filename": "Fast adversarial training with weak-to-strong spatial-temporal consistency in",
+        "link": "https://arxiv.org/abs/2504.14921"
+    },
+    {
+        "index": "012",
+        "title": "Rect-ViT: Rectified attention via feature attribution can improve the adversarial robustness of Vision Transformers",
+        "info": "Xu Kang, and Bin Song - Neural Networks (2025): 107666 - Elsevier",
+        "abstract": "Deep neural networks (DNNs) have suffered from input perturbations and adversarial examples (AEs) for a long time, mainly caused by the distribution difference between robust …",
+        "PDF": "",
+        "filename": "Rect-ViT Rectified attention via feature attribution can improve",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0893608025005465"
+    },
+    {
+        "index": "013",
+        "title": "Generative adversarial defense via conditional diffusion model",
+        "info": "Xiaowen Shi, Chao Zhou, and Yuan-Gen Wang - Multimedia Systems 31, no. 1 (2025): 62 - Springer",
+        "abstract": "The security of deep neural networks has become a critical concern due to adversarial attacks. Current adversarial defense methods typically depend on adversarial training and …",
+        "PDF": "",
+        "filename": "Generative adversarial defense via conditional diffusion model",
+        "link": "https://link.springer.com/article/10.1007/s00530-024-01651-y"
+    },
+    {
+        "index": "014",
+        "title": "M3C: Resist Agnostic Attacks by Mitigating Consistent Class Confusion Prior",
+        "info": "Xiaowei Fu, Fuxiang Huang, Guoyin Wang, Xinbo Gao, and Lei Zhang - IEEE Transactions on Pattern Analysis and Machine Intelligence (2025) - ieeexplore.ieee.org",
+        "abstract": "Adversarial attack is a major obstacle to the deployment of deep neural networks (DNNs) for security-sensitive applications. To address these adversarial perturbations, various …",
+        "PDF": "",
+        "filename": "M3C Resist Agnostic Attacks by Mitigating Consistent Class",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11180132/"
+    },
+    {
+        "index": "015",
+        "title": "Defending Against Adversarial Examples Via Modeling Adversarial Noise",
+        "info": "Dawei Zhou, Nannan Wang, Bo Han, Tongliang Liu, and Xinbo Gao - International Journal of Computer Vision (2025): 1-18 - Springer",
+        "abstract": "Adversarial examples have become a major threat to the reliable application of deep learning models. Meanwhile, this issue promotes the development of adversarial defenses …",
+        "PDF": "",
+        "filename": "Defending Against Adversarial Examples Via Modeling Adversarial Noise",
+        "link": "https://link.springer.com/article/10.1007/s11263-025-02467-7"
+    },
+    {
+        "index": "016",
+        "title": "Improving Fast Adversarial Training via Self-Knowledge Guidance",
+        "info": "Chengze Jiang, Junkai Wang, Minjing Dong, Jie Gui, Xinli Shi, Yuan Cao, Yuan Yan Tang, and James Tin-Yau Kwok - IEEE Transactions on Information Forensics and Security (2025) - ieeexplore.ieee.org",
+        "abstract": "Adversarial training has achieved remarkable advancements in defending against adversarial attacks. Among them, fast adversarial training (FAT) is gaining attention for its …",
+        "PDF": "https://arxiv.org/pdf/2409.17589",
+        "filename": "Improving Fast Adversarial Training via Self-Knowledge Guidance",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10937724/"
+    },
+    {
+        "index": "017",
+        "title": "Identifying and Understanding Cross-Class Features in Adversarial Training",
+        "info": "Zeming Wei, Yiwen Guo, and Yisen Wang - arXiv preprint arXiv:2506.05032 (2025) - arxiv.org",
+        "abstract": "Adversarial training (AT) has been considered one of the most effective methods for making deep neural networks robust against adversarial attacks, while the training mechanisms and …",
+        "PDF": "https://arxiv.org/pdf/2506.05032?",
+        "filename": "Identifying and Understanding Cross-Class Features in Adversarial Training",
+        "link": "https://arxiv.org/abs/2506.05032"
+    },
+    {
+        "index": "018",
+        "title": "Unrevealed Threats: Adversarial Robustness Analysis of Underwater Image Enhancement Models",
+        "info": "Siyu Zhai, Zhibo He, Xiaofeng Cong, Junming Hou, Jie Gui, Jian Wei You, Xin Gong, James Tin-Yau Kwok, and Yuan Yan Tang - IEEE Transactions on Multimedia (2025) - ieeexplore.ieee.org",
+        "abstract": "Learning-based methods for underwater image enhancement (UWIE) have undergone extensive exploration. However, learning-based models are usually vulnerable to …",
+        "PDF": "",
+        "filename": "Unrevealed Threats Adversarial Robustness Analysis of Underwater Image",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11175544/"
+    },
+    {
+        "index": "019",
+        "title": "Enhancing robust generalization through appropriate adversarial example attack intensity",
+        "info": "Xiaoguo Ding, Liangjian Zhang, Qiqi Bao, Yaguan Qian, Bin Wang, Zhaoquan Gu, and Yanchun Zhang - Neurocomputing (2025): 131599 - Elsevier",
+        "abstract": "Deep Neural Networks (DNNs) are notoriously susceptible to adversarial examples. To mitigate the impact of well-designed adversarial attacks on network models, researchers …",
+        "PDF": "",
+        "filename": "Enhancing robust generalization through appropriate adversarial example attack",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0925231225022714"
+    },
+    {
+        "index": "020",
+        "title": "Improving Adversarial Training From the Perspective of Class-Flipping Distribution",
+        "info": "Dawei Zhou, Nannan Wang, Tongliang Liu, and Xinbo Gao - IEEE Transactions on Pattern Analysis and Machine Intelligence (2025) - ieeexplore.ieee.org",
+        "abstract": "Adversarial training has been proposed and widely recognized as a very effective method to defend against adversarial noise. However, the label flipping pattern on different classes still …",
+        "PDF": "",
+        "filename": "Improving Adversarial Training From the Perspective of Class-Flipping",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10878818/"
+    },
+    {
+        "index": "021",
+        "title": "Adversarial Self-Supervised Learning for Secure and Robust Urban Region Profiling",
+        "info": "Weiliang Chen, Qianqian Ren, Yong Liu, Jianguo Sun, and Feng Lin - IEEE Transactions on Information Forensics and Security (2025) - ieeexplore.ieee.org",
+        "abstract": "Urban region profiling is essential for forecasting and decision-making in dynamic and noisy urban environments. However, existing approaches struggle with adversarial attacks, data …",
+        "PDF": "",
+        "filename": "Adversarial Self-Supervised Learning for Secure and Robust Urban",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11104240/"
+    },
+    {
+        "index": "022",
+        "title": "Defending Against Transfer-Based Adversarial Attacks Using SVD-Driven Feature Evolution",
+        "info": "Xinlei Liu, Tao Hu, Peng Yi, Qingtao Pan, Hailong Ma, Yiming Jiang, and Baolin Li - In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 703-711. 2025 - openaccess.thecvf.com",
+        "abstract": "Due to their high stealthiness and difficulty in detection, the transfer-based adversarial attacks pose a significant challenge to the security and robustness of computer vision …",
+        "PDF": "https://openaccess.thecvf.com/content/CVPR2025W/TCV/papers/Liu_Defending_Against_Transfer-Based_Adversarial_Attacks_Using_SVD-Driven_Feature_Evolution_CVPRW_2025_paper.pdf",
+        "filename": "Defending Against Transfer-Based Adversarial Attacks Using SVD-Driven Feature",
+        "link": "https://openaccess.thecvf.com/content/CVPR2025W/TCV/html/Liu_Defending_Against_Transfer-Based_Adversarial_Attacks_Using_SVD-Driven_Feature_Evolution_CVPRW_2025_paper.html"
+    },
+    {
+        "index": "023",
+        "title": "SPCNet: Serial Pyramid Convolutional Network for Remote Sensing Object Detection",
+        "info": "Yunping Zheng, Zejun Wang, Kunzhi Wang, Zhou Jiang, and Mudar Sarem - IEEE Transactions on Geoscience and Remote Sensing (2025) - ieeexplore.ieee.org",
+        "abstract": "Recently, remote sensing object detection (RSOD) has attracted increasing attention. Despite advancements in existing methods, challenges like high computational costs, large …",
+        "PDF": "",
+        "filename": "SPCNet Serial Pyramid Convolutional Network for Remote Sensing",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11194207/"
+    },
+    {
+        "index": "024",
+        "title": "Calibrated Adversarial Sampling: Multi-Armed Bandit-Guided Generalization Against Unforeseen Attacks",
+        "info": "Rui Wang, Zeming Wei, Xiyue Zhang, and Meng Sun - arXiv preprint arXiv:2511.12265 (2025) - arxiv.org",
+        "abstract": "Deep Neural Networks (DNNs) are known to be vulnerable to various adversarial perturbations. To address the safety concerns arising from these vulnerabilities, adversarial …",
+        "PDF": "https://arxiv.org/pdf/2511.12265",
+        "filename": "Calibrated Adversarial Sampling Multi-Armed Bandit-Guided Generalization Against Unforeseen",
+        "link": "https://arxiv.org/abs/2511.12265"
+    },
+    {
+        "index": "025",
+        "title": "An investigation of visual foundation models robustness",
+        "info": "Sandeep Gupta, and Roberto Passerone - Machine Learning 114, no. 12 (2025): 281 - Springer",
+        "abstract": "Abstract Visual Foundation Models (VFMs) are becoming ubiquitous in computer vision, powering systems for diverse tasks such as object detection, image classification …",
+        "PDF": "https://arxiv.org/pdf/2508.16225?",
+        "filename": "An investigation of visual foundation models robustness",
+        "link": "https://link.springer.com/article/10.1007/s10994-025-06853-7"
+    },
+    {
+        "index": "026",
+        "title": "Towards Class-wise Fair Adversarial Training via Anti-Bias Soft Label Distillation",
+        "info": "Shiji Zhao, Chi Chen, Ranjie Duan, Xizhe Wang, and Xingxing Wei - arXiv preprint arXiv:2506.08611 (2025) - arxiv.org",
+        "abstract": "Adversarial Training (AT) is widely recognized as an effective approach to enhance the adversarial robustness of Deep Neural Networks. As a variant of AT, Adversarial …",
+        "PDF": "https://arxiv.org/pdf/2506.08611?",
+        "filename": "Towards Class-wise Fair Adversarial Training via Anti-Bias Soft",
+        "link": "https://arxiv.org/abs/2506.08611"
+    },
+    {
+        "index": "027",
+        "title": "TRIX-Trading Adversarial Fairness via Mixed Adversarial Training",
+        "info": "Tejaswini Medi, Steffen Jung, and Margret Keuper - arXiv preprint arXiv:2507.07768 (2025) - arxiv.org",
+        "abstract": "Adversarial Training (AT) is a widely adopted defense against adversarial examples. However, existing approaches typically apply a uniform training objective across all classes …",
+        "PDF": "https://arxiv.org/pdf/2507.07768?",
+        "filename": "TRIX-Trading Adversarial Fairness via Mixed Adversarial Training",
+        "link": "https://arxiv.org/abs/2507.07768"
+    },
+    {
+        "index": "028",
+        "title": "Sy-FAR: Symmetry-based Fair Adversarial Robustness",
+        "info": "Haneen Najjar, Eyal Ronen, and Mahmood Sharif - arXiv preprint arXiv:2509.12939 (2025) - arxiv.org",
+        "abstract": "Security-critical machine-learning (ML) systems, such as face-recognition systems, are susceptible to adversarial examples, including real-world physically realizable attacks …",
+        "PDF": "https://arxiv.org/pdf/2509.12939?",
+        "filename": "Sy-FAR Symmetry-based Fair Adversarial Robustness",
+        "link": "https://arxiv.org/abs/2509.12939"
+    },
+    {
+        "index": "029",
+        "title": "Sample-wise Adaptive Weighting for Transfer Consistency in Adversarial Distillation",
+        "info": "Hongsin Lee, and Hye Won Chung - arXiv preprint arXiv:2512.10275 (2025) - arxiv.org",
+        "abstract": "Adversarial distillation in the standard min-max adversarial training framework aims to transfer adversarial robustness from a large, robust teacher network to a compact student …",
+        "PDF": "https://arxiv.org/pdf/2512.10275",
+        "filename": "Sample-wise Adaptive Weighting for Transfer Consistency in Adversarial",
+        "link": "https://arxiv.org/abs/2512.10275"
+    },
+    {
+        "index": "030",
+        "title": "Long-tailed Adversarial Training with Self-Distillation",
+        "info": "Seungju Cho, Hongsin Lee, and Changick Kim - arXiv preprint arXiv:2503.06461 (2025) - arxiv.org",
+        "abstract": "Adversarial training significantly enhances adversarial robustness, yet superior performance is predominantly achieved on balanced datasets. Addressing adversarial robustness in the …",
+        "PDF": "https://arxiv.org/pdf/2503.06461?",
+        "filename": "Long-tailed Adversarial Training with Self-Distillation",
+        "link": "https://arxiv.org/abs/2503.06461"
+    },
+    {
+        "index": "031",
+        "title": "Improving Adversarial Robustness via Phase and Amplitude-aware Prompting",
+        "info": "Yibo Xu, Dawei Zhou, Decheng Liu, and Nannan Wang - arXiv preprint arXiv:2502.03758 (2025) - arxiv.org",
+        "abstract": "Deep neural networks are found to be vulnerable to adversarial perturbations. The prompt-based defense has been increasingly studied due to its high efficiency. However, existing …",
+        "PDF": "https://arxiv.org/pdf/2502.03758",
+        "filename": "Improving Adversarial Robustness via Phase and Amplitude-aware Prompting",
+        "link": "https://arxiv.org/abs/2502.03758"
+    },
+    {
+        "index": "032",
+        "title": "Towards fair class-wise robustness: class optimal distribution adversarial training",
+        "info": "Hongxin Zhi, Hongtao Yu, Shaomei Li, Xiuming Zhao, and Yiteng Wu - Complex & Intelligent Systems 11, no. 9 (2025): 403 - Springer",
+        "abstract": "Adversarial training has proven to be a highly effective method for improving the robustness of deep neural networks against adversarial attacks. Nonetheless, it has been observed to …",
+        "PDF": "https://link.springer.com/content/pdf/10.1007/s40747-025-02038-w.pdf",
+        "filename": "Towards fair class-wise robustness class optimal distribution adversarial",
+        "link": "https://link.springer.com/article/10.1007/s40747-025-02038-w"
+    },
+    {
+        "index": "033",
+        "title": "From 2D-Patch to 3D-Camouflage: A Review of Physical Adversarial Attack in Object Detection.",
+        "info": "Guojia Li, Mingyue Cao, Yihong Zhang, Simin Xu, and Yan Cao - Electronics (2079-9292) 14, no. 21 (2025) - search.ebscohost.com",
+        "abstract": "Deep neural networks have demonstrated remarkable performance in object detection tasks; however, they remain highly susceptible to adversarial attacks. Previous surveys in …",
+        "PDF": "",
+        "filename": "From 2D-Patch to 3D-Camouflage A Review of Physical",
+        "link": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=20799292&AN=189606778&h=38sfbCHeu%2BEcX8bMa2FVwsA5mTRseiPPZ%2FwYeciopsAYRnYQhjObHpsr91HdHf4n47FnDjkxNd2y%2FNs%2BOsMTYg%3D%3D&crl=c"
+    },
+    {
+        "index": "034",
+        "title": "Adversarially Robust Digital Watermarking via Data-Centric Optimization",
+        "info": "Ziyuan Luo, Qi Song, Haoliang Li, Anderson Rocha, and Renjie Wan - Authorea Preprints (2025) - techrxiv.org",
+        "abstract": "Digital watermarking is vital in protecting intellectual property rights and ensuring data authenticity in today's digital era. While existing digital watermarking techniques rely on …",
+        "PDF": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.174803524.46553557",
+        "filename": "Adversarially Robust Digital Watermarking via Data-Centric Optimization",
+        "link": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.174803524.46553557"
+    },
+    {
+        "index": "035",
+        "title": "Enhancing Fast Adversarial Training via Adaptive Self-knowledge Dynamic Guidance",
+        "info": "Chunlong Fan, Mengyun Rao, and Li Xu - In International Conference on Intelligent Computing, pp. 309-321. Singapore: Springer Nature Singapore, 2025 - Springer",
+        "abstract": "Adversarial training (AT) significantly improves adversarial robustness, but generating adversarial examples (AEs) is costly. Fast adversarial training (FAT) reduces the cost, but …",
+        "PDF": "",
+        "filename": "Enhancing Fast Adversarial Training via Adaptive Self-knowledge Dynamic",
+        "link": "https://link.springer.com/chapter/10.1007/978-981-96-9911-7_25"
+    },
+    {
+        "index": "036",
+        "title": "DSCAT: Dual Smoothing-constrained Adaptive Step Adversarial Training",
+        "info": "Mingyang. Ga - In 2025 8th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE), pp. 720-724. IEEE, 2025 - ieeexplore.ieee.org",
+        "abstract": "Adversarial training has attracted considerable attention due to its effectiveness in safeguarding models against adversarial attacks in recent years. Among these methods …",
+        "PDF": "",
+        "filename": "DSCAT Dual Smoothing-constrained Adaptive Step Adversarial Training",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11042758/"
+    },
+    {
+        "index": "037",
+        "title": "A Survey on Image Data Perturbations: Challenges, Techniques, and Impacts",
+        "info": "Peng-Fei Zhang, Guangdong Bai, Xin-Shun Xu, and Zi Huang -  - techrxiv.org",
+        "abstract": "Data representation is fundamental to data-intensive applications, where deep learning models play a vital role. However, real-world environments, characterized by inherent …",
+        "PDF": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175037432.26316641",
+        "filename": "A Survey on Image Data Perturbations Challenges, Techniques,",
+        "link": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175037432.26316641"
+    },
+    {
+        "index": "038",
+        "title": "Class-wise Training Dynamics and Fairness in Adversarially Robust Models",
+        "info": "Hyuk. Ah -  - cs.brown.edu",
+        "abstract": "Despite the remarkable progress of deep neural networks, they remain vulnerable to adversarial examples, which can drastically degrade performance with imperceptible …",
+        "PDF": "https://cs.brown.edu/media/filer_public/3e/0d/3e0dcc4f-bb74-4e03-afe7-f1b061772103/hyuk_ahn.pdf",
+        "filename": "Class-wise Training Dynamics and Fairness in Adversarially Robust",
+        "link": "https://cs.brown.edu/media/filer_public/3e/0d/3e0dcc4f-bb74-4e03-afe7-f1b061772103/hyuk_ahn.pdf"
+    }
+]

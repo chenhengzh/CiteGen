@@ -1,0 +1,2378 @@
+[
+    {
+        "title": "Robust recovery of subspace structures by low-rank representation",
+        "authors": "G Liu, Z Lin, S Yan, J Sun, Y Yu, Y Ma",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 35 (1), 171-184, 2012",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:anf4URPfarAC",
+        "cite_id": "16351355550693852272",
+        "cite_num_within_time": 310
+    },
+    {
+        "title": "The augmented lagrange multiplier method for exact recovery of corrupted low-rank matrices",
+        "authors": "Z Lin, M Chen, Y Ma",
+        "publication": "arXiv preprint arXiv:1009.5055, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:u-x6o8ySG0sC",
+        "cite_id": "17633993505446855025,11395180159898841613,13327589558366789416",
+        "cite_num_within_time": 146
+    },
+    {
+        "title": "Robust subspace segmentation by low-rank representation",
+        "authors": "G Liu, Z Lin, Y Yu",
+        "publication": "Proceedings of the 27th international conference on machine learning (ICML …, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:IjCSPb-OGe4C",
+        "cite_id": "7596755873079611319",
+        "cite_num_within_time": 94
+    },
+    {
+        "title": "Linearized alternating direction method with adaptive penalty for low-rank representation",
+        "authors": "Z Lin, R Liu, Z Su",
+        "publication": "Advances in neural information processing systems 24, 2011",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:eq2jaN3J8jMC",
+        "cite_id": "10690149927183190868",
+        "cite_num_within_time": 92
+    },
+    {
+        "title": "Tensor robust principal component analysis with a new tensor nuclear norm",
+        "authors": "C Lu, J Feng, Y Chen, W Liu, Z Lin, S Yan",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 42 (4), 925-938, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:lK9BDNCuzFgC",
+        "cite_id": "5434536016829247001",
+        "cite_num_within_time": 269
+    },
+    {
+        "title": "Recurrent squeeze-and-excitation context aggregation net for single image deraining",
+        "authors": "X Li, J Wu, Z Lin, H Liu, H Zha",
+        "publication": "Proceedings of the European conference on computer vision (ECCV), 254-269, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:tBlTYpvFGQIC",
+        "cite_id": "4857405852464778366",
+        "cite_num_within_time": 180
+    },
+    {
+        "title": "Expectation-maximization attention networks for semantic segmentation",
+        "authors": "X Li, Z Zhong, J Wu, Y Yang, Z Lin, H Liu",
+        "publication": "Proceedings of the IEEE/CVF international conference on computer vision …, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:MGPUR4WVBMEC",
+        "cite_id": "12769449937573938337",
+        "cite_num_within_time": 135
+    },
+    {
+        "title": "Spider: Near-optimal non-convex optimization via stochastic path-integrated differential estimator",
+        "authors": "C Fang, CJ Li, Z Lin, T Zhang",
+        "publication": "Advances in neural information processing systems 31, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:gV6rEsy15s0C",
+        "cite_id": "1874588543956354237",
+        "cite_num_within_time": 117
+    },
+    {
+        "title": "Fast convex optimization algorithms for exact recovery of a corrupted low-rank matrix",
+        "authors": "Z Lin, A Ganesh, J Wright, L Wu, M Chen, Y Ma",
+        "publication": "Coordinated Science Laboratory Report no. UILU-ENG-09-2214, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:MDX3w3dAD3YC",
+        "cite_id": "1007082251160955118,12175451438498137793",
+        "cite_num_within_time": 20
+    },
+    {
+        "title": "Tensor robust principal component analysis: Exact recovery of corrupted low-rank tensors via convex optimization",
+        "authors": "C Lu, J Feng, Y Chen, W Liu, Z Lin, S Yan",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:BmWJbWwHJAwC",
+        "cite_id": "10221511503986256024",
+        "cite_num_within_time": 63
+    },
+    {
+        "title": "Relay backpropagation for effective learning of deep convolutional neural networks",
+        "authors": "L Shen, Z Lin, Q Huang",
+        "publication": "European conference on computer vision, 467-482, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:t-hv7AR41mYC",
+        "cite_id": "12359971808198391512",
+        "cite_num_within_time": 73
+    },
+    {
+        "title": "Fundamental limits of reconstruction-based superresolution algorithms under local translation",
+        "authors": "Z Lin, HY Shum",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 26 (1), 83-97, 2004",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:u5HHmVD_uO8C",
+        "cite_id": "8822483242834348007,10304930540355444605",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Accelerated proximal gradient methods for nonconvex programming",
+        "authors": "H Li, Z Lin",
+        "publication": "Advances in neural information processing systems 28, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:CYCckWUYoCcC",
+        "cite_id": "7034552480967267732",
+        "cite_num_within_time": 76
+    },
+    {
+        "title": "Fast, automatic and fine-grained tampered JPEG image detection via DCT coefficient analysis",
+        "authors": "Z Lin, J He, X Tang, CK Tang",
+        "publication": "Pattern Recognition 42 (11), 2492-2501, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:Y0pCki6q_DkC",
+        "cite_id": "4986790075700801653",
+        "cite_num_within_time": 35
+    },
+    {
+        "title": "Subspace clustering by block diagonal representation",
+        "authors": "C Lu, J Feng, Z Lin, T Mei, S Yan",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 41 (2), 487-501, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:e84hm74t-eoC",
+        "cite_id": "2303008457854738024",
+        "cite_num_within_time": 77
+    },
+    {
+        "title": "Laplacian regularized low-rank representation and its applications",
+        "authors": "M Yin, J Gao, Z Lin",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 38 (3), 504-517, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:wvYxNZNCP7wC",
+        "cite_id": "8257969188368958207",
+        "cite_num_within_time": 37
+    },
+    {
+        "title": "Essential tensor learning for multi-view spectral clustering",
+        "authors": "J Wu, Z Lin, H Zha",
+        "publication": "IEEE Transactions on Image Processing 28 (12), 5910-5922, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:PVqtIyvKoSUC",
+        "cite_id": "13826209298477190092",
+        "cite_num_within_time": 70
+    },
+    {
+        "title": "Non-negative low rank and sparse graph for semi-supervised learning",
+        "authors": "L Zhuang, H Gao, Z Lin, Y Ma, X Zhang, N Yu",
+        "publication": "2012 IEEE Conference on Computer Vision and Pattern Recognition, 2328-2335, 2012",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:q3CdL3IzO_QC",
+        "cite_id": "17036247048808512354",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Tensor factorization for low-rank tensor completion",
+        "authors": "P Zhou, C Lu, Z Lin, C Zhang",
+        "publication": "IEEE Transactions on Image Processing 27 (3), 1152-1163, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:X4-KO54GjGYC",
+        "cite_id": "13895114751954486946",
+        "cite_num_within_time": 65
+    },
+    {
+        "title": "Nonconvex nonsmooth low rank minimization via iteratively reweighted nuclear norm",
+        "authors": "C Lu, J Tang, S Yan, Z Lin",
+        "publication": "IEEE Transactions on Image Processing 25 (2), 829-839, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:hSRAE-fF4OAC",
+        "cite_id": "110671865789431252",
+        "cite_num_within_time": 45
+    },
+    {
+        "title": "Improving semantic segmentation via decoupled body and edge supervision",
+        "authors": "X Li, X Li, L Zhang, G Cheng, J Shi, Z Lin, S Tan, Y Tong",
+        "publication": "European Conference on Computer Vision, 435-452, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:4oJvMfeQlr8C",
+        "cite_id": "17990846409743098772",
+        "cite_num_within_time": 62
+    },
+    {
+        "title": "Smooth representation clustering",
+        "authors": "H Hu, Z Lin, J Feng, J Zhou",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:IaI1MmNe2tcC",
+        "cite_id": "6025940988018926929",
+        "cite_num_within_time": 24
+    },
+    {
+        "title": "Generalized nonconvex nonsmooth low-rank minimization",
+        "authors": "C Lu, J Tang, S Yan, Z Lin",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:PaBasH6fAo0C",
+        "cite_id": "6103130108576150605",
+        "cite_num_within_time": 24
+    },
+    {
+        "title": "Invertible image rescaling",
+        "authors": "M Xiao, S Zheng, C Liu, Y Wang, D He, G Ke, J Bian, Z Lin, TY Liu",
+        "publication": "European conference on computer vision, 126-144, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:ufKn5pxu7C0C",
+        "cite_id": "8259694236280829797",
+        "cite_num_within_time": 63
+    },
+    {
+        "title": "Form factor and input method for language input",
+        "authors": "Z Lin, R Wang, J Wang",
+        "publication": "US Patent 7,508,373, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:XiSMed-E-HIC",
+        "cite_id": "3808665034029788628",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "On the applications of robust PCA in image and video processing",
+        "authors": "T Bouwmans, S Javed, H Zhang, Z Lin, R Otazo",
+        "publication": "Proceedings of the IEEE 106 (8), 1427-1457, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:qCpRzq7zkD8C",
+        "cite_id": "16434884032390595473",
+        "cite_num_within_time": 36
+    },
+    {
+        "title": "Multi-stage self-supervised learning for graph convolutional networks on graphs with few labeled nodes",
+        "authors": "K Sun, Z Lin, Z Zhu",
+        "publication": "Proceedings of the AAAI conference on artificial intelligence 34 (04), 5892-5899, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:It0W0vAlS5QC",
+        "cite_id": "17735733102413122634",
+        "cite_num_within_time": 50
+    },
+    {
+        "title": "Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond",
+        "authors": "R Liu, J Gao, J Zhang, D Meng, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 44 (12 …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:E8ajGqO0XoUC",
+        "cite_id": "15028609516617967331",
+        "cite_num_within_time": 70
+    },
+    {
+        "title": "Adan: Adaptive nesterov momentum algorithm for faster optimizing deep models",
+        "authors": "X Xie, P Zhou, H Li, Z Lin, S Yan",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 46 (12), 9508 …, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:onKP9CxGSkIC",
+        "cite_id": "4526083746714068631,13625279378530136926,6220471046332462178",
+        "cite_num_within_time": 141
+    },
+    {
+        "title": "Deep comprehensive correlation mining for image clustering",
+        "authors": "J Wu, K Long, F Wang, C Qian, C Li, Z Lin, H Zha",
+        "publication": "Proceedings of the IEEE/CVF international conference on computer vision …, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:Nnq8S6OXqDYC",
+        "cite_id": "2831852813705620106",
+        "cite_num_within_time": 41
+    },
+    {
+        "title": "Robust subspace segmentation with block-diagonal prior",
+        "authors": "J Feng, Z Lin, H Xu, S Yan",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:owLR8QvbtFgC",
+        "cite_id": "13002367145130201927",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Robust estimation of 3d human poses from a single image",
+        "authors": "C Wang, Y Wang, Z Lin, AL Yuille, W Gao",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:nRpfm8aw39MC",
+        "cite_id": "570420145146631327",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Detecting doctored JPEG images via DCT coefficient analysis",
+        "authors": "J He, Z Lin, L Wang, X Tang",
+        "publication": "European conference on computer vision, 423-435, 2006",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:d1gkVwhDpl0C",
+        "cite_id": "2951040352815441092",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Correlation adaptive subspace segmentation by trace lasso",
+        "authors": "C Lu, J Feng, Z Lin, S Yan",
+        "publication": "Proceedings of the IEEE international conference on computer vision, 1345-1352, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:fbc8zXXH2BUC",
+        "cite_id": "6334588970193932388",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Generalized singular value thresholding",
+        "authors": "C Lu, C Zhu, C Xu, S Yan, Z Lin",
+        "publication": "Proceedings of the AAAI conference on artificial intelligence 29 (1), 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:6bLC7aUMtPcC",
+        "cite_id": "9740972744742756664",
+        "cite_num_within_time": 20
+    },
+    {
+        "title": "Spatial pyramid based graph reasoning for semantic segmentation",
+        "authors": "X Li, Y Yang, Q Zhao, T Shen, Z Lin, H Liu",
+        "publication": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:oAywNP-vUhwC",
+        "cite_id": "7927933907752492846",
+        "cite_num_within_time": 22
+    },
+    {
+        "title": "Neural collapse inspired feature-classifier alignment for few-shot class incremental learning",
+        "authors": "Y Yang, H Yuan, X Li, Z Lin, P Torr, D Tao",
+        "publication": "arXiv preprint arXiv:2302.03004, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:ZYsTHYU9jrMC",
+        "cite_id": "2479614036110317497",
+        "cite_num_within_time": 115
+    },
+    {
+        "title": "Is attention better than matrix decomposition?",
+        "authors": "Z Geng, MH Guo, H Chen, X Li, K Wei, Z Lin",
+        "publication": "arXiv preprint arXiv:2109.04553, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:IvSMUa3B7yYC",
+        "cite_id": "14362607193647727267",
+        "cite_num_within_time": 59
+    },
+    {
+        "title": "Training high-performance low-latency spiking neural networks by differentiation on spike representation",
+        "authors": "Q Meng, M Xiao, S Yan, Y Wang, Z Lin, ZQ Luo",
+        "publication": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:1_W9tMSvGuwC",
+        "cite_id": "3967951227165330050",
+        "cite_num_within_time": 73
+    },
+    {
+        "title": "Convex sparse spectral clustering: Single-view to multi-view",
+        "authors": "C Lu, S Yan, Z Lin",
+        "publication": "IEEE Transactions on Image Processing 25 (6), 2833-2843, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:A8cqit5AE6sC",
+        "cite_id": "12062520570644162148",
+        "cite_num_within_time": 29
+    },
+    {
+        "title": "Linearized alternating direction method with parallel splitting and adaptive penalty for separable convex programs in machine learning",
+        "authors": "Z Lin, R Liu, Z Su",
+        "publication": "Machine Learning 99 (2), 287-325, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:9CGX2owmTHMC",
+        "cite_id": "4078666043193680963",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Self-supervised convolutional subspace clustering network",
+        "authors": "J Zhang, CG Li, C You, X Qi, H Zhang, J Guo, Z Lin",
+        "publication": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:GJVTs2krol4C",
+        "cite_id": "15809614897984274638",
+        "cite_num_within_time": 33
+    },
+    {
+        "title": "Graph contrastive clustering",
+        "authors": "H Zhong, J Wu, C Chen, J Huang, M Deng, L Nie, Z Lin, XS Hua",
+        "publication": "Proceedings of the IEEE/CVF international conference on computer vision …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:KqnX2w3egDsC",
+        "cite_id": "1343209201142056802",
+        "cite_num_within_time": 65
+    },
+    {
+        "title": "A unified alternating direction method of multipliers by majorization minimization",
+        "authors": "C Lu, J Feng, S Yan, Z Lin",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 40 (3), 527-541, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:c_xDhezhKKUC",
+        "cite_id": "6414839991006158776",
+        "cite_num_within_time": 21
+    },
+    {
+        "title": "Bilinear factor matrix norm minimization for robust PCA: Algorithms and applications",
+        "authors": "F Shang, J Cheng, Y Liu, ZQ Luo, Z Lin",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 40 (9), 2066-2080, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:rbGdIwl2e6cC",
+        "cite_id": "8579071621907394304",
+        "cite_num_within_time": 22
+    },
+    {
+        "title": "Inducing neural collapse in imbalanced learning: Do we really need a learnable classifier at the end of deep neural network?",
+        "authors": "Y Yang, S Chen, X Li, L Xie, Z Lin, D Tao",
+        "publication": "Advances in neural information processing systems 35, 37991-38002, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:w0odbtu79TwC",
+        "cite_id": "16056665854734462164",
+        "cite_num_within_time": 69
+    },
+    {
+        "title": "Fixed-rank representation for unsupervised visual learning",
+        "authors": "R Liu, Z Lin, F De la Torre, Z Su",
+        "publication": "2012 ieee conference on computer vision and pattern recognition, 598-605, 2012",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:PoWvk5oyLR8C",
+        "cite_id": "15158242723681836227",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Pyramidal flow matching for efficient video generative modeling",
+        "authors": "Y Jin, Z Sun, N Li, K Xu, H Jiang, N Zhuang, Q Huang, Y Song, Y Mu, ...",
+        "publication": "arXiv preprint arXiv:2410.05954, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:xlVdBZVQT58C",
+        "cite_id": "14529801479254041940",
+        "cite_num_within_time": 172
+    },
+    {
+        "title": "Detecting doctored images using camera response normality and consistency",
+        "authors": "Z Lin, R Wang, X Tang, HY Shum",
+        "publication": "2005 IEEE Computer Society Conference on Computer Vision and Pattern …, 2005",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:9yKSN-GCB0IC",
+        "cite_id": "13590294786938009072",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Neural multimodal cooperative learning toward micro-video understanding",
+        "authors": "Y Wei, X Wang, W Guan, L Nie, Z Lin, B Chen",
+        "publication": "IEEE Transactions on Image Processing 29, 1-14, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:htyGaKyDgHMC",
+        "cite_id": "15258734040179425132",
+        "cite_num_within_time": 23
+    },
+    {
+        "title": "Tensor low-rank representation for data recovery and clustering",
+        "authors": "P Zhou, C Lu, J Feng, Z Lin, S Yan",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 43 (5), 1718-1732, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:I9gX6wnfuA8C",
+        "cite_id": "11556901947003503862",
+        "cite_num_within_time": 45
+    },
+    {
+        "title": "Convolutional neural networks with alternately updated clique",
+        "authors": "Y Yang, Z Zhong, T Shen, Z Lin",
+        "publication": "Proceedings of the IEEE Conference on Computer Vision and Pattern …, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:oursBaop5wYC",
+        "cite_id": "6622253267851873985",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Smoothed low rank and sparse matrix recovery by iteratively reweighted least squares minimization",
+        "authors": "C Lu, Z Lin, S Yan",
+        "publication": "IEEE Transactions on Image Processing 24 (2), 646-654, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:jgBuDB5drN8C",
+        "cite_id": "11534238484937137236",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Adaptive partial differential equation learning for visual saliency detection",
+        "authors": "R Liu, J Cao, Z Lin, S Shan",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:PYBJJbyH-FwC",
+        "cite_id": "11229016936235544882",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Towards understanding convergence and generalization of AdamW",
+        "authors": "P Zhou, X Xie, Z Lin, S Yan",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 46 (9), 6486-6493, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:aU4yMueWZ3QC",
+        "cite_id": "7859121958641363009",
+        "cite_num_within_time": 136
+    },
+    {
+        "title": "A comparison of typical ℓp minimization algorithms",
+        "authors": "Q Lyu, Z Lin, Y She, C Zhang",
+        "publication": "Neurocomputing 119, 413-424, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:XvxMoLDsR5gC",
+        "cite_id": "1163643606309359598",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Learning deep sparse regularizers with applications to multi-view clustering and semi-supervised classification",
+        "authors": "S Wang, Z Chen, S Du, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 44 (9), 5042-5055, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:dFKc6_kCK1wC",
+        "cite_id": "8508952001529353841",
+        "cite_num_within_time": 61
+    },
+    {
+        "title": "Fast algorithms for recovering a corrupted low-rank matrix",
+        "authors": "A Ganesh, Z Lin, J Wright, L Wu, M Chen, Y Ma",
+        "publication": "Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP), 2009 …, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:i_7YvbSbtFEC",
+        "cite_id": "7990669622245913584",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Fast algorithms for recovering a corrupted low-rank matrix",
+        "authors": "A Ganesh, Z Lin, J Wright, L Wu, M Chen, Y Ma",
+        "publication": "Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP), 2009 …, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:dhFuZR0502QC",
+        "cite_id": "7990669622245913584",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Chaos is a ladder: A new theoretical understanding of contrastive learning via augmentation overlap",
+        "authors": "Y Wang, Q Zhang, Y Wang, J Yang, Z Lin",
+        "publication": "arXiv preprint arXiv:2203.13457, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:oH8HCDhqVGsC",
+        "cite_id": "7197581293948710911",
+        "cite_num_within_time": 30
+    },
+    {
+        "title": "Leveraged weighted loss for partial label learning",
+        "authors": "H Wen, J Cui, H Hang, J Liu, Y Wang, Z Lin",
+        "publication": "International conference on machine learning, 11091-11100, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:8gBurD7jEYQC",
+        "cite_id": "5461608260366903450",
+        "cite_num_within_time": 44
+    },
+    {
+        "title": "Alternating multi-bit quantization for recurrent neural networks",
+        "authors": "C Xu, J Yao, Z Lin, W Ou, Y Cao, Z Wang, H Zha",
+        "publication": "arXiv preprint arXiv:1802.00150, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:4n0clTBhZ78C",
+        "cite_id": "182803485359633462",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Dual graph regularized latent low-rank representation for subspace clustering",
+        "authors": "M Yin, J Gao, Z Lin, Q Shi, Y Guo",
+        "publication": "IEEE Transactions on Image Processing 24 (12), 4918-4933, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:zGdJYJv2LkUC",
+        "cite_id": "5637770514192464852",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Pointflow: Flowing semantics through points for aerial image segmentation",
+        "authors": "X Li, H He, X Li, D Li, G Cheng, J Shi, L Weng, Y Tong, Z Lin",
+        "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:L7vk9XBBNxgC",
+        "cite_id": "9470013847827825734",
+        "cite_num_within_time": 26
+    },
+    {
+        "title": "Online training through time for spiking neural networks",
+        "authors": "M Xiao, Q Meng, Z Zhang, D He, Z Lin",
+        "publication": "Advances in neural information processing systems 35, 20717-20730, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:5bfplxN71z4C",
+        "cite_id": "4277557500374843996",
+        "cite_num_within_time": 64
+    },
+    {
+        "title": "Exact low tubal rank tensor recovery from Gaussian measurements",
+        "authors": "C Lu, J Feng, Z Lin, S Yan",
+        "publication": "arXiv preprint arXiv:1806.02511, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:bXQfdp6S9ecC",
+        "cite_id": "1851474172067325762",
+        "cite_num_within_time": 26
+    },
+    {
+        "title": "Robust kernel estimation with outliers handling for image deblurring",
+        "authors": "J Pan, Z Lin, Z Su, MH Yang",
+        "publication": "Proceedings of the IEEE Conference on Computer Vision and Pattern …, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:X0DADzN9RKwC",
+        "cite_id": "3185623664875135648",
+        "cite_num_within_time": 13
+    },
+    {
+        "title": "Sharp analysis for nonconvex sgd escaping from saddle points",
+        "authors": "C Fang, Z Lin, T Zhang",
+        "publication": "Conference on Learning Theory, 1192-1234, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:Oo1CbQkBAzEC",
+        "cite_id": "12968172653526360607",
+        "cite_num_within_time": 18
+    },
+    {
+        "title": "A Generalized Accelerated Proximal Gradient Approach for Total-Variation-Based Image Restoration",
+        "authors": "W Zuo, Z Lin",
+        "publication": "Image Processing, IEEE Transactions on 20 (10), 2748-2759, 2011",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:WqliGbK-hY8C",
+        "cite_id": "1658299772245655430",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Unified graph and low-rank tensor learning for multi-view clustering",
+        "authors": "J Wu, X Xie, L Nie, Z Lin, H Zha",
+        "publication": "Proceedings of the AAAI conference on artificial intelligence 34 (04), 6388-6395, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:GtqhT-R7ZnwC",
+        "cite_id": "16587773728874003873",
+        "cite_num_within_time": 24
+    },
+    {
+        "title": "Adagcn: Adaboosting graph convolutional networks into deep models",
+        "authors": "K Sun, Z Zhu, Z Lin",
+        "publication": "arXiv preprint arXiv:1908.05081, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:NZNkWSpQBv0C",
+        "cite_id": "9537937835922263498",
+        "cite_num_within_time": 18
+    },
+    {
+        "title": "The multiscale competitive code via sparse representation for palmprint verification",
+        "authors": "W Zuo, Z Lin, Z Guo, D Zhang",
+        "publication": "2010 IEEE Computer Society Conference on Computer Vision and Pattern …, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:j3f4tGmQtD8C",
+        "cite_id": "1998074430413589356",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Kernel Nyström method for light transport",
+        "authors": "J Wang, Y Dong, X Tong, Z Lin, B Guo",
+        "publication": "ACM SIGGRAPH 2009 papers, 1-10, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:0EnyYjriUFMC",
+        "cite_id": "16626984263811382313",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Style-preserving English handwriting synthesis",
+        "authors": "Z Lin, L Wan",
+        "publication": "Pattern Recognition 40 (7), 2097-2109, 2007",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:eQOLeE2rZwMC",
+        "cite_id": "5309557045152325385",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Dissecting the diffusion process in linear graph convolutional networks",
+        "authors": "Y Wang, Y Wang, J Yang, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 34, 5758-5769, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:s2G-WRnXBicC",
+        "cite_id": "953644699740016159",
+        "cite_num_within_time": 38
+    },
+    {
+        "title": "Accelerated optimization for machine learning",
+        "authors": "Z Lin, H Li, C Fang",
+        "publication": "Nature Singapore: Springer, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:8p8iYwVyaVcC",
+        "cite_id": "11488384001166169812",
+        "cite_num_within_time": 30
+    },
+    {
+        "title": "t-Schatten- Norm for Low-Rank Tensor Recovery",
+        "authors": "H Kong, X Xie, Z Lin",
+        "publication": "IEEE Journal of Selected Topics in Signal Processing 12 (6), 1405-1419, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:Vztgr1qGG8IC",
+        "cite_id": "8052189554523013747",
+        "cite_num_within_time": 20
+    },
+    {
+        "title": "Constructing a nonnegative low-rank and sparse graph with data-adaptive features",
+        "authors": "L Zhuang, S Gao, J Tang, J Wang, Z Lin, Y Ma, N Yu",
+        "publication": "IEEE Transactions on Image Processing 24 (11), 3717-3728, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:CB2v5VPnA5kC",
+        "cite_id": "6180477827605859182",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "A geometric analysis of light field rendering",
+        "authors": "Z Lin, HY Shum",
+        "publication": "International Journal of Computer Vision 58 (2), 121-138, 2004",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:UebtZRa9Y70C",
+        "cite_id": "14757361002972496529",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Emotion recognition from arbitrary view facial images",
+        "authors": "W Zheng, H Tang, Z Lin, TS Huang",
+        "publication": "European Conference on Computer Vision, 490-503, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:M3NEmzRMIkIC",
+        "cite_id": "17065820793761012854",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Towards memory-and time-efficient backpropagation for training spiking neural networks",
+        "authors": "Q Meng, M Xiao, S Yan, Y Wang, Z Lin, ZQ Luo",
+        "publication": "Proceedings of the IEEE/CVF international conference on computer vision …, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:dMpQl7XwOw4C",
+        "cite_id": "4514526700504386789",
+        "cite_num_within_time": 64
+    },
+    {
+        "title": "Modeling and rendering of heterogeneous translucent materials using the diffusion equation",
+        "authors": "J Wang, S Zhao, X Tong, S Lin, Z Lin, Y Dong, B Guo, HY Shum",
+        "publication": "ACM Transactions on Graphics (TOG) 27 (1), 1-18, 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:ufrVoPGSRksC",
+        "cite_id": "3223134148098973066",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "On training implicit models",
+        "authors": "Z Geng, XY Zhang, S Bai, Y Wang, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 34, 24247-24260, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:-38epGy1wY0C",
+        "cite_id": "15707261069141178694",
+        "cite_num_within_time": 24
+    },
+    {
+        "title": "Correntropy induced l2 graph for robust subspace clustering",
+        "authors": "C Lu, J Tang, M Lin, L Lin, S Yan, Z Lin",
+        "publication": "Proceedings of the IEEE international conference on computer vision, 1801-1808, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:ZzlSgRqYykMC",
+        "cite_id": "16967597032309867582",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "2-D Barcode recognition",
+        "authors": "C Zhang, Z Lin, Z Zhang, S Han",
+        "publication": "US Patent 7,780,084, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:tKAzc9rXhukC",
+        "cite_id": "14132850010561421497",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Policy representation via diffusion probability model for reinforcement learning",
+        "authors": "L Yang, Z Huang, F Lei, Y Zhong, Y Yang, C Fang, S Wen, B Zhou, Z Lin",
+        "publication": "arXiv preprint arXiv:2305.13122, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:4tNoA7Af41QC",
+        "cite_id": "9971436291508933587",
+        "cite_num_within_time": 68
+    },
+    {
+        "title": "A novel approach to expression recognition from non-frontal face images",
+        "authors": "W Zheng, H Tang, Z Lin, TS Huang",
+        "publication": "2009 IEEE 12th international conference on computer vision, 1901-1908, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:M3ejUd6NZC8C",
+        "cite_id": "15685750444752285722",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Joint sub-bands learning with clique structures for wavelet domain super-resolution",
+        "authors": "Z Zhong, T Shen, Y Yang, Z Lin, C Zhang",
+        "publication": "Advances in neural information processing systems 31, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:X5YyAB84Iw4C",
+        "cite_id": "10246803154910111085",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Training feedback spiking neural networks by implicit differentiation on the equilibrium state",
+        "authors": "M Xiao, Q Meng, Z Zhang, Y Wang, Z Lin",
+        "publication": "Advances in neural information processing systems 34, 14516-14528, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:Q3-QASNKTMEC",
+        "cite_id": "6586041422303063440",
+        "cite_num_within_time": 25
+    },
+    {
+        "title": "Label information guided graph construction for semi-supervised learning",
+        "authors": "L Zhuang, Z Zhou, S Gao, J Yin, Z Lin, Y Ma",
+        "publication": "IEEE Transactions on Image Processing 26 (9), 4182-4192, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:as0KMg8qHbkC",
+        "cite_id": "17181191022062666993",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "L1-norm kernel discriminant analysis via Bayes error bound optimization for robust feature extraction",
+        "authors": "W Zheng, Z Lin, H Wang",
+        "publication": "IEEE transactions on neural networks and learning systems 25 (4), 793-805, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:8xutWZnSdmoC",
+        "cite_id": "1666156060472792873",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Limits of learning-based superresolution algorithms",
+        "authors": "Z Lin, J He, X Tang, CK Tang",
+        "publication": "International journal of computer vision 80 (3), 406-420, 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:8k81kl-MbHgC",
+        "cite_id": "14837013886436032558",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "On the convergence of learning-based iterative methods for nonconvex inverse problems",
+        "authors": "R Liu, S Cheng, Y He, X Fan, Z Lin, Z Luo",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 42 (12), 3027 …, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:d4tt_xEv1X8C",
+        "cite_id": "4759514152674685008",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Robust latent low rank representation for subspace clustering",
+        "authors": "H Zhang, Z Lin, C Zhang, J Gao",
+        "publication": "Neurocomputing 145, 369-373, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:7Hz3ACDFbsoC",
+        "cite_id": "13408226120707888674",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Differentiable linearized ADMM",
+        "authors": "X Xie, J Wu, G Liu, Z Zhong, Z Lin",
+        "publication": "International Conference on Machine Learning, 6902-6911, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:mVC4hKzE2FoC",
+        "cite_id": "7429496083508800871",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Sognet: Scene overlap graph network for panoptic segmentation",
+        "authors": "Y Yang, H Li, X Li, Q Zhao, J Wu, Z Lin",
+        "publication": "Proceedings of the AAAI conference on artificial intelligence 34 (07), 12637 …, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:CCeGMaHljPEC",
+        "cite_id": "12639478745803595537",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Robust nuclear norm regularized regression for face recognition with occlusion",
+        "authors": "J Qian, L Luo, J Yang, F Zhang, Z Lin",
+        "publication": "Pattern Recognition 48 (10), 3145-3159, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:kWvqk_afx_IC",
+        "cite_id": "5175411052400994071",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Optimized projections for compressed sensing via direct mutual coherence minimization",
+        "authors": "C Lu, H Li, Z Lin",
+        "publication": "Signal Processing 151, 45-55, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&pagesize=100&citation_for_view=TanjFwoAAAAJ:Wq2b2clWBLsC",
+        "cite_id": "15879333670481202523,4264962858568564345",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "A Unified Convex Surrogate for the Schatten-p Norm",
+        "authors": "C Xu, Z Lin, H Zha",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 31 (1), 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:BAanoTsO0WEC",
+        "cite_id": "3965259420521446785",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Multi-level discriminative dictionary learning with application to large scale image classification",
+        "authors": "L Shen, G Sun, Q Huang, S Wang, Z Lin, E Wu",
+        "publication": "IEEE Transactions on Image Processing 24 (10), 3109-3123, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:BrOSOlqYqPUC",
+        "cite_id": "18075026487704061376",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Laplacian PCA and its applications",
+        "authors": "D Zhao, Z Lin, X Tang",
+        "publication": "2007 IEEE 11th International Conference on Computer Vision, 1-8, 2007",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:v1_lew4L6wgC",
+        "cite_id": "7748342007346806745",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Tensor LRR and sparse coding-based subspace clustering",
+        "authors": "Y Fu, J Gao, D Tien, Z Lin, X Hong",
+        "publication": "IEEE transactions on neural networks and learning systems 27 (10), 2120-2133, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:YTuZlYwrTOUC",
+        "cite_id": "18294941027914008807",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Visual tuning",
+        "authors": "BXB Yu, J Chang, H Wang, L Liu, S Wang, Z Wang, J Lin, L Xie, H Li, ...",
+        "publication": "ACM Computing Surveys 56 (12), 1-38, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:8JTMrWI6FdcC",
+        "cite_id": "15127708219747699197",
+        "cite_num_within_time": 37
+    },
+    {
+        "title": "Ista-nas: Efficient and consistent neural architecture search by sparse coding",
+        "authors": "Y Yang, H Li, S You, F Wang, C Qian, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 33, 10503-10513, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:nOiSByfp82kC",
+        "cite_id": "6611041012150582812",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Linearized alternating direction method with adaptive penalty and warm starts for fast solving transform invariant low-rank textures",
+        "authors": "X Ren, Z Lin",
+        "publication": "International journal of computer vision 104 (1), 1-14, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:HbR8gkJAVGIC",
+        "cite_id": "15688558798414047693",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "A geometric method for optimal design of color filter arrays",
+        "authors": "P Hao, Y Li, Z Lin, E Dubois",
+        "publication": "IEEE Transactions on Image Processing 20 (3), 709-722, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:r0BpntZqJG4C",
+        "cite_id": "1522974114645707079",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Tensor Q-rank: New data dependent definition of tensor rank",
+        "authors": "H Kong, C Lu, Z Lin",
+        "publication": "Machine Learning 110 (7), 1867-1900, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:zdX0sdgBH_kC",
+        "cite_id": "1515649920674549748",
+        "cite_num_within_time": 20
+    },
+    {
+        "title": "Robust matrix factorization by majorization minimization",
+        "authors": "Z Lin, C Xu, H Zha",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 40 (1), 208-220, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:xyvS_IvSCKsC",
+        "cite_id": "78292451113908669",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Learning PDEs for image restoration via optimal control",
+        "authors": "R Liu, Z Lin, W Zhang, Z Su",
+        "publication": "European conference on computer vision, 115-128, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:bEWYMUwI8FkC",
+        "cite_id": "5370629097279927943",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Strategies for processing annotations",
+        "authors": "Z Lin, M Xu, J Wang",
+        "publication": "US Patent 7,836,390, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:uJ-U7cs_P_0C",
+        "cite_id": "16884348833787097969",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Multi-output regression on the output manifold",
+        "authors": "G Liu, Z Lin, Y Yu",
+        "publication": "Pattern Recognition 42 (11), 2737-2743, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:3s1wT3WcHBgC",
+        "cite_id": "15890208332049824108",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Pdo-econvs: Partial differential operator based equivariant convolutions",
+        "authors": "Z Shen, L He, Z Lin, J Ma",
+        "publication": "International Conference on Machine Learning, 8697-8706, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:_9Xh93LWpsYC",
+        "cite_id": "8875071450506377272",
+        "cite_num_within_time": 13
+    },
+    {
+        "title": "System and method for shape recognition of hand-drawn objects",
+        "authors": "Y Li, Z Lin, X Xu, J Wang",
+        "publication": "US Patent 7,324,691, 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:a0OBvERweLwC",
+        "cite_id": "5917885069125501769",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Two-weight and three-weight linear codes based on Weil sums",
+        "authors": "G Jian, Z Lin, R Feng",
+        "publication": "Finite Fields and Their Applications 57, 92-107, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:adHtZc2wMuEC",
+        "cite_id": "1890923484270489479",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Subspace clustering by mixture of gaussian regression",
+        "authors": "B Li, Y Zhang, Z Lin, H Lu",
+        "publication": "Proceedings of the IEEE conference on computer vision and pattern …, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:-jrNzM816MMC",
+        "cite_id": "13530069882612045942",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Towards improving the consistency, efficiency, and flexibility of differentiable neural architecture search",
+        "authors": "Y Yang, S You, H Li, F Wang, C Qian, Z Lin",
+        "publication": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:_IsBomjs8bsC",
+        "cite_id": "1739547394168934124",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Decentralized accelerated gradient methods with increasing penalty parameters",
+        "authors": "H Li, C Fang, W Yin, Z Lin",
+        "publication": "IEEE transactions on Signal Processing 68, 4855-4870, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:urP0JZOBBUsC",
+        "cite_id": "4772410693355196519",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Revisiting extra for smooth distributed optimization",
+        "authors": "H Li, Z Lin",
+        "publication": "SIAM Journal on Optimization 30 (3), 1795-1821, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:wkm4DBaukwsC",
+        "cite_id": "3926590772826568618",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Radon representation-based feature descriptor for texture classification",
+        "authors": "G Liu, Z Lin, Y Yu",
+        "publication": "IEEE Transactions on Image Processing 18 (5), 921-928, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:YOwf2qJgpHMC",
+        "cite_id": "6714285574213099591",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Revenue-Based Advertising Auction",
+        "authors": "Z Lin, B Zhang, C Lin, Z Chen, P Lu, C Yu",
+        "publication": "US Patent App. 11/552,040, 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:KxtntwgDAa4C",
+        "cite_id": "2893530526393308476",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Empowering llms with logical reasoning: A comprehensive survey",
+        "authors": "F Cheng, H Li, F Liu, R van Rooij, K Zhang, Z Lin",
+        "publication": "arXiv preprint arXiv:2502.15652, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:CC3C2HR4nz8C",
+        "cite_id": "11618643149617571901",
+        "cite_num_within_time": 55
+    },
+    {
+        "title": "Robust 3d human pose estimation from single images or video sequences",
+        "authors": "C Wang, Y Wang, Z Lin, AL Yuille",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 41 (5), 1227-1241, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:yIeBiWEAh44C",
+        "cite_id": "3351729896988316535",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Accelerated Alternating Direction Method of Multipliers: An Optimal O(1 / K) Nonergodic Analysis",
+        "authors": "H Li, Z Lin",
+        "publication": "Journal of Scientific Computing 79 (2), 671-699, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:RfUwGJFMQ-0C",
+        "cite_id": "15894857026109461287",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "An anisotropic diffusion PDE for noise reduction and thin edge preservation",
+        "authors": "Z Lin, Q Shi",
+        "publication": "Proceedings 10th International Conference on Image Analysis and Processing …, 1999",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:zYLM7Y9cAGgC",
+        "cite_id": "4840817637453886236",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Optimization-induced graph implicit nonlinear diffusion",
+        "authors": "Q Chen, Y Wang, Y Wang, J Yang, Z Lin",
+        "publication": "International Conference on Machine Learning, 3648-3661, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:3x-KLxxGyuUC",
+        "cite_id": "1600506523476072350",
+        "cite_num_within_time": 17
+    },
+    {
+        "title": "Variance reduced extra and diging and their optimal acceleration for strongly convex decentralized optimization",
+        "authors": "H Li, Z Lin, Y Fang",
+        "publication": "Journal of Machine Learning Research 23 (222), 1-41, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:TiIbgCYny7sC",
+        "cite_id": "6119607866094001439,2793683472526348234",
+        "cite_num_within_time": 17
+    },
+    {
+        "title": "Real-time rendering of realistic rain",
+        "authors": "L Wang, Z Lin, T Fang, X Yang, X Yu, SB Kang",
+        "publication": "ACM SIGGRAPH 2006 Sketches, 156-es, 2006",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:ULOm3_A8WrAC",
+        "cite_id": "6467632595195189746",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "On the lower bound of minimizing polyak-łojasiewicz functions",
+        "authors": "P Yue, C Fang, Z Lin",
+        "publication": "The Thirty Sixth Annual Conference on Learning Theory, 2948-2968, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:UarirCmVI0EC",
+        "cite_id": "14279576987513792768",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Alternating direction method of multipliers for machine learning",
+        "authors": "Z Lin, H Li, C Fang",
+        "publication": "Springer, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:3_f9JqYsqVQC",
+        "cite_id": "5249861889053907721",
+        "cite_num_within_time": 21
+    },
+    {
+        "title": "Gauge equivariant transformer",
+        "authors": "L He, Y Dong, Y Wang, D Tao, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 34, 27331-27343, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:GUYAmugLYisC",
+        "cite_id": "4151917808216145361",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Implicit Euler skip connections: Enhancing adversarial robustness via numerical stability",
+        "authors": "M Li, L He, Z Lin",
+        "publication": "International conference on machine learning, 5874-5883, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:HKviVsUxM5wC",
+        "cite_id": "18074338246635077555",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Restarted Nonconvex Accelerated Gradient Descent: No More Polylogarithmic Factor in the in the O (epsilon^(-7/4)) Complexity",
+        "authors": "H Li, Z Lin",
+        "publication": "Journal of Machine Learning Research 24 (157), 1-37, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:jRIwE-1ttnoC",
+        "cite_id": "6214400720936415091",
+        "cite_num_within_time": 21
+    },
+    {
+        "title": "Producing animated scenes from still images",
+        "authors": "Z Lin, LF Wang, Y Wang, J Wang, X Tang",
+        "publication": "US Patent 7,609,271, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:tOudhMTPpwUC",
+        "cite_id": "4831494068201090787",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Accelerated first-order optimization algorithms for machine learning",
+        "authors": "H Li, C Fang, Z Lin",
+        "publication": "Proceedings of the IEEE 108 (11), 2067-2082, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:ZysSsiWj_g4C",
+        "cite_id": "15386605353418869897",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Accelerated variance reduction stochastic ADMM for large-scale machine learning",
+        "authors": "Y Liu, F Shang, H Liu, L Kong, L Jiao, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 43 (12), 4242 …, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:vofGIMt6cyEC",
+        "cite_id": "3234254846872142351",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Lion: Implicit vision prompt tuning",
+        "authors": "H Wang, J Chang, Y Zhai, X Luo, J Sun, Z Lin, Q Tian",
+        "publication": "Proceedings of the AAAI conference on artificial intelligence 38 (6), 5372-5380, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:wlzmIqt2EaEC",
+        "cite_id": "17996258023659508945",
+        "cite_num_within_time": 27
+    },
+    {
+        "title": "Lifted proximal operator machines",
+        "authors": "J Li, C Fang, Z Lin",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 33 (01), 4181-4188, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:cRMvf6lLvU8C",
+        "cite_id": "12219009739244536083,93947482065327618",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Learning semi-supervised representation towards a unified optimization framework for semi-supervised learning",
+        "authors": "CG Li, Z Lin, H Zhang, J Guo",
+        "publication": "Proceedings of the IEEE International Conference on Computer Vision, 2767-2775, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:X9ykpCP0fEIC",
+        "cite_id": "15425011816453291390",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Accelerated gradient tracking over time-varying graphs for decentralized optimization",
+        "authors": "H Li, Z Lin",
+        "publication": "Journal of Machine Learning Research 25 (274), 1-52, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:4E1Y8I9HL1wC",
+        "cite_id": "14452556347655244845",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Structured Sparsity Optimization With Non-Convex Surrogates of -Norm: A Unified Algorithmic Framework",
+        "authors": "X Zhang, J Zheng, D Wang, G Tang, Z Zhou, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 45 (5), 6386-6402, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:SPgmg5JLkoEC",
+        "cite_id": "9751274654152525648",
+        "cite_num_within_time": 13
+    },
+    {
+        "title": "Joint latent subspace learning and regression for cross-modal retrieval",
+        "authors": "J Wu, Z Lin, H Zha",
+        "publication": "Proceedings of the 40th International ACM SIGIR Conference on Research and …, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:WzTVkKNmPSkC",
+        "cite_id": "13323029672065747204",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Invertible rescaling network and its extensions",
+        "authors": "M Xiao, S Zheng, C Liu, Z Lin, TY Liu",
+        "publication": "International Journal of Computer Vision 131 (1), 134-159, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:QeguYG95ZbAC",
+        "cite_id": "14825114973587331203",
+        "cite_num_within_time": 22
+    },
+    {
+        "title": "Training much deeper spiking neural networks with a small number of time-steps",
+        "authors": "Q Meng, S Yan, M Xiao, Y Wang, Z Lin, ZQ Luo",
+        "publication": "Neural Networks 153, 254-268, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:9VeumLvkZSQC",
+        "cite_id": "15965734151119810943",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Modeling and rendering of heterogeneous translucent materials using the diffusion equation",
+        "authors": "J Wang, X Tong, SS Lin, B Guo, HY Shum, Z Lin",
+        "publication": "US Patent 8,243,071, 2012",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:tzM49s52ZIMC",
+        "cite_id": "6523151569921432591,7402163599358242533",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Residual relaxation for multi-view representation learning",
+        "authors": "Y Wang, Z Geng, F Jiang, C Li, Y Wang, J Yang, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 34, 12104-12115, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:j2GSQqY3pL0C",
+        "cite_id": "4123025705657781235",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Low-rank models in visual analysis: Theories, algorithms, and applications",
+        "authors": "Z Lin, H Zhang",
+        "publication": "academic Press, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:l6Q3WhenKVUC",
+        "cite_id": "509001592208027262",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Bilevel model-based discriminative dictionary learning for recognition",
+        "authors": "P Zhou, C Zhang, Z Lin",
+        "publication": "IEEE transactions on image processing 26 (3), 1173-1187, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:wyM6WWKXmoIC",
+        "cite_id": "10647532327328474428",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Optimization induced equilibrium networks: An explicit optimization perspective for understanding equilibrium models",
+        "authors": "X Xie, Q Wang, Z Ling, X Li, G Liu, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 45 (3), 3604-3616, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:h1pkognVyKwC",
+        "cite_id": "15523915636024084676,141905930586774912",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "On-line signature verification with two-stage statistical models",
+        "authors": "L Wan, B Wan",
+        "publication": "Eighth International Conference on Document Analysis and Recognition (ICDAR …, 2005",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:KlAtU1dfN6UC",
+        "cite_id": "2877369455069272231",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Efficient equivariant network",
+        "authors": "L He, Y Chen, Y Dong, Y Wang, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 34, 5290-5302, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:cOfwuRB03ygC",
+        "cite_id": "547182555419234548",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "A sharp convergence rate analysis for distributed accelerated gradient methods",
+        "authors": "H Li, C Fang, W Yin, Z Lin",
+        "publication": "arXiv preprint arXiv:1810.01053, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:hefNtdE4IMkC",
+        "cite_id": "18229833438636259144",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Locality-preserving low-rank representation for graph construction from nonlinear manifolds",
+        "authors": "L Zhuang, J Wang, Z Lin, AY Yang, Y Ma, N Yu",
+        "publication": "Neurocomputing 175, 715-722, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:YlPif8NxrbYC",
+        "cite_id": "13348117487644809483",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Light transport reconstruction from sparsely captured images",
+        "authors": "J Wang, Y Dong, X Tong, Z Lin, B Guo",
+        "publication": "US Patent 8,406,556, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:Z5m8FVwuT1cC",
+        "cite_id": "12803262366780276006",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Toward designing intelligent PDEs for computer vision: An optimal control approach",
+        "authors": "R Liu, Z Lin, W Zhang, K Tang, Z Su",
+        "publication": "Image and vision computing 31 (1), 43-56, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:N5tVd3kTz84C",
+        "cite_id": "1023386797879063734",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Feature learning via partial differential equation with applications to face recognition",
+        "authors": "C Fang, Z Zhao, P Zhou, Z Lin",
+        "publication": "Pattern Recognition 69, 14-25, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:RXiHnyRawswC",
+        "cite_id": "8217811160198690652",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "A review on low-rank models in data analysis",
+        "authors": "Z Lin",
+        "publication": "Big Data & Information Analytics 1 (2/3), 139-161, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:JP7YXuLIOvAC",
+        "cite_id": "9425387764735583935",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Rectification of characters and text as transform invariant low-rank textures",
+        "authors": "X Zhang, Z Zhang, X Liang, Z Lin, Y Ma",
+        "publication": "US Patent 8,774,558, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:foquWX3nUaYC",
+        "cite_id": "12649266478359085261",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Fast gradient vector flow computation based on augmented Lagrangian method",
+        "authors": "D Ren, W Zuo, X Zhao, Z Lin, D Zhang",
+        "publication": "Pattern Recognition Letters 34 (2), 219-225, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:Ri6SYOTghG4C",
+        "cite_id": "8275603626077757339",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "A counterexample for the validity of using nuclear norm as a convex surrogate of rank",
+        "authors": "H Zhang, Z Lin, C Zhang",
+        "publication": "Joint European Conference on Machine Learning and Knowledge Discovery in …, 2013",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:a9-T7VOCCH8C",
+        "cite_id": "16895772729318801493",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Penrose pixels for super-resolution",
+        "authors": "M Ben-Ezra, Z Lin, B Wilburn, W Zhang",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 33 (7), 1370-1383, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:pqnbT2bcN3wC",
+        "cite_id": "5616097768094917261,1286680491807795999",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Signature verification",
+        "authors": "Z Lin, L Wan, B Wan",
+        "publication": "US Patent 7,529,391, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:bFI3QPDXJZMC",
+        "cite_id": "1794018476343168560",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Classification via minimum incremental coding length (MICL)",
+        "authors": "J Wright, Y Tao, Z Lin, Y Ma, HY Shum",
+        "publication": "Advances in Neural Information Processing Systems 20, 2007",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:mVmsd5A6BfQC",
+        "cite_id": "15687470253091297633",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Virtual adversarial training on graph convolutional networks in node classification",
+        "authors": "K Sun, Z Lin, H Guo, Z Zhu",
+        "publication": "Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 431-443, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:LWqeokA2EBkC",
+        "cite_id": "6382537439236838897",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "ADA-Tucker: Compressing deep neural networks via adaptive dimension adjustment tucker decomposition",
+        "authors": "Z Zhong, F Wei, Z Lin, C Zhang",
+        "publication": "Neural Networks 110, 104-115, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:8uzoZH4hB9AC",
+        "cite_id": "3547655185362917068",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Automatic design of color filter arrays in the frequency domain",
+        "authors": "C Bai, J Li, Z Lin, J Yu",
+        "publication": "IEEE Transactions on Image Processing 25 (4), 1793-1807, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:SxCCDk4iOpsC",
+        "cite_id": "6523305276672964345",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Relations among some low-rank subspace recovery models",
+        "authors": "H Zhang, Z Lin, C Zhang, J Gao",
+        "publication": "Neural computation 27 (9), 1915-1950, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:WC9gN4BGCRcC",
+        "cite_id": "8466608090712667843",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Cross-patient automatic epileptic seizure detection using patient-adversarial neural networks with spatio-temporal EEG augmentation",
+        "authors": "Z Zhang, T Ji, M Xiao, W Wang, G Yu, T Lin, Y Jiang, X Zhou, Z Lin",
+        "publication": "Biomedical Signal Processing and Control 89, 105664, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:oYwriLWYh5YC",
+        "cite_id": "8461280620546721956",
+        "cite_num_within_time": 22
+    },
+    {
+        "title": "GCN: Graph Gaussian Convolution Networks with Concentrated Graph Filters",
+        "authors": "M Li, X Guo, Y Wang, Y Wang, Z Lin",
+        "publication": "International Conference on Machine Learning, 12782-12796, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:IExZWSxeYXUC",
+        "cite_id": "9435672911110832415",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Feature extraction by learning Lorentzian metric tensor and its extensions",
+        "authors": "R Liu, Z Lin, Z Su, K Tang",
+        "publication": "Pattern Recognition 43 (10), 3298-3306, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:xtRiw3GOFMkC",
+        "cite_id": "2693600279932106486",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Analyzing scripts and determining characters in expression recognition",
+        "authors": "M Xu, Y Zou, L Huang, JL Zhou, X Wang, X Hou, D Zhang, Z Lin, J Wang",
+        "publication": "US Patent 7,561,739, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:vV6vV6tmYwMC",
+        "cite_id": "7795279612007261467",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "A message passing perspective on learning dynamics of contrastive learning",
+        "authors": "Y Wang, Q Zhang, T Du, J Yang, Z Lin, Y Wang",
+        "publication": "arXiv preprint arXiv:2303.04435, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:qSd0DAb9jMoC",
+        "cite_id": "6958484984272361068",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Towards understanding adversarial examples systematically: Exploring data size, task and model factors",
+        "authors": "K Sun, Z Zhu, Z Lin",
+        "publication": "arXiv preprint arXiv:1902.11019, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:vxA22ZmNLkoC",
+        "cite_id": "6023554920535984802",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Number cookbook: Number understanding of language models and how to improve it",
+        "authors": "H Yang, Y Hu, S Kang, Z Lin, M Zhang",
+        "publication": "arXiv preprint arXiv:2411.03766, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:puFLaqDw8dcC",
+        "cite_id": "6550578311804989377",
+        "cite_num_within_time": 28
+    },
+    {
+        "title": "Low-rank matrix recovery via robust outlier estimation",
+        "authors": "X Guo, Z Lin",
+        "publication": "IEEE Transactions on Image Processing 27 (11), 5316-5327, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:sgsej9ZJWHMC",
+        "cite_id": "16081067469596262901",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Annotation detection and anchoring on ink notes",
+        "authors": "Z Lin, M Xu, J Wang",
+        "publication": "US Patent 8,181,103, 2012",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:1sJd4Hv_s6UC",
+        "cite_id": "829492795910245473,1725667902022605674",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Zeroth-order optimization with weak dimension dependency",
+        "authors": "P Yue, L Yang, C Fang, Z Lin",
+        "publication": "The Thirty Sixth Annual Conference on Learning Theory, 4429-4472, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=100&pagesize=100&citation_for_view=TanjFwoAAAAJ:k8to_Y4Q4_EC",
+        "cite_id": "17928226008711413099",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Training neural networks by lifted proximal operator machines",
+        "authors": "J Li, M Xiao, C Fang, Y Dai, C Xu, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 44 (6), 3334-3348, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:uoRD4RTSUPoC",
+        "cite_id": "10918768551512007931",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Enhancing the robustness of deep neural networks by boundary conditional gan",
+        "authors": "K Sun, Z Zhu, Z Lin",
+        "publication": "arXiv preprint arXiv:1902.11029, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:GiYFt9mpioMC",
+        "cite_id": "10095099265937003474",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Hybrid graph model for unsupervised object segmentation",
+        "authors": "Z Lin, G Liu, X Tang",
+        "publication": "US Patent 7,995,841, 2011",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:D03iK_w7-QYC",
+        "cite_id": "1005281335171482902,12588783154063257282",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Panoptic-PartFormer++: A unified and decoupled view for panoptic part segmentation",
+        "authors": "X Li, S Xu, Y Yang, H Yuan, G Cheng, Y Tong, Z Lin, MH Yang, D Tao",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:yKzB5RS27GgC",
+        "cite_id": "10115806809001991372",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Efficient and generalizable cross-patient epileptic seizure detection through a spiking neural network",
+        "authors": "Z Zhang, M Xiao, T Ji, Y Jiang, T Lin, X Zhou, Z Lin",
+        "publication": "Frontiers in Neuroscience 17, 1303564, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:_AkkBXT-jcoC",
+        "cite_id": "2362920792010774566",
+        "cite_num_within_time": 16
+    },
+    {
+        "title": "Proximal iteratively reweighted algorithm with multiple splitting for nonconvex sparsity optimization",
+        "authors": "C Lu, Y Wei, Z Lin, S Yan",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 28 (1), 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:MpfHP-DdYjUC",
+        "cite_id": "13377275217712219862",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Balance, imbalance, and rebalance: Understanding robust overfitting from a minimax game perspective",
+        "authors": "Y Wang, L Li, J Yang, Z Lin, Y Wang",
+        "publication": "Advances in neural information processing systems 36, 15775-15798, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:uWy0R8PweswC",
+        "cite_id": "15564378337763276524",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Towards efficient scene understanding via squeeze reasoning",
+        "authors": "X Li, X Li, A You, L Zhang, G Cheng, K Yang, Y Tong, Z Lin",
+        "publication": "IEEE Transactions on Image Processing 30, 7050-7063, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:VjBpw8Hezy4C",
+        "cite_id": "16027297481408914642",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Dynamical system inspired adaptive time stepping controller for residual network families",
+        "authors": "Y Yang, J Wu, H Li, X Li, T Shen, Z Lin",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 34 (04), 6648-6655, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:HqhvjgTjE9cC",
+        "cite_id": "10585461130347580349",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Optimized color filter arrays for sparse representation-based demosaicking",
+        "authors": "J Li, C Bai, Z Lin, J Yu",
+        "publication": "IEEE transactions on image processing 26 (5), 2381-2393, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:XAp-VaTZjjwC",
+        "cite_id": "4157954610813307308",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Completing low-rank matrices with corrupted samples from few coefficients in general basis",
+        "authors": "H Zhang, Z Lin, C Zhang",
+        "publication": "IEEE Transactions on Information Theory 62 (8), 4748-4768, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:An6A6Jpfc1oC",
+        "cite_id": "4675566872709980198",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Efficient tree-structured SfM by RANSAC generalized Procrustes analysis",
+        "authors": "Y Chen, AB Chan, Z Lin, K Suzuki, G Wang",
+        "publication": "Computer Vision and Image Understanding 157, 179-189, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:uUvzmPk0f8oC",
+        "cite_id": "15670333049684899070",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "A roadmap for big model",
+        "authors": "S Yuan, H Zhao, S Zhao, J Leng, Y Liang, X Wang, J Yu, X Lv, Z Shao, ...",
+        "publication": "arXiv preprint arXiv:2203.14101, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:U3qCfcK-7lkC",
+        "cite_id": "17852516835921587803",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Rethinking knowledge graph evaluation under the open-world assumption",
+        "authors": "H Yang, Z Lin, M Zhang",
+        "publication": "Advances in Neural Information Processing Systems 35, 8374-8385, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:JqN3CTdJtl0C",
+        "cite_id": "12035243594832230326",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "PDO-eS2CNNs: Partial differential operator based equivariant spherical CNNs",
+        "authors": "Z Shen, T Shen, Z Lin, J Ma",
+        "publication": "Proceedings of the AAAI conference on artificial intelligence 35 (11), 9585-9593, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:ehoypfNsBj8C",
+        "cite_id": "14294161083134226464",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "DATA: Differentiable architecture approximation with distribution guided sampling",
+        "authors": "X Zhang, J Chang, Y Guo, G Meng, S Xiang, Z Lin, C Pan",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 43 (9), 2905-2920, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:vjZqxyZ7hS4C",
+        "cite_id": "11694066468136267406",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Automatic design of high-sensitivity color filter arrays with panchromatic pixels",
+        "authors": "J Li, C Bai, Z Lin, J Yu",
+        "publication": "IEEE Transactions on Image Processing 26 (2), 870-883, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:Ej9njvOgR2oC",
+        "cite_id": "5849622670117370939",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Tensor sparse and low-rank based submodule clustering method for multi-way data",
+        "authors": "X Piao, Y Hu, J Gao, Y Sun, Z Lin, B Yin",
+        "publication": "arXiv preprint arXiv:1601.00149, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:ZqE1mSdD_DYC",
+        "cite_id": "4807773463967784087,7395452121442487116",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Learning partial differential equations for computer vision",
+        "authors": "Z Lin, W Zhang, X Tang",
+        "publication": "Peking Univ., Chin. Univ. of Hong Kong, 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:SeFeTyx0c_EC",
+        "cite_id": "14473489742134804923",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Nonconvex sparse spectral clustering by alternating direction method of multipliers and its convergence analysis",
+        "authors": "C Lu, J Feng, Z Lin, S Yan",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 32 (1), 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:sbeIDTyQOFgC",
+        "cite_id": "14276579614524402841",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Multi-view common space learning for emotion recognition in the wild",
+        "authors": "J Wu, Z Lin, H Zha",
+        "publication": "Proceedings of the 18th ACM International Conference on Multimodal …, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:KTwcwpFFj4wC",
+        "cite_id": "15976956851893650880",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Laplacian principal components analysis (LPCA)",
+        "authors": "D Zhao, Z Lin, X Tang",
+        "publication": "US Patent 8,064,697, 2011",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:vRqMK49ujn8C",
+        "cite_id": "18332734859843703064",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "On the fundamental limits of reconstruction-based super-resolution algorithms",
+        "authors": "Z Lin, HY Shum",
+        "publication": "Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision …, 2001",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:4TOpqqG69KYC",
+        "cite_id": "12388666397441570949",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Hebbian learning based orthogonal projection for continual learning of spiking neural networks",
+        "authors": "M Xiao, Q Meng, Z Zhang, D He, Z Lin",
+        "publication": "arXiv preprint arXiv:2402.11984, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:MqTxh1vmwXEC",
+        "cite_id": "15283238733922655390",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Code prompting: a neural symbolic method for complex reasoning in large language models",
+        "authors": "Y Hu, H Yang, Z Lin, M Zhang",
+        "publication": "arXiv preprint arXiv:2305.18507, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:sfsSB7lKuh0C",
+        "cite_id": "29556621129454454",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Under-bagging nearest neighbors for imbalanced classification",
+        "authors": "H Hang, Y Cai, H Yang, Z Lin",
+        "publication": "Journal of machine learning research 23 (118), 1-63, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:Ei5r6KrKXVQC",
+        "cite_id": "17932666905493370260",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Subspace clustering under complex noise",
+        "authors": "B Li, H Lu, Y Zhang, Z Lin, W Wu",
+        "publication": "IEEE Transactions on Circuits and Systems for Video Technology 29 (4), 930-940, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:qsWQJNntlusC",
+        "cite_id": "559606032144819605,12359921803637375853",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Learning markov random walks for robust subspace clustering and estimation",
+        "authors": "R Liu, Z Lin, Z Su",
+        "publication": "Neural Networks 59, 1-15, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:wKETBy42zhYC",
+        "cite_id": "15828861910221707264",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "SPIDE: A purely spike-based method for training feedback spiking neural networks",
+        "authors": "M Xiao, Q Meng, Z Zhang, Y Wang, Z Lin",
+        "publication": "Neural Networks 161, 9-24, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:cww_0JKUTDwC",
+        "cite_id": "14752066082223758260",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Convolutional transformer networks for epileptic seizure detection",
+        "authors": "N Ke, T Lin, Z Lin, XH Zhou, T Ji",
+        "publication": "Proceedings of the 31st ACM international conference on information …, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:6Zm5LS9gQ5UC",
+        "cite_id": "1516482891578014540",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Long-tail hashing",
+        "authors": "Y Chen, Y Hou, S Leng, Q Zhang, Z Lin, D Zhang",
+        "publication": "Proceedings of the 44th International ACM SIGIR Conference on Research and …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:WM2K3OHRCGMC",
+        "cite_id": "4158981138573449518",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "GBHT: Gradient boosting histogram transform for density estimation",
+        "authors": "J Cui, H Hang, Y Wang, Z Lin",
+        "publication": "International Conference on Machine Learning, 2233-2243, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:TeJ9juy8vcMC",
+        "cite_id": "12614114366715223664,3537799820436858090",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Reconstruction regularized low-rank subspace learning for cross-modal retrieval",
+        "authors": "J Wu, X Xie, L Nie, Z Lin, H Zha",
+        "publication": "Pattern Recognition 113, 107813, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:hEXC_dOfxuUC",
+        "cite_id": "10409971631462613766",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Fast multidimensional ellipsoid-specific fitting by alternating direction method of multipliers",
+        "authors": "Z Lin, Y Huang",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 38 (5), 1021-1026, 2015",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:jSAVyFp_754C",
+        "cite_id": "13974935086070616423",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "R-Net: Recurrent and Recursive Network for Sparse-View CT Artifacts Removal",
+        "authors": "T Shen, X Li, Z Zhong, J Wu, Z Lin",
+        "publication": "International conference on medical image computing and computer-assisted …, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:u0Mu_IsstPMC",
+        "cite_id": "1059480499633127041",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Global convergence of over-parameterized deep equilibrium models",
+        "authors": "Z Ling, X Xie, Q Wang, Z Zhang, Z Lin",
+        "publication": "International Conference on Artificial Intelligence and Statistics, 767-787, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:g30IDTdgJMgC",
+        "cite_id": "16079176760938515888",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Cerdeq: Certifiable deep equilibrium model",
+        "authors": "M Li, Y Wang, Z Lin",
+        "publication": "International Conference on Machine Learning, 12998-13013, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:I2jIoRS3jIgC",
+        "cite_id": "17073707072704399328",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Pattern Recognition and Computer Vision: 7th Chinese Conference, PRCV 2024, Urumqi, China, October 18–20, 2024, Proceedings, Part V",
+        "authors": "Z Lin, MM Cheng, R He, K Ubul, W Silamu, H Zha, J Zhou, CL Liu",
+        "publication": "Springer Nature, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:qYOp8iumCsAC",
+        "cite_id": "10181106909312311025",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Equilibrium image denoising with implicit differentiation",
+        "authors": "Q Chen, Y Wang, Z Geng, Y Wang, J Yang, Z Lin",
+        "publication": "IEEE Transactions on Image Processing 32, 1868-1881, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:gkldIfsazJcC",
+        "cite_id": "2047514656424453784",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Tensor recovery with weighted tensor average rank",
+        "authors": "X Zhang, J Zheng, L Zhao, Z Zhou, Z Lin",
+        "publication": "IEEE Transactions on Neural Networks and Learning Systems 35 (1), 1142-1156, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:9tXw7Op4-u0C",
+        "cite_id": "16022429560738262691",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "A new nonlocal low-rank regularization method with applications to magnetic resonance image denoising",
+        "authors": "J Lu, C Xu, Z Hu, X Liu, Q Jiang, D Meng, Z Lin",
+        "publication": "Inverse Problems 38 (6), 065012, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:BFa5h04uPMwC",
+        "cite_id": "12810455094128140471",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Color filter arrays: A design methodology",
+        "authors": "Y Li, P Hao, Z Lin",
+        "publication": "Dept. Computer Science, Queen Mary, Univ. London (QMUL), London, UK, Tech …, 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:aqlVkmm33-oC",
+        "cite_id": "3572350958545700440",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Neural ePDOs: Spatially adaptive equivariant partial differential operator based networks",
+        "authors": "L He, Y Chen, Z Shen, Y Yang, Z Lin",
+        "publication": "The eleventh international conference on learning representations, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:RVqaWcrwK10C",
+        "cite_id": "6145270849441442869",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "A unified contrastive energy-based model for understanding the generative ability of adversarial training",
+        "authors": "Y Wang, Y Wang, J Yang, Z Lin",
+        "publication": "arXiv preprint arXiv:2203.13455, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:hB2aVRuWZNwC",
+        "cite_id": "9237224064252747933",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Boosted histogram transform for regression",
+        "authors": "Y Cai, H Hang, H Yang, Z Lin",
+        "publication": "International Conference on Machine Learning, 1251-1261, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:nU66GSXDKhoC",
+        "cite_id": "13837313012335917736,10715941149187888329",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Tensor LRR based subspace clustering",
+        "authors": "Y Fu, J Gao, D Tien, Z Lin",
+        "publication": "2014 International Joint Conference on Neural Networks (IJCNN), 1877-1884, 2014",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:cK4Rrx0J3m0C",
+        "cite_id": "4686664458277307526",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Towards theoretically inspired neural initialization optimization",
+        "authors": "Y Yang, H Wang, H Yuan, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 35, 18983-18995, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:qCaWouos7ogC",
+        "cite_id": "6350876524339921816",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Neural collapse terminus: A unified solution for class incremental learning and its variants",
+        "authors": "Y Yang, H Yuan, X Li, J Wu, L Zhang, Z Lin, P Torr, D Tao, B Ghanem",
+        "publication": "arXiv preprint arXiv:2308.01746, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:qbqt7gslDFUC",
+        "cite_id": "12030020674905768233",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "PDO-s3DCNNs: Partial differential operator based steerable 3D CNNs",
+        "authors": "Z Shen, T Hong, Q She, J Ma, Z Lin",
+        "publication": "International conference on machine learning, 19827-19846, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:DUFsPKDdMi0C",
+        "cite_id": "7127988507569489900",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Learned extragradient ISTA with interpretable residual structures for sparse coding",
+        "authors": "Y Li, L Kong, F Shang, Y Liu, H Liu, Z Lin",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 35 (10), 8501-8509, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:feST4K8J0scC",
+        "cite_id": "11546684302404534573",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Sampling complex topology structures for spiking neural networks",
+        "authors": "S Yan, Q Meng, M Xiao, Y Wang, Z Lin",
+        "publication": "Neural Networks 172, 106121, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:uQVPmWFBlwUC",
+        "cite_id": "5852181989356600441",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Designing universally-approximating deep neural networks: A first-order optimization approach",
+        "authors": "Z Wu, M Xiao, C Fang, Z Lin",
+        "publication": "IEEE transactions on pattern analysis and machine intelligence 46 (9), 6231-6246, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:_n8fIOMweQoC",
+        "cite_id": "12897581723476203136",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Shadownet for data-centric quantum system learning",
+        "authors": "Y Du, Y Yang, T Liu, Z Lin, B Ghanem, D Tao",
+        "publication": "arXiv preprint arXiv:2308.11290, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:Lo8V22OuN40C",
+        "cite_id": "7720534674742623478",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Two-dimensional Weisfeiler-Lehman graph neural networks for link prediction",
+        "authors": "Y Hu, X Wang, Z Lin, P Li, M Zhang",
+        "publication": "arXiv preprint arXiv:2206.09567, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:jq04SsiGh3QC",
+        "cite_id": "10876962340918458825",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Boundarysqueeze: Image segmentation as boundary squeezing",
+        "authors": "H He, X Li, Y Yang, G Cheng, Y Tong, L Weng, Z Lin, S Xiang",
+        "publication": "arXiv preprint arXiv:2105.11668, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:mJbmKSuM8toC",
+        "cite_id": "292756853765340773",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Introduction to the issue on robust subspace learning and tracking: Theory, algorithms, and applications",
+        "authors": "T Bouwmans, N Vaswani, P Rodriguez, R Vidal, Z Lin",
+        "publication": "IEEE Journal of Selected Topics in Signal Processing 12 (6), 1127-1130, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:Ul_CLA4dPeMC",
+        "cite_id": "1360672953102098718",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Parallel asynchronous stochastic variance reduction for nonconvex optimization",
+        "authors": "C Fang, Z Lin",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 31 (1), 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:J3LtWjKFLicC",
+        "cite_id": "2115892763911954543",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Relaxed majorization-minimization for non-smooth and non-convex optimization",
+        "authors": "C Xu, Z Lin, Z Zhao, H Zha",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 30 (1), 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:__bU50VfleQC",
+        "cite_id": "11885124373703835458",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Decoding technique for linear block codes",
+        "authors": "Z Lin, Q Wang, C Zhang",
+        "publication": "US Patent 7,681,110, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:b0M2c_1WBrUC",
+        "cite_id": "2052389719249673735",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Cleaning up of handwriting intra-stroke and inter-stroke overtracing",
+        "authors": "Z Lin",
+        "publication": "US Patent 7,567,711, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:5awf1xo2G04C",
+        "cite_id": "10897774384276972916",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Proximity matters: Local proximity enhanced balancing for treatment effect estimation",
+        "authors": "H Wang, Z Chen, Z Liu, X Chen, H Li, Z Lin",
+        "publication": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and …, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:gnsKu8c89wgC",
+        "cite_id": "6468632691549482245",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Affine equivariant networks based on differential invariants",
+        "authors": "Y Li, Y Qiu, Y Chen, L He, Z Lin",
+        "publication": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:h9G0ZmjYpDoC",
+        "cite_id": "9434396282071555248",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "KDLGT: A Linear Graph Transformer Framework via Kernel Decomposition Approach.",
+        "authors": "Y Wu, Y Xu, W Zhu, G Song, Z Lin, L Wang, S Liu",
+        "publication": "IJCAI, 2370-2378, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:tFzHCjejgA0C",
+        "cite_id": "17680250214268575567",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Gradient boosted binary histogram ensemble for large-scale regression",
+        "authors": "H Hang, T Huang, Y Cai, H Yang, Z Lin",
+        "publication": "arXiv preprint arXiv:2106.01986, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=200&pagesize=100&citation_for_view=TanjFwoAAAAJ:za7pDTvVV8kC",
+        "cite_id": "16023982353396085478",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Unbiased stochastic proximal solver for graph neural networks with equilibrium states",
+        "authors": "M Li, Y Wang, Y Wang, Z Lin",
+        "publication": "The Eleventh International Conference on Learning Representations, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:dhpJJ7xvgBgC",
+        "cite_id": "6277806646538631936",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Channel-weighted squeeze-and-excitation networks for epileptic seizure detection",
+        "authors": "N Ke, T Lin, Z Lin",
+        "publication": "2021 IEEE 33rd International Conference on Tools with Artificial …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:KIRwYnRZzWQC",
+        "cite_id": "5259482302896304960",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Bilevel optimization for automated machine learning: a new perspective on framework and algorithm",
+        "authors": "R Liu, Z Lin",
+        "publication": "National Science Review 11 (8), nwad292, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:DPO9WFcz7UcC",
+        "cite_id": "9426246613141078797",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Temporal spiking neural networks with synaptic delay for graph reasoning",
+        "authors": "M Xiao, Y Zhu, D He, Z Lin",
+        "publication": "arXiv preprint arXiv:2405.16851, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:sYWwZaPVD1oC",
+        "cite_id": "80739753939667416",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Globally invariant radon feature transforms for texture classification",
+        "authors": "G Liu, Z Lin, X Tang",
+        "publication": "US Patent App. 12/212,222, 2010",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:HE397vMXCloC",
+        "cite_id": "8848664899126716155",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Designing partial differential equations for image processing by combining differental invariants",
+        "authors": "Z Lin, W Zhang, X Tang",
+        "publication": "Microsoft Res., Berkeley, CA, USA, Tech. Rep. MSR-TR-2009-192, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:RYcK_YlVTxYC",
+        "cite_id": "7040548692642520743",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Patch-level neighborhood interpolation: A general and effective graph-based regularization strategy",
+        "authors": "K Sun, B Yu, Z Lin, Z Zhu",
+        "publication": "Asian conference on machine learning, 1276-1291, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:ujxm2eEBZHIC",
+        "cite_id": "8173276351083573417",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Reparameterized sampling for generative adversarial networks",
+        "authors": "Y Wang, Y Wang, J Yang, Z Lin",
+        "publication": "Joint European Conference on Machine Learning and Knowledge Discovery in …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:RJNGbXJAtMsC",
+        "cite_id": "11680835937896061544",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Fast compressive phase retrieval under bounded noise",
+        "authors": "H Zhang, S You, Z Lin, C Xu",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 31 (1), 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:PuOEWVtPfzwC",
+        "cite_id": "15059214506943138288",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Optimizing multi-class spatio-spectral filters via Bayes error estimation for EEG classification",
+        "authors": "W Zheng, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 22, 2009",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:u_35RYKgDlwC",
+        "cite_id": "17084846003614062685",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Pareto adversarial robustness: balancing spatial robustness and sensitivity-based robustness",
+        "authors": "K Sun, M Li, Z Lin",
+        "publication": "Science China Information Sciences 68 (6), 162101, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:IyxfXMz2bNAC",
+        "cite_id": "11573369372252979212",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Symmetry discovery for different data types",
+        "authors": "L Hu, Y Li, Z Lin",
+        "publication": "Neural Networks, 107481, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:v6PuF9mNY3oC",
+        "cite_id": "14075517355540718957",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Sscnet: learning-based subspace clustering",
+        "authors": "X Xie, J Wu, G Liu, Z Lin",
+        "publication": "Visual Intelligence 2 (1), 11, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:Pqt4MY__2vwC",
+        "cite_id": "4258952057341892348",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Win: Weight-decay-integrated nesterov acceleration for faster network training",
+        "authors": "P Zhou, X Xie, Z Lin, KC Toh, S Yan",
+        "publication": "Journal of Machine Learning Research 25 (83), 1-74, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:JIEWM9yDoCIC",
+        "cite_id": "18327642806093371237",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "A fast alternating time-splitting approach for learning partial differential equations",
+        "authors": "Z Zhao, Z Lin, Y Wu",
+        "publication": "Neurocomputing 185, 171-182, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:NMlhSUseqAsC",
+        "cite_id": "17986154866538627566",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Unbiased Recommender Learning from Implicit Feedback via Weakly Supervised Learning",
+        "authors": "H Wang, Z Chen, H Wang, Y Tan, L Pan, T Liu, X Chen, H Li, Z Lin",
+        "publication": "Forty-second International Conference on Machine Learning, 0",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:0Kh4an1R61UC",
+        "cite_id": "15881907859133744515",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Efficient and scalable implicit graph neural networks with virtual equilibrium",
+        "authors": "Q Chen, Y Wang, Y Wang, J Chang, Q Tian, J Yang, Z Lin",
+        "publication": "2022 IEEE International Conference on Big Data (Big Data), 864-873, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:KqW5X_olkfQC",
+        "cite_id": "6902088107767745314",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Demosaicking based on channel-correlation adaptive dictionary learning",
+        "authors": "C Bai, J Li, Z Lin",
+        "publication": "Journal of Electronic Imaging 27 (4), 043047-043047, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:CMvovTBb2okC",
+        "cite_id": "7231181039921562385,4704838297995829974",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Factorization for projective and metric reconstruction via truncated nuclear norm",
+        "authors": "Y Lin, L Yang, Z Lin, T Lin, H Zha",
+        "publication": "2017 International Joint Conference on Neural Networks (IJCNN), 470-477, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:idthP5jqfYAC",
+        "cite_id": "6230387430072772061",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Affine steerable equivariant layer for canonicalization of neural networks",
+        "authors": "Y Li, Y Qiu, Y Chen, Z Lin",
+        "publication": "The Thirteenth International Conference on Learning Representations, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:rDsFeusoTZkC",
+        "cite_id": "16183620345712019597",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Convergence rate analysis of lion",
+        "authors": "Y Dong, H Li, Z Lin",
+        "publication": "arXiv preprint arXiv:2411.07724, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:zfsRRabFVBUC",
+        "cite_id": "17047192422822815115",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Relational learning in pre-trained models: A theory from hypergraph recovery perspective",
+        "authors": "Y Chen, C Fang, Z Lin, B Liu",
+        "publication": "arXiv preprint arXiv:2406.11249, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:tSVUDDkujAIC",
+        "cite_id": "11978670676764772524",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "On the Convergence Rate of RMSProp and Its Momentum Extension Measured by Norm",
+        "authors": "H Li, Y Dong, Z Lin",
+        "publication": "arXiv preprint arXiv:2402.00389, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:10A3hb2jUxYC",
+        "cite_id": "1735740943158417423",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Core: Common random reconstruction for distributed optimization with provable low communication complexity",
+        "authors": "P Yue, H Zhao, C Fang, D He, L Wang, Z Lin, S Zhu",
+        "publication": "arXiv preprint arXiv:2309.13307, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:1Aeql8wG3wEC",
+        "cite_id": "16987373999125686914",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Newton design: Designing CNNs with the family of Newton’s methods",
+        "authors": "Z Shen, Y Yang, Q She, C Wang, J Ma, Z Lin",
+        "publication": "Science China Information Sciences 66 (6), 162101, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:ZqLB7dQ1iF4C",
+        "cite_id": "9770803121654659678",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "A hybrid stochastic-deterministic minibatch proximal gradient method for efficient optimization and generalization",
+        "authors": "P Zhou, XT Yuan, Z Lin, SCH Hoi",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence 44 (10), 5933 …, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:-vzq6BoH5oUC",
+        "cite_id": "4404796647355342530",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Recurrent learning with clique structures for prostate sparse‐view CT artifacts reduction",
+        "authors": "T Shen, Y Yang, Z Lin, M Zhang",
+        "publication": "IET Image Processing 15 (3), 648-655, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:GHsHDPAyICYC",
+        "cite_id": "13990073945956278051",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "SEPARATE: A Simple Low-rank Projection for Gradient Compression in Modern Large-scale Model Training Process",
+        "authors": "H Zhao, X Xie, C Fang, Z Lin",
+        "publication": "The Thirteenth International Conference on Learning Representations, 0",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:CLhUwle04lcC",
+        "cite_id": "11143673788113655342",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Explicit discovery of nonlinear symmetries from dynamic data",
+        "authors": "L Hu, Y Li, Z Lin",
+        "publication": "arXiv preprint arXiv:2510.01855, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:2_BaaiyHPJIC",
+        "cite_id": "9677088003358805942",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "High-rank irreducible cartesian tensor decomposition and bases of equivariant spaces",
+        "authors": "S Shao, Y Li, Z Lin, Q Cui",
+        "publication": "Journal of Machine Learning Research 26 (175), 1-53, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:WGv8Og3F3KgC",
+        "cite_id": "9789380271025934327",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Online pseudo-zeroth-order training of neuromorphic spiking neural networks",
+        "authors": "M Xiao, Q Meng, Z Zhang, D He, Z Lin",
+        "publication": "arXiv preprint arXiv:2407.12516, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:ON9TkA72AHEC",
+        "cite_id": "14988795812869963486",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Efficient learning of scale-adaptive nearly affine invariant networks",
+        "authors": "Z Shen, Y Qiu, J Liu, L He, Z Lin",
+        "publication": "Neural Networks 174, 106229, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:aCwMkEyfDy8C",
+        "cite_id": "8677665528501155811",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Mlae: Masked lora experts for visual parameter-efficient fine-tuning",
+        "authors": "J Wang, G Yang, W Chen, H Yi, X Wu, Z Lin, Q Lao",
+        "publication": "arXiv preprint arXiv:2405.18897, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:8rLWgkbgOXQC",
+        "cite_id": "15164724107184284619",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Synthetic depth transfer for monocular 3d object pose estimation in the wild",
+        "authors": "Y Kao, W Li, Q Wang, Z Lin, W Kim, S Hong",
+        "publication": "Proceedings of the AAAI Conference on Artificial Intelligence 34 (07), 11221 …, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:iKswqCX-FLkC",
+        "cite_id": "12512093292351377140",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "ClusMatch: Improving deep clustering by unified positive and negative pseudo-label learning",
+        "authors": "J Wu, Z Li, W Sun, J Yin, L Nie, Z Lin",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:-LHtoeeytlUC",
+        "cite_id": "8469404076590268980",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Separation and bias of deep equilibrium models on expressivity and learning dynamics",
+        "authors": "Z Wu, Y Zhang, C Fang, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 37, 32476-32511, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:wgKq3sYidysC",
+        "cite_id": "15017599841108989956",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling",
+        "authors": "X Xu, Z Lin",
+        "publication": "ECAI 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:r56sNq9gaawC",
+        "cite_id": "7222911393093509083",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "On the Adversarial Transferability of Generalized\" Skip Connections\"",
+        "authors": "Y Wang, Y Mo, D Wu, M Li, X Ma, Z Lin",
+        "publication": "arXiv preprint arXiv:2410.08950, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:vkuYBMKU6wEC",
+        "cite_id": "13625620118001690374",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Low-dimension-to-high-dimension generalization and its implications for length generalization",
+        "authors": "Y Chen, L Yang, Y Liang, Z Lin",
+        "publication": "arXiv preprint arXiv:2410.08898, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:CMPXdcK5v8EC",
+        "cite_id": "4243888486845308350",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "EKAN: Equivariant Kolmogorov-Arnold Networks",
+        "authors": "L Hu, Y Wang, Z Lin",
+        "publication": "",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:R6EwkKsDylYC",
+        "cite_id": "6231791896746513845",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Papal: A provable particle-based primal-dual algorithm for mixed nash equilibrium",
+        "authors": "S Ding, H Dong, C Fang, Z Lin, T Zhang",
+        "publication": "Journal of Machine Learning Research 25 (327), 1-48, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:Oo_WeVVXg5wC",
+        "cite_id": "4837474989039790419",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "A single-loop accelerated extra-gradient difference algorithm with improved complexity bounds for constrained minimax optimization",
+        "authors": "Y Liu, F Shang, W An, J Liu, H Liu, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 36, 61699-61711, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:-fu4zM_6qcIC",
+        "cite_id": "12095052208444656348",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Optimization-inspired manual architecture design and neural architecture search",
+        "authors": "Y Yang, Z Shen, H Li, Z Lin",
+        "publication": "Science China Information Sciences 66 (11), 212101, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:5F1dSjz1ScoC",
+        "cite_id": "10069919185617755713",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Provable Particle-based Primal-Dual Algorithm for Mixed Nash Equilibrium",
+        "authors": "S Ding, H Dong, C Fang, Z Lin, T Zhang",
+        "publication": "CoRR, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:6pF0wJmtdfAC",
+        "cite_id": "13121922980134018407",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Accelerated Stochastic Algorithms",
+        "authors": "Z Lin, H Li, C Fang",
+        "publication": "Accelerated Optimization for Machine Learning: First-Order Algorithms, 137-207, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=300&pagesize=100&citation_for_view=TanjFwoAAAAJ:v_xunPV0uK0C",
+        "cite_id": "533116634866046332",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Pattern Recognition and Computer Vision: Second Chinese Conference, PRCV 2019, Xi’an, China, November 8–11, 2019, Proceedings, Part III",
+        "authors": "Z Lin, L Wang, J Yang, G Shi, T Tan, N Zheng, X Chen, Y Zhang",
+        "publication": "Springer Nature, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:IT1MJ6E3JesC",
+        "cite_id": "14139674625120233978",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Active Treatment Effect Estimation via Limited Samples",
+        "authors": "Z Zhang, H Wang, H Li, Z Lin",
+        "publication": "Forty-second International Conference on Machine Learning, 0",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:4uoR24qA-WYC",
+        "cite_id": "2793223825976189905",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Towards understanding convergence and generalization of AdamW.(2024)",
+        "authors": "P ZHOU, X XIE, Z LIN, S YAN",
+        "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 1-8, 0",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:3WNXLiBY60kC",
+        "cite_id": "2602342398080137308",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Learning nonseparable sparse regularizers via multivariate activation functions",
+        "authors": "X Xu, Z Lin",
+        "publication": "Neurocomputing 651, 130853, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:qhW0HyKmSusC",
+        "cite_id": "14849307207860205580",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Governing Equation Discovery from Data Based on Differential Invariants",
+        "authors": "L Hu, Y Li, Z Lin",
+        "publication": "arXiv preprint arXiv:2505.18798, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:i8eIfGGcn98C",
+        "cite_id": "6576313216374349717",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "On the O (sqrt (d)/T^(1/4)) Convergence Rate of RMSProp and Its Momentum Extension Measured by l_1 Norm",
+        "authors": "H Li, Y Dong, Z Lin",
+        "publication": "Journal of Machine Learning Research 26 (131), 1-25, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:-qpA3cGbmHsC",
+        "cite_id": "3477029786569644300",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "TC-MoE: Augmenting Mixture of Experts with Ternary Expert Choice",
+        "authors": "S Yan, X Bin, S Zhang, Y Wang, Z Lin",
+        "publication": "The Thirteenth International Conference on Learning Representations, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:d6JCS5z0ckYC",
+        "cite_id": "12829258014380657225",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Incorporating Arbitrary Matrix Group Equivariance into KANs",
+        "authors": "L Hu, Y Wang, Z Lin",
+        "publication": "arXiv preprint arXiv:2410.00435, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:71d7Y1FijdoC",
+        "cite_id": "3185994603053106082",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Task-robust pre-training for worst-case downstream adaptation",
+        "authors": "J Wang, Y Chen, X Xie, C Fang, Z Lin",
+        "publication": "Advances in Neural Information Processing Systems 36, 9458-9478, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:SgM-ki2adj0C",
+        "cite_id": "14559484092440533406",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Explaining the complex task reasoning of large language models with template-content structure",
+        "authors": "H Yang, F Meng, Z Lin, M Zhang",
+        "publication": "",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:eIKNFFVQvJAC",
+        "cite_id": "4265558870630406522",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "ADMM for Distributed Optimization",
+        "authors": "Z Lin, H Li, C Fang",
+        "publication": "Alternating Direction Method of Multipliers for Machine Learning, 207-240, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:KsTgnNRry18C",
+        "cite_id": "8102168086063926881",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Neural Ordinary Differential Equations with Envolutionary Weights",
+        "authors": "L He, X Xie, Z Lin",
+        "publication": "Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 598-610, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TanjFwoAAAAJ&cstart=400&pagesize=100&citation_for_view=TanjFwoAAAAJ:BPS1z4jHU5cC",
+        "cite_id": "13978874987757098743",
+        "cite_num_within_time": 1
+    }
+]

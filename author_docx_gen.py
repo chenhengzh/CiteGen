@@ -41,13 +41,13 @@ def add_hyperlink(paragraph, text, url):
 
 
 # 加载 JSON 数据
-json_file_path = "Zhouchen_Lin.json"
+json_file_path = "author_info/Zhouchen_Lin.json"
 with open(json_file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
 
 doc = Document()
 
-doc.add_heading("2024年引用摘录分工", level=1)
+doc.add_heading("2025年引用摘录分工", level=1)
 
 table = doc.add_table(rows=1, cols=3)
 table.style = "Table Grid"

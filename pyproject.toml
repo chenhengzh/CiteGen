@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citegen"
+version = "0.1.0"
+description = "Citation Generator for Zlin's students"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "arxiv",
+    "fuzzywuzzy",
+    "python-docx",
+    "python-Levenshtein",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
