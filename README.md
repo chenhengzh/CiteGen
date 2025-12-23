@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## 配置说明 ⚙️
 
-在使用前，需要根据实际情况修改 `config.py` 中的相关字段：
+请复制`config_template.py` 为`config.py`，在使用前，需要根据实际情况修改 `config.py` 中的相关字段：
 
 - `author_id`：Google Scholar 作者 ID（用于按作者维度爬取）
 - `author_name`：作者姓名（用于生成分工报告等）
