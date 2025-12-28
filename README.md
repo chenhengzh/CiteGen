@@ -2,147 +2,132 @@
 
 > **CiteGen** 是为 ZERO Lab 设计的一套**引用管理与评论分析工具链**，用于简化论文引用的收集、整理与分析流程，服务于学术写作与相关研究工作。
 
+## 🛠️ 安装指南
 
-
-## 安装指南 📥
-
+### 1. 克隆仓库
 ```shell
 git clone https://github.com/chenhengzh/CitationGenerator.git
 cd CiteGen
+```
 
-# 创建虚拟环境（推荐）
+### 2. 环境配置
+推荐使用 Conda 创建独立环境：
+```shell
 conda create -n citegen python=3.10
 conda activate citegen
+```
 
-# 安装依赖
+### 3. 安装依赖
+```shell
 pip install -r requirements.txt
 ```
 
+---
 
+## ⚙️ 配置说明
 
-## 配置说明 ⚙️
-
-请复制`config_template.py` 为`config.py`，在使用前，需要根据实际情况修改 `config.py` 中的相关字段：
-
-- `author_id`：Google Scholar 作者 ID（用于按作者维度爬取）
-- `author_name`：作者姓名（用于生成分工报告等）
-- `paper_list`：论文标题列表（用于按论文列表维度爬取）
-- `API_KEY`：SerpApi 密钥（用于 Google Scholar 搜索）
-- `DEEPSEEK_API_KEY`：DeepSeek API 密钥（用于引用分析）
-- `start_year` / `end_year`：爬取论文的年份范围
-- `num_ls`：每批爬取的引用数量（步长）
-
-如无特殊需求，建议尽量保持默认配置。
-
-
-
-## 使用指南 🚀
-
-整体推荐流程为：
-
-1. 管理员按作者维度预爬取引用并生成分工报告（可选）
-2. 各成员按分工爬取被引信息
-3. 自动下载并手动补齐PDF，生成 Word 报告
-4. 运行评论分析脚本，生成结构化分析结果
-
-### Step 0（可选）：管理员按作者预爬取
-
-用于快速获取某位作者全部论文的引用情况，并生成分工报告：
-
+使用前请先复制模板文件：
 ```shell
-python step1_spider.py --mode author
-python author_docx_gen.py
+cp config_template.py config.py
 ```
 
-### Step 1：按论文列表爬取引用信息
+然后修改 `config.py` 中的关键配置：
 
-各成员根据分工，按论文爬取被引信息：
+- **基础配置**
+  - `API_KEY`: SerpApi 密钥（用于 Google Scholar 搜索）
+  - `start_year` / `end_year`: 爬取引用的年份范围
+  - `num_ls`: 每次批量爬取的引用数量
 
+- **模式配置**
+  - `author_id`: Google Scholar 作者 ID（用于**作者模式**）
+  - `author_name`: 作者姓名（用于生成文件名等）
+  - `paper_list`: 目标论文标题列表（用于**论文列表模式**）
+
+- **高级配置**
+  - `DEEPSEEK_API_KEY`: DeepSeek API 密钥（用于 AI 引用评论分析）
+  - `ANALYSIS_MODEL`: 分析使用的模型配置（默认使用 `deepseek_short`）
+
+---
+
+## 🚀 使用指南
+
+CiteGen 的标准工作流分为以下四个步骤：
+
+### Step 1：爬取引用信息
+
+根据需求选择以下两种模式之一：
+
+**模式 A：按论文列表爬取（推荐）**
+在 `config.py` 的 `paper_list` 中填入需要爬取的论文标题，然后运行：
 ```shell
 python step1_spider.py --mode paper
 ```
+> 结果将保存至 `paper_list/<论文标题>/citation_info.json`。
 
-爬取结果将保存在 `paper_list/` 目录下，每篇论文对应一个子文件夹，内容包括：
-
-- `citation_info.json`：该论文的被引信息
-
-### Step 2：生成 Word 报告
-
-**Step 2.1：PDF 自动下载 + 文档生成**
-
+**模式 B：按作者爬取（管理员用）**
+获取某位作者在指定年份范围内的所有有引用的论文列表：
 ```shell
-python step2_docx_gen.py
+python step1_spider.py --mode author
+```
+> 生成的结果保存至 `author_info/` 目录。
+> *注：如需生成分工 Word 文档，请运行 `python author_docx_gen.py`（需根据实际生成的 JSON 文件名修改脚本内的路径）。*
+
+### Step 2：下载 PDF 原文
+
+**2.1 自动下载**
+尝试自动下载所有爬取到的引用文献 PDF：
+```shell
+python step2_pdf_download.py
 ```
 
-会根据 `citation_info.json` 自动尝试下载引用论文 PDF，并生成原始 Word 报告：
-
-
-**Step 2.2：辅助手动下载 PDF**
-
+**2.2 辅助手动下载**
+对于自动下载失败的文献，使用 Streamlit 助手进行手动补全：
 ```shell
 streamlit run manual_download_helper.py
 ```
+> 助手功能：
+> - 自动列出缺失 PDF 的引用
+> - 提供下载链接
+> - 一键将下载文件夹中的最新 PDF 归档并重命名到对应目录
 
-对于未能自动下载的引用文献，可启动手动下载助手，用于：
+### Step 3：AI 引用分析
 
-- 自动移动下载的 PDF 文件到指定目录
-- 自动修改文件名
-
-
-
-**Step 2.3：基于本地 PDF 更新文档**
-
-在手动补全 PDF 之后，可使用：
-
-```shell
-python step2_docx_gen.py --no-pdf
-```
-
-此模式不会再尝试联网下载，只会根据当前已存在的 PDF 文件更新文档链接。  
-生成的 Word 报告将保存在对应论文文件夹中。
-
-### Step 3：引文评论分析
-
-使用大模型对引用文章进行评论分析，生成结构化的分析结果：
-
+利用大模型（如 DeepSeek）读取 PDF 内容，分析引用上下文与评价：
 ```shell
 python step3_analyze.py
 ```
+> 分析结果将以 JSON 格式保存在各论文目录下的 `comment_analysis/` 文件夹中。
 
-该步骤将会：
+### Step 4：生成最终报告
 
-- 读取论文 PDF 文件
-- 提取引用片段及其上下文
-- 使用配置中的大模型（如 DeepSeek）分析引用关系
-- 将分析结果以 JSON 形式保存在各论文目录下的 `comment_analysis/` 目录中
+汇总引用信息与 AI 分析结果，生成 Word 报告：
+```shell
+python step4_docx_gen.py
+```
+> 最终报告 `report.docx` 将生成在各论文的文件夹中。
 
-最后，请人工审核分析结果，确保质量后再填入报告。
+---
 
-
-## 最终效果 📂📄
-
-对于每一篇目标论文，CiteGen 会生成一个独立的文件夹，统一管理其被引文献和汇总报告。整体结构如下所示：
+## 📂 目录结构示例
 
 ```text
-<Paper_Name>/
-├── *.pdf
-│   └── 引用该论文的所有文献 PDF 文件
-├── report.docx
-    └── 自动生成的 Word 引用分析报告
-````
+CiteGen/
+├── paper_list/
+│   ├── <论文标题>/
+│   │   ├── citation_info.json       # 引用元数据
+│   │   ├── *.pdf                    # 引用文献 PDF
+│   │   ├── comment_analysis/        # AI 分析结果
+│   │   │   └── <引用文献名>.json
+│   │   └── report.docx              # 最终生成的分析报告
+├── author_info/                     # 作者模式生成的中间文件，也可用于辅助comments分析
+├── config.py                        # 项目配置文件
+├── step1_spider.py                  # 步骤1：爬虫脚本
+├── step2_pdf_download.py            # 步骤2：下载脚本
+├── step3_analyze.py                 # 步骤3：分析脚本
+├── step4_docx_gen.py                # 步骤4：报告生成脚本
+└── manual_download_helper.py        # 辅助下载工具
+```
 
-![目录结构示意](figure/dir.jpeg)
+## 🙏 致谢
 
-
-Word 报告的示例如下所示：
-
-![报告内容示意](figure/doc.jpeg)
-
-## 致谢 🙏
-
-CiteGen 的部分实现参考了
-[CitationAnalysis](https://github.com/xiongyingfei/CitationAnalysis/)
-项目中的相关代码与设计思路，特此致谢该项目的开源贡献。
-
-
-
+本项目部分实现参考了 [CitationAnalysis](https://github.com/xiongyingfei/CitationAnalysis/) 的相关代码和设计思路，特此致谢。
