@@ -1,0 +1,89 @@
+{
+  "Filename": "FAIR-TAT Improving Model Fairness Using Targeted Adversarial Training",
+  "PaperInfo": "Tejaswini Medi, Steffen Jung, and Margret Keuper. \"FAIR-TAT: Improving Model Fairness Using Targeted Adversarial Training.\" In 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 7827-7836. IEEE, 2025.",
+  "Citations": [
+    {
+      "Text": "A further significant observation is the impact of AT on model fairness [6,44,45], where a lack of fairness is measured by the disparity in class-wise performance on clean data and under attack.",
+      "Analysis": "作为大量已有工作中的一个进行列举，并没有特别评价。",
+      "Positive": false
+    },
+    {
+      "Text": "Some works try to address class-wise biases and robustness differences by imposing fairness constraints during AT. This can involve adjusting the weights of easy and hard classes [45] or changing the perturbation margin of attacks based on the class-wise performance of the model during AT [44, 45].",
+      "Analysis": "作为相关工作列举，提到了被引论文[44]的方法，但没有特别评价。",
+      "Positive": false
+    },
+    {
+      "Text": "Recent studies have investigated class biases in terms of model accuracy and robustness, advocating for fair training processes that classify all classes equally well [31,39,44,45].",
+      "Analysis": "作为大量已有工作中的一个进行列举，并没有特别评价。",
+      "Positive": false
+    },
+    {
+      "Text": "Class-wise Calibrated Fair Adversarial Training (CFA) [44] addresses fairness by dynamically customizing adversarial configurations for different classes and modifying weight averaging techniques.",
+      "Analysis": "描述了被引论文的方法和贡献，但没有明确称赞或深入参考。",
+      "Positive": false
+    },
+    {
+      "Text": "Following the notation in [44], we consider a function f_θ:X → Y parameterized by θ representing the K-class classification problem with Y = {1, 2, ..., K}.",
+      "Analysis": "参照了被引工作的符号定义来设置问题框架",
+      "Positive": true
+    },
+    {
+      "Text": "Previous approaches such as [6, 39, 44] predominantly use this metric to assess class-wise biases and further to calibrate adversarial training by scaling ϵ based on their class-wise robustness performance for each individual class during AT to achieve robust fairness [44].",
+      "Analysis": "引用了被引论文[44]作为先前方法之一，用于评估类别偏差和校准对抗训练以实现鲁棒公平性，但没有特别评价其贡献或效果。",
+      "Positive": false
+    },
+    {
+      "Text": "We use robust accuracy for customizing the perturbation margin for each class as showcased in [44], that various classes exhibit distinct preferences for perturbation margins during adversarial training, a critical factor in improving fairness.",
+      "Analysis": "引用了被引论文[44]来展示如何根据鲁棒精度定制扰动边界，并说明这是提高公平性的关键因素，属于深入参考被引论文内容。",
+      "Positive": true
+    },
+    {
+      "Text": "We use the update formula from [44] for scaling the ϵ, which is mentioned in line 27 of Algorithm 1.",
+      "Analysis": "直接使用了被引论文[44]中的更新公式来缩放扰动边界，属于应用被引论文方法解决新问题。",
+      "Positive": true
+    },
+    {
+      "Text": "Additionally, we include CFA [44], a recent instance-based adaptive adversarial training approach that dynamically customizes perturbation margins during adversarial training.",
+      "Analysis": "作为基线方法之一进行列举，描述了其方法特点，但没有特别评价。",
+      "Positive": false
+    },
+    {
+      "Text": "We also adapt CFA [44], TRADES [49] and FAT [51] according to our approach and compare the results with their respective baseline versions.",
+      "Analysis": "应用了被引论文的方法进行适配和比较，属于深入参考被引论文内容。",
+      "Positive": true
+    },
+    {
+      "Text": "Furthermore, we apply weight averaging techniques, such as Fairness Aware Weight Average (FAWA) [44] as in CFA and Exponential Moving Average (EMA) as well for our approach.",
+      "Analysis": "应用了被引论文中的技术（FAWA），属于深入参考被引论文内容。",
+      "Positive": true
+    },
+    {
+      "Text": "We also compare FAIR-TAT with weight averaging techniques such as EMA and FAWA, as used in CFA [44].",
+      "Analysis": "引用了被引论文CFA中的技术，用于比较，但没有特别评价。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "nt Descent (PGD) [30]. These methods\nare overall efficient to compute and have shown to improve\nthe overall model robustness [30,42,49].\nDespite improving the overall model robustness, adver-\nsarial training has side effects: it usually reduces model accu-\nracy on clean samples, and, although accuracy on perturbed\nsamples improves, there remains a noticeable accuracy gap\nbetween clean and perturbed samples [40, 41, 46, 49]. A\nfurther significant observation is the impact of AT on model\nfairness [6,44,45], where a lack of fairness is measured by\nthe disparity in class-wise performance on clean data and\nunder attack. Specifically, adversarially trained models tend\nto exhibit stronger robustness on distinctive classes but weak\nperformance on harder to predict classes. Thus, classes that\nare difficult to classify in clean data are even more suscepti-\nble to exploitation by attackers. To avoid class-wise safety\nissues and a false sense of security for models with high av-\nerage robustness, there is ",
+    "all for black panthers\nand brown bears while it is large for tigers and polar bears.\nAt the same time, the clean accuracy will drop for all classes,\neven for those that benefit from AT on perturbed data.\nSome works try to address class-wise biases and ro-\nbustness differences by imposing fairness constraints dur-\ning AT. This can involve adjusting the weights of easy\nand hard classes [45] or changing the perturbation mar-\ngin of attacks based on the class-wise performance of the\nmodel during AT [44, 45]. Recent works on model fair-\nness [26, 29, 38, 43, 45, 48, 52] focus on improving the ro-\nbustness of the worst-performing classes while preserving\noverall model robustness. These works typically train us-\ning untargeted adversaries, i.e. adversaries that maximize\nthe model’s loss irrespective of the new predicted label (tar-\nget class). In this work, we shift our focus on vulnerable\nclasses (hard classes) and these classes are targeted more of-\nten than the stronger ones (easy classes) by gene",
+    " and diverse training\nstrategies [34,42,50].\nAdversarial Fairness Problem.\nAdversarial Fairness in\nmachine learning is a growing concern, as models often\nfavor specific groups of classes while underperforming on\nothers after being trained adversarially. This discrimination\nundermines the reliability of machine learning models. Re-\ncent studies have investigated class biases in terms of model\naccuracy and robustness, advocating for fair training pro-\ncesses that classify all classes equally well [31,39,44,45].\nThese works also show that while AT can improve overall\nrobustness, it often ignores discrepancies in the robustness\nof individual classes, amplifying unbalance in class-wise\nrobustness. Data distribution and adversarial learning al-\ngorithms can contribute to these class-wise discrimination\nproblems, making hard classes more vulnerable to attacks.\nTo address unfairness, several methods have emerged.\nFair Robust Learning (FRL) [45] adjusts perturbation mar-\ngins and class weights based on whether fairness constraints\nare violated, though this approach decreases overall accu-\nracy. Balanced Adversarial Training (BAT) [38] aims to bal-\nance fairness between source and target classes. Class-wise\nCalibrated Fair Adversarial Training (CFA) [44] addresses\nfairness by dynamically customizing adversarial configura-\ntions for different classes and modifying weight averaging\ntechniques. All these methods reweigh classes based on their\nvulnerability in terms of robustness during the optimiza-\ntion process. Worst Class Adversarial Training (WAT) [26]\nuses a no-regret dynamic algorithm to improve worst-class\naccuracy. More recent work, DAFA [25], considers class\nsimilarity and assigns distinct adversarial margins and loss\nweights to each clas",
+    "\\text {t}})\\right )\\right ). (4)\nOther additional methods, such as those proposed by\n[7, 33], are often used as probes to determine a model’s\naccuracy under adversarial attack, referred to as the model’s\nrobust accuracy. Adversarial model fairness in classification\nis typically evaluated based on the class-wise robust accuracy\nperformance of the classifier. We also evaluate our approach\nusing other standard adversarial attacks like AutoAttack,\nSquares [4,10].\nNotation.\nFollowing the notation in [44], we consider a\nfunction  f _ \\ t heta :X \\rightarrow Y parameterized by θ representing the\nK-class classification problem with  Y  = \\{ 1 ,  2 , \\ldots , K\\}. We\nconsider an example  x from  X and respective label y from\nY , and perturb  x within the ℓp-norm perturbation bound\n B(x , \\ eps i lon  ) =  \\{x' \\mid \\|x' - x\\|_p \\leq \\epsilon \\} . Then the clean and robust\naccuracy of the model fθ are defined as  A(f_\\theta ) and  R(f_\\theta ) :\n  A(f _ \\theta ) = \\math b b {E\n}_{\n(x, y )  \\sim D}  ",
+    " defined from samples of a validation set {xi}N\ni=1\nof size N with labels yi ∈{cj}K\nj=1 as:\n  C_{acc } (c_j )  = \\fr a c { |\\ { x_i \n\\\nm\nid f _ {\\thet a }(x _i ) = c_\nj\n, y_i = c_j \\}|}{N} + \\nonumber \\\\ \\frac {|\\{x_i \\mid f_{\\theta }(x_i) \\neq c_j, y_i \\neq c_j \\}|}{N},\n(7)\nwhere we consider all samples xi with label yi that are cor-\nrectly classified as class cj by the model fθ and all samples\nxi with label yi that are correctly classified as not being of\nclass cj. Previous approaches such as [6, 39, 44] predomi-\nnantly use this metric to assess class-wise biases and further\nto calibrate adversarial training by scaling ϵ based on their\nclass-wise robustness performance for each individual class\nduring AT to achieve robust fairness [44].\nAs a further informative measure on class-wise biases,\nwe consider the Class False Positive Score (CF P S) to as-\nsess the confusion rates of each class cj, i.e., how frequently\nsamples from other classes are incorrectly classified as cj.\nWe use this measure to evaluate how the other group of\nclasses are attracted to a specific class during AT. While a\nhigh CF P S can also manifests in a decrease in class-wise\naccuracy, the imbalance it induces can hardly be addressed in\nan untargeted training",
+    " for\n29:\nend for\n30: end for\n31: return ¯\nf¯\nθ;\nis denoted by Rk. Similarly, CF P S−k represents the class\nfalse positive score of the k-th class during the last training\ninterval. We aim to leverage both these properties in our\napproach. We utilize the class false positive scores to model\na multinominal distribution which acts as prior for sampling\nthe targets during our targeted adversarial scenario. We use\nrobust accuracy for customizing the perturbation margin for\neach class as showcased in [44], that various classes exhibit\ndistinct preferences for perturbation margins during adver-\nsarial training, a critical factor in improving fairness. Having\nsmaller ϵ for hard classes than easy classes improves robust-\nness and fairness of the model. We use the update formula\nfrom [44] for scaling the ϵ, which is mentioned in line 27\nof Algorithm 1. During inference, we use the same ϵ for\nevery class to compare the results with other baselines that\nfocus on fairness. During the training phase, the customized\nperturbation margin ϵk converges to the optimal perturbation\nmargin for each class.\n6. Experiments\nIn this section, we demonstrate the effectiveness of our\napproach, FAIR-TAT, in enhancing the clean accuracy while\nmaintaining the overall adversarial robustness, along with",
+    "overall average\nclean and robust accuracy, as well as the clean and robust ac-\ncuracy of the hard class in the form of worst class accuracy.\nBaselines.\nFor our primary baseline, we select Vanilla\nAdversarial Training (AT) [30], TRADES [49] and FAT [51].\nGiven that the primary objective of our model is fairness,\nwe compare our approach to FRL [45], which is the first ad-\nversarial training algorithm specifically designed to improve\nclass-wise robustness and fairness. Additionally, we include\nCFA [44], a recent instance-based adaptive adversarial train-\ning approach that dynamically customizes perturbation mar-\ngins during adversarial training. We also adapt CFA [44],\nTRADES [49] and FAT [51] according to our approach and\ncompare the results with their respective baseline versions.\nWe include recent fairness baselines such as BAT [38] and\nWAT [26]. Furthermore, we apply weight averaging tech-\nniques, such as Fairness Aware Weight Average (FAWA) [44]\nas in CFA and Exponential Moving Average (EMA) as well\nfor our approach. Note that we have reported the results from\nthe last checkpoint evaluations for all the methods therefore\nthe results varies when reported with best checkpoint version.\nAlso, The worst class accuracy for CIFAR-100 is defined as\nthe average performance of the worst 10% of classes follow-\ning the baseline works.\nTraining Settings. We train PRN-18 network in accordance\nwith the settings outlined in [37]. Both networks undergo",
+    "me overall robustness, with only marginal reduc-\ntions in case of CIFAR-10, and improves overall robustness\nin CIFAR-100. This improvement in CIFAR-100 can be\nattributed to the dataset’s diversity and larger number of\nclasses, which enhances the ability to differentiate features\nmore effectively. Overall, these results suggest that FAIR-\nTAT offers a better trade-off between robustness and fairness.\nWe also compare FAIR-TAT with weight averaging tech-\nniques such as EMA and FAWA, as used in CFA [44]. Our\nmethod maintains fairness after applying these techniques.\nSpecifically, for the larger number of classes in CIFAR-100,\nFAIR-TAT with TRADES setting outperforms other base-\nlines in both fairness and robustness, demonstrating that our\nmethod scales well with an increasing number of classes.\nOverall, our FAIR-TAT approach outperforms state-of-the-\nart methods in terms of clean accuracy and fairness when\nevaluated against the adversaries it was trained on, though\nwith a minor trade-off in ro",
+    " Bowen\nZhou, and Quanquan Gu. On the convergence and robustness\nof adversarial training. In Kamalika Chaudhuri and Ruslan\nSalakhutdinov, editors, Proceedings of the 36th International\nConference on Machine Learning, volume 97 of Proceedings\nof Machine Learning Research, pages 6586–6595. PMLR,\n09–15 Jun 2019. 1, 2\n[43] Zekai Wang, Tianyu Pang, Chao Du, Min Lin, Weiwei Liu,\nand Shuicheng Yan. Better diffusion models further improve\nadversarial training. arXiv preprint arXiv:2302.04638, 2023.\n1, 2\n[44] Zeming Wei, Yifei Wang, Yiwen Guo, and Yisen Wang. Cfa:\nClass-wise calibrated fair adversarial training. In Proceedings\nof the IEEE/CVF Conference on Computer Vision and Pattern\nRecognition, pages 8193–8201, 2023. 1, 2, 3, 5, 6, 7\n[45] Han Xu, Xiaorui Liu, Yaxin Li, Anil Jain, and Jiliang Tang.\nTo be robust or to be fair: Towards fairness in adversarial\ntraining. In International conference on machine learning,\npages 11492–11501. PMLR, 2021. 1, 2, 6\n[46] Dongyoon Yang, Insung Kong, and Yongdai "
+  ]
+}

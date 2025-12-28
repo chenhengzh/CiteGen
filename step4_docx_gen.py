@@ -6,25 +6,15 @@ import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from utils import get_papers, setup_logging
-from docx_gen.generator import generate_all_docx
+from report_gen.generator import generate_all_reports
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Citation Generator for Zlin's students."
-    )
-
-    # Argument for GetPDF mode
-    parser.add_argument(
-        "--no-pdf",
-        action="store_true",
-        help="Generate Word documents using only local PDFs (do not crawl online).",
+        description="Report Generator for Zlin's students."
     )
 
     args = parser.parse_args()
-
-    # Determine mode
-    get_pdf_mode = not args.no_pdf
 
     # Setup logging
     setup_logging("docx_gen")
@@ -36,8 +26,8 @@ def main():
             print("No paper directories found in ./paper_list")
             return
 
-        print(f"Running in {'PDF Download' if get_pdf_mode else 'Local Link'} mode.")
-        generate_all_docx(paper_list, get_pdf_flag=get_pdf_mode)
+        print(f"Running in Report Generation mode.")
+        generate_all_reports(paper_list)
     else:
         print(
             "Please use CitationSpider to get citation data in advance (missing ./paper_list directory)"
@@ -46,3 +36,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

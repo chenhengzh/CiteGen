@@ -14,7 +14,7 @@ def main():
     # Check paper list directory
     if os.path.exists(PAPER_LIST_DIR):
         try:
-            from comment_analysis.analyzer import run_analysis
+            from report_gen.analyzer import run_analysis
 
             print("Running Citation Analysis...")
             run_analysis()

@@ -162,7 +162,8 @@ class CitationAnalyzer:
                         except Exception as e:
                             logging.warning(f"Error reading {filename}: {e}")
 
-                # Construct PaperInfo
+            # Construct PaperInfo
+            if found_info:
                 paper_info = PaperInfo(
                     authors=found_info.get("authors", []),
                     approach_name="",  # Default empty as requested
@@ -173,7 +174,7 @@ class CitationAnalyzer:
 
                 # Save as paper_info.json
                 save_data = found_info.copy()
-                save_data["approach_name"] = ""  # Ensure this field exists and is empty
+                save_data["approach_name"] = "" 
                 # Ensure year exists if missing
                 if "year" not in save_data:
                     save_data["year"] = None
@@ -188,7 +189,6 @@ class CitationAnalyzer:
                     logging.info(f"Saved paper_info.json to {paper_dir}")
                 except Exception as e:
                     logging.error(f"Failed to save paper_info.json: {e}")
-
             else:
                 logging.warning(
                     f"Paper info not found for {dirname}. Loading from scratch."

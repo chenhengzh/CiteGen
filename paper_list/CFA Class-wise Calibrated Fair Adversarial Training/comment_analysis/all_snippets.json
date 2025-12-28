@@ -1,7 +1,96 @@
 [
   {
+    "Citations": [
+      {
+        "Text": "Following the notation in [44], we consider a function f_θ:X → Y parameterized by θ representing the K-class classification problem with Y = {1, 2, ..., K}.",
+        "Analysis": "参照了被引工作的符号定义来设置问题框架",
+        "Positive": true
+      },
+      {
+        "Text": "We use robust accuracy for customizing the perturbation margin for each class as showcased in [44], that various classes exhibit distinct preferences for perturbation margins during adversarial training, a critical factor in improving fairness.",
+        "Analysis": "引用了被引论文[44]来展示如何根据鲁棒精度定制扰动边界，并说明这是提高公平性的关键因素，属于深入参考被引论文内容。",
+        "Positive": true
+      },
+      {
+        "Text": "We use the update formula from [44] for scaling the ϵ, which is mentioned in line 27 of Algorithm 1.",
+        "Analysis": "直接使用了被引论文[44]中的更新公式来缩放扰动边界，属于应用被引论文方法解决新问题。",
+        "Positive": true
+      },
+      {
+        "Text": "We also adapt CFA [44], TRADES [49] and FAT [51] according to our approach and compare the results with their respective baseline versions.",
+        "Analysis": "应用了被引论文的方法进行适配和比较，属于深入参考被引论文内容。",
+        "Positive": true
+      },
+      {
+        "Text": "Furthermore, we apply weight averaging techniques, such as Fairness Aware Weight Average (FAWA) [44] as in CFA and Exponential Moving Average (EMA) as well for our approach.",
+        "Analysis": "应用了被引论文中的技术（FAWA），属于深入参考被引论文内容。",
+        "Positive": true
+      },
+      {
+        "Text": "A further significant observation is the impact of AT on model fairness [6,44,45], where a lack of fairness is measured by the disparity in class-wise performance on clean data and under attack.",
+        "Analysis": "作为大量已有工作中的一个进行列举，并没有特别评价。",
+        "Positive": false
+      },
+      {
+        "Text": "Some works try to address class-wise biases and robustness differences by imposing fairness constraints during AT. This can involve adjusting the weights of easy and hard classes [45] or changing the perturbation margin of attacks based on the class-wise performance of the model during AT [44, 45].",
+        "Analysis": "作为相关工作列举，提到了被引论文[44]的方法，但没有特别评价。",
+        "Positive": false
+      },
+      {
+        "Text": "Recent studies have investigated class biases in terms of model accuracy and robustness, advocating for fair training processes that classify all classes equally well [31,39,44,45].",
+        "Analysis": "作为大量已有工作中的一个进行列举，并没有特别评价。",
+        "Positive": false
+      },
+      {
+        "Text": "Class-wise Calibrated Fair Adversarial Training (CFA) [44] addresses fairness by dynamically customizing adversarial configurations for different classes and modifying weight averaging techniques.",
+        "Analysis": "描述了被引论文的方法和贡献，但没有明确称赞或深入参考。",
+        "Positive": false
+      },
+      {
+        "Text": "Previous approaches such as [6, 39, 44] predominantly use this metric to assess class-wise biases and further to calibrate adversarial training by scaling ϵ based on their class-wise robustness performance for each individual class during AT to achieve robust fairness [44].",
+        "Analysis": "引用了被引论文[44]作为先前方法之一，用于评估类别偏差和校准对抗训练以实现鲁棒公平性，但没有特别评价其贡献或效果。",
+        "Positive": false
+      },
+      {
+        "Text": "Additionally, we include CFA [44], a recent instance-based adaptive adversarial training approach that dynamically customizes perturbation margins during adversarial training.",
+        "Analysis": "作为基线方法之一进行列举，描述了其方法特点，但没有特别评价。",
+        "Positive": false
+      },
+      {
+        "Text": "We also compare FAIR-TAT with weight averaging techniques such as EMA and FAWA, as used in CFA [44].",
+        "Analysis": "引用了被引论文CFA中的技术，用于比较，但没有特别评价。",
+        "Positive": false
+      }
+    ],
+    "Paper": "FAIR-TAT: Improving Model Fairness Using Targeted Adversarial Training. Tejaswini Medi, Steffen Jung, and Margret Keuper. \"FAIR-TAT: Improving Model Fairness Using Targeted Adversarial Training.\" In 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 7827-7836. IEEE, 2025.",
+    "ID": 7,
+    "Filename": "FAIR-TAT Improving Model Fairness Using Targeted Adversarial Training"
+  },
+  {
+    "Citations": [
+      {
+        "Text": "DHAT-CFA (Ours) 80.97 52.38 2.09 70.52 47.83 2.21 78.52 52.67 2.44",
+        "Analysis": "结合了被引论文的方法CFA，构建了新方法DHAT-CFA，并展示了其性能。",
+        "Positive": true
+      },
+      {
+        "Text": "Wei et al. [42] developed Class-wise Calibrated Fair Adversarial Training (CFA), which adaptively configures training for each class to achieve category-level robust fairness.",
+        "Analysis": "描述了被引论文的方法和目的，但没有特别评价或深入参考。",
+        "Positive": false
+      },
+      {
+        "Text": "CFA [42] 77.88 50.64 4.27 70.45 45.53 4.66 76.70 49.97 4.46",
+        "Analysis": "在表格中列出CFA方法的性能数据，作为比较的一部分，没有特别评价。",
+        "Positive": false
+      }
+    ],
+    "Paper": "Towards adversarial robustness via debiased high-confidence logit alignment. Kejia Zhang, Juanjuan Weng, Shaozi Li, and Zhiming Luo. \"Towards adversarial robustness via debiased high-confidence logit alignment.\" In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 2783-2792. 2025.",
+    "ID": 6,
+    "Filename": "Towards adversarial robustness via debiased high-confidence logit alignment"
+  },
+  {
     "Citations": [],
-    "Paper": "Exploring the robustness of in-context learning with noisy labels. Chen Cheng, Xinzhi Yu, Haodong Wen, Jingsong Sun, Guanzhang Yue, Yihao Zhang, and Zeming Wei - In ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1-5. IEEE, 2025 - ieeexplore.ieee.org",
+    "Paper": "Exploring the robustness of in-context learning with noisy labels. Chen Cheng, Xinzhi Yu, Haodong Wen, Jingsong Sun, Guanzhang Yue, Yihao Zhang, and Zeming Wei. \"Exploring the robustness of in-context learning with noisy labels.\" In ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1-5. IEEE, 2025.",
     "ID": 2,
     "Filename": "Exploring the robustness of in-context learning with noisy"
   },
@@ -18,8 +107,14 @@
         "Positive": false
       }
     ],
-    "Paper": "Parameter interpolation adversarial training for robust image classification. Xin Liu, Yichen Yang, Kun He, and John E. Hopcroft - IEEE Transactions on Information Forensics and Security (2025) - ieeexplore.ieee.org",
+    "Paper": "Parameter interpolation adversarial training for robust image classification. Xin Liu, Yichen Yang, Kun He, and John E. Hopcroft. \"Parameter interpolation adversarial training for robust image classification.\" IEEE Transactions on Information Forensics and Security (2025).",
     "ID": 3,
     "Filename": "Parameter interpolation adversarial training for robust image classification"
+  },
+  {
+    "Citations": [],
+    "Paper": "Aroid: Improving adversarial robustness through online instance-wise data augmentation. Lin Li, Jianing Qiu, and Michael Spratling. \"Aroid: Improving adversarial robustness through online instance-wise data augmentation.\" International Journal of Computer Vision 133, no. 2 (2025): 929-950.",
+    "ID": 5,
+    "Filename": "Aroid Improving adversarial robustness through online instance-wise data"
   }
 ]

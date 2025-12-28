@@ -3,9 +3,10 @@ import requests
 import arxiv
 import os
 import re
+import json
 from bs4 import BeautifulSoup
-from utils import are_strings_almost_matching
-from config import TIMEOUT
+from utils import are_strings_almost_matching, get_filename
+from config import TIMEOUT, PAPER_LIST_DIR
 
 
 def download_file(url, save_path):
@@ -241,3 +242,98 @@ def get_pdf(cit, pth):
         logging.warning("No title provided for citation, skipping arXiv search.")
 
     return False
+
+
+def download_pdfs_for_paper(paper_title):
+    """
+    Downloads PDFs for all citations of a given paper.
+    """
+    print(
+        f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
+    )
+    print(f"Start downloading PDFs for paper: [{paper_title}]")
+    print(
+        f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***\n"
+    )
+
+    dir_name = get_filename(paper_title)
+    json_path = os.path.join(PAPER_LIST_DIR, dir_name, "citation_info.json")
+
+    if os.path.exists(json_path):
+        with open(json_path, "r") as file:
+            cit_list = json.load(file)
+    else:
+        cit_list = []
+        logging.info(f"No citation_info.json found for {dir_name}")
+        return
+
+    logging.info("\n\n\n")
+    logging.info(
+        f"\n***+++++++++++++++++++++++++++++downloading PDFs for Paper: [{dir_name}]+++++++++++++++++++++++++++++***\n"
+    )
+
+    if not cit_list:
+        logging.info(f"Paper: [{dir_name}] has no citation")
+        print(f"Paper: [{dir_name}] has no citation")
+        return
+
+    for cit in cit_list:
+        pdf_pth = os.path.join(PAPER_LIST_DIR, dir_name, f"{cit['filename']}.pdf")
+        
+        logging.info(f"Processing citation: {cit.get('title', 'Unknown')}")
+
+        # Check if PDF already exists before downloading
+        if os.path.exists(pdf_pth) and os.path.getsize(pdf_pth) > 0:
+            logging.info(f"PDF already exists at {pdf_pth}, skipping download.")
+        else:
+            get_pdf(cit, pdf_pth)
+        
+        logging.info(
+            "+++===================================================================================================+++\n"
+        )
+
+    print(
+        f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
+    )
+    print(
+        f"PDF downloading for paper: [{paper_title}] has completed."
+    )
+    print(
+        f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***\n"
+    )
+
+
+def download_all_pdfs(paper_ls):
+    print()
+    print(f"The {str(len(paper_ls))} papers to download PDFs for:")
+    print(paper_ls)
+    print(
+        "+++===================================================================================================+++"
+    )
+    print()
+
+    logging.info("\n\n\n")
+    logging.info(
+        f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
+    )
+    logging.info(f"The following is a new PDF download process")
+    logging.info(
+        f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
+    )
+    logging.info("\n\n\n")
+
+    for paper in paper_ls:
+        download_pdfs_for_paper(paper)
+    
+    print("All PDFs download tasks completed.")
+
+    logging.info("\n\n\n")
+    logging.info(
+        f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
+    )
+    logging.info(f"All PDFs download tasks completed.")
+    logging.info(
+        f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
+    )
+    logging.info("\n\n\n")
+

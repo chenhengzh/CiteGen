@@ -7,8 +7,7 @@ from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 
-from utils import get_filename, list_data_in_directory, are_strings_almost_matching
-from .downloader import get_pdf
+from utils import get_filename, are_strings_almost_matching
 from config import PAPER_LIST_DIR
 
 
@@ -94,10 +93,12 @@ def get_locallink(cit, pdf_list):
     return ""
 
 
-def input_docx(cit, doc_pth, is_pdf, pdf_list=None):
-    if pdf_list is None:
-        pdf_list = []
-
+def input_docx(cit, doc_pth, pdf_filename=None):
+    """
+    Writes a citation into the docx.
+    pdf_filename: If provided, links to this local file. If None, links to web URL and marks as not downloaded.
+    """
+    
     logging.info("+======writing item======+")
 
     doc = Document(doc_pth)
@@ -112,19 +113,16 @@ def input_docx(cit, doc_pth, is_pdf, pdf_list=None):
     para.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
 
     line1_text = cit["title"] + "\n"
-    if is_pdf:
-        line1_link = cit["filename"] + ".pdf"
+    
+    if pdf_filename:
+        line1_link = pdf_filename
     else:
-        pdf_link = get_locallink(cit, pdf_list)
-        if pdf_link:
-            line1_link = pdf_link
-        else:
-            line0 = "[PDF not downloaded]\n"
-            run0 = para.add_run(line0)
-            run0.font.name = "Arial"
-            run0.font.size = Pt(12)
-            run0.font.color.rgb = RGBColor(200, 0, 0)  # red
-            line1_link = cit["link"]
+        line0 = "[PDF not downloaded]\n"
+        run0 = para.add_run(line0)
+        run0.font.name = "Arial"
+        run0.font.size = Pt(12)
+        run0.font.color.rgb = RGBColor(200, 0, 0)  # red
+        line1_link = cit["link"]
 
     add_hyperlink(para, line1_text, line1_link)
 
@@ -145,17 +143,18 @@ def input_docx(cit, doc_pth, is_pdf, pdf_list=None):
     logging.info("+======item done======+")
 
 
-def docx_worker(paper_title, get_pdf_flag=True):
+def report_worker(paper_title):
     print(
         f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
     )
-    print(f"Start writing the docx document of the paper: [{paper_title}]")
+    print(f"Start generating report for paper: [{paper_title}]")
     print(
         f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***\n"
     )
 
     dir_name = get_filename(paper_title)
-    json_path = os.path.join(PAPER_LIST_DIR, dir_name, "citation_info.json")
+    paper_dir = os.path.join(PAPER_LIST_DIR, dir_name)
+    json_path = os.path.join(paper_dir, "citation_info.json")
 
     if os.path.exists(json_path):
         with open(json_path, "r") as file:
@@ -163,55 +162,43 @@ def docx_worker(paper_title, get_pdf_flag=True):
     else:
         cit_list = []
 
-    isPDF = 0
-
     logging.info("\n\n\n")
     logging.info(
         f"\n***+++++++++++++++++++++++++++++writing the docx of Paper: [{dir_name}]+++++++++++++++++++++++++++++***\n"
     )
     if not cit_list:
         logging.info(f"Paper: [{dir_name}] has no citation")
-        print(
-            f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
-        )
         print(f"Paper: [{dir_name}] has no citation")
-        print(
-            f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
-        )
-        print()
         return
 
-    if get_pdf_flag:
-        doc_pth = os.path.join(PAPER_LIST_DIR, dir_name, f"(temp) {dir_name}.docx")
-    else:
-        doc_pth = os.path.join(PAPER_LIST_DIR, dir_name, f"{dir_name}.docx")
+    doc_pth = os.path.join(paper_dir, f"{dir_name}.docx")
 
     # Always overwrite for fresh generation
     doc = Document()
     doc.save(doc_pth)
 
+    # List all PDF files in the directory for fuzzy matching fallback
     pdf_files = []
-    if not get_pdf_flag:
-        dir_path = os.path.dirname(doc_pth)
-        # Record downloaded pdf files for relative address modification
-        if os.path.exists(dir_path):
-            pdf_files = [file for file in os.listdir(dir_path) if file.endswith(".pdf")]
+    if os.path.exists(paper_dir):
+        pdf_files = [file for file in os.listdir(paper_dir) if file.endswith(".pdf")]
 
     for cit in cit_list:
         display_cit(cit)
-        pdf_pth = os.path.join(PAPER_LIST_DIR, dir_name, f"{cit['filename']}.pdf")
-
-        if get_pdf_flag:
-            # Check if PDF already exists before downloading
-            if os.path.exists(pdf_pth) and os.path.getsize(pdf_pth) > 0:
-                logging.info(f"PDF already exists at {pdf_pth}, skipping download.")
-                isPDF = True
-            else:
-                isPDF = get_pdf(cit, pdf_pth)
-
-            input_docx(cit, doc_pth, isPDF)
+        
+        # Determine PDF link
+        pdf_filename = None
+        
+        # 1. Check exact match
+        exact_pdf_name = f"{cit['filename']}.pdf"
+        if os.path.exists(os.path.join(paper_dir, exact_pdf_name)):
+            pdf_filename = exact_pdf_name
         else:
-            input_docx(cit, doc_pth, False, pdf_list=pdf_files)
+            # 2. Check fuzzy match
+            fuzzy_match = get_locallink(cit, pdf_files)
+            if fuzzy_match:
+                pdf_filename = fuzzy_match
+        
+        input_docx(cit, doc_pth, pdf_filename)
 
         logging.info(
             "+++===================================================================================================+++\n"
@@ -228,9 +215,9 @@ def docx_worker(paper_title, get_pdf_flag=True):
     )
 
 
-def generate_all_docx(paper_ls, get_pdf_flag=True):
+def generate_all_reports(paper_ls):
     print()
-    print(f"The {str(len(paper_ls))} docx documents to be written:")
+    print(f"The {str(len(paper_ls))} reports to be generated:")
     print(paper_ls)
     print(
         "+++===================================================================================================+++"
@@ -241,22 +228,23 @@ def generate_all_docx(paper_ls, get_pdf_flag=True):
     logging.info(
         f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
-    logging.info(f"The following is a new process")
+    logging.info(f"The following is a new report generation process")
     logging.info(
         f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
     logging.info("\n\n\n")
 
     for paper in paper_ls:
-        docx_worker(paper, get_pdf_flag=get_pdf_flag)
-    print("All docx documents have been written successfully.")
+        report_worker(paper)
+    print("All reports have been generated successfully.")
 
     logging.info("\n\n\n")
     logging.info(
         f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
-    logging.info(f"All docx documents have been written successfully.")
+    logging.info(f"All reports have been generated successfully.")
     logging.info(
         f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
     logging.info("\n\n\n")
+
