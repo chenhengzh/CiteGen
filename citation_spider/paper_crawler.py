@@ -12,6 +12,32 @@ from serpapi import GoogleSearch
 
 import config
 
+AUTHOR_CITATIONS_CACHE_FILE = "citation_spider/author_citations_cache.json"
+author_citations_cache = {}
+
+
+def load_author_citations_cache():
+    global author_citations_cache
+    if os.path.exists(AUTHOR_CITATIONS_CACHE_FILE):
+        try:
+            with open(AUTHOR_CITATIONS_CACHE_FILE, "r", encoding="utf-8") as f:
+                author_citations_cache = json.load(f)
+        except Exception as e:
+            logging.warning(f"Failed to load author citations cache: {e}")
+            author_citations_cache = {}
+
+
+def save_author_citations_cache():
+    try:
+        with open(AUTHOR_CITATIONS_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(author_citations_cache, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        logging.warning(f"Failed to save author citations cache: {e}")
+
+
+# Initialize cache
+load_author_citations_cache()
+
 
 class Citation:
     def __init__(
@@ -168,6 +194,10 @@ def get_author_citation_count(link):
         return "N/A"
     author_id = match.group(1)
 
+    if author_id in author_citations_cache:
+        logging.info(f"Hit cache for author: {author_id}")
+        return author_citations_cache[author_id]
+
     params = {
         "engine": "google_scholar_author",
         "author_id": author_id,
@@ -179,15 +209,18 @@ def get_author_citation_count(link):
         return "N/A"
 
     results = search.get_dict()
+    citations = "N/A"
     try:
         if "cited_by" in results and "table" in results["cited_by"]:
-            return results["cited_by"]["table"][0]["citations"]["all"]
+            citations = results["cited_by"]["table"][0]["citations"]["all"]
     except Exception:
         pass
-    return "N/A"
 
+    if citations != "N/A":
+        author_citations_cache[author_id] = citations
+        save_author_citations_cache()
 
-# 需要判断作者状态，如果有省略，需要标注出来
+    return citations
 
 
 def get_citation(paper_div):
