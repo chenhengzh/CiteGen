@@ -8,7 +8,17 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 
 from utils import get_filename, are_strings_almost_matching
-from config import PAPER_LIST_DIR
+from config import PAPER_LIST_DIR, CITATION_HIGHLIGHT_THRESHOLD
+
+# Color definitions
+COLOR_BLUE = RGBColor(0, 0, 255)
+COLOR_ORANGE = RGBColor(255, 128, 0)
+COLOR_RED = RGBColor(255, 0, 0)
+COLOR_DARK_RED = RGBColor(200, 0, 0)
+COLOR_GREEN = RGBColor(0, 102, 33)
+COLOR_BLACK = RGBColor(34, 34, 34)
+COLOR_GREY = RGBColor(50, 50, 50)
+COLOR_DARK_BLUE = RGBColor(0, 0, 139)
 
 
 def display_cit(cit):
@@ -28,7 +38,9 @@ def display_cit(cit):
 
 
 # word format related functions
-def add_hyperlink(paragraph, text, url):
+def add_hyperlink(
+    paragraph, text, url, color=COLOR_BLUE, font_size=None, font_name="Arial"
+):
     # This gets access to the document.xml.rels file and gets a new relation id value
     part = paragraph.part
     r_id = part.relate_to(
@@ -48,6 +60,11 @@ def add_hyperlink(paragraph, text, url):
 
     # Set the run's style to the builtin hyperlink style, defining it if necessary
     new_run.style = get_or_create_hyperlink_style(part.document)
+    new_run.font.color.rgb = color
+    if font_size:
+        new_run.font.size = font_size
+    if font_name:
+        new_run.font.name = font_name
 
     # Join all the xml elements together
     hyperlink.append(new_run._element)
@@ -75,9 +92,9 @@ def get_or_create_hyperlink_style(d):
         )
         hs.base_style = d.styles["Default Character Font"]
         hs.unhide_when_used = True
-        hs.font.color.rgb = docx.shared.RGBColor(0, 0, 255)
+        hs.font.color.rgb = COLOR_BLUE
         hs.font.underline = True
-        hs.font.size = Pt(13)
+        # hs.font.size = Pt(13)
         hs.font.name = "Arial"
         del hs
 
@@ -98,10 +115,11 @@ def input_docx(cit, doc_pth, pdf_filename=None):
     Writes a citation into the docx.
     pdf_filename: If provided, links to this local file. If None, links to web URL and marks as not downloaded.
     """
-    
+
     logging.info("+======writing item======+")
 
     doc = Document(doc_pth)
+    doc.add_paragraph()
     is_written = bool(len(doc.paragraphs))
     para = doc.add_paragraph()
     # set the space before the paragraph
@@ -113,7 +131,7 @@ def input_docx(cit, doc_pth, pdf_filename=None):
     para.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
 
     line1_text = cit["title"] + "\n"
-    
+
     if pdf_filename:
         line1_link = pdf_filename
     else:
@@ -121,22 +139,122 @@ def input_docx(cit, doc_pth, pdf_filename=None):
         run0 = para.add_run(line0)
         run0.font.name = "Arial"
         run0.font.size = Pt(12)
-        run0.font.color.rgb = RGBColor(200, 0, 0)  # red
+        run0.font.color.rgb = COLOR_DARK_RED  # red
         line1_link = cit["link"]
 
-    add_hyperlink(para, line1_text, line1_link)
+    add_hyperlink(para, line1_text, line1_link, font_size=Pt(12))
 
     line2 = cit["info"] + "\n"
     run2 = para.add_run(line2)
     run2.font.name = "Arial"
     run2.font.size = Pt(10)
-    run2.font.color.rgb = RGBColor(0, 102, 33)  # green
+    run2.font.color.rgb = COLOR_GREEN  # green
 
     line3 = cit["abstract"]
     run3 = para.add_run(line3)
     run3.font.name = "Arial"
     run3.font.size = Pt(10)
-    run3.font.color.rgb = RGBColor(34, 34, 34)  # black
+    run3.font.color.rgb = COLOR_BLACK  # black
+
+    # 1. Add Author Citation Info
+    authors = cit.get("authors", [])
+    author_status = cit.get("author_status", "")
+
+    if authors or author_status == "omitted":
+        para_auth = doc.add_paragraph()
+        para_auth.paragraph_format.first_line_indent = Pt(0)
+        para_auth.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+
+        for author in authors:
+            name = author.get("name", "Unknown")
+            citations = author.get("citations", 0)
+            link = author.get("link", "")
+
+            # Format: "name: citations"
+            text_str = f"{name}: {citations}\n"
+
+            is_highlight = False
+            try:
+                if int(citations) > CITATION_HIGHLIGHT_THRESHOLD:
+                    is_highlight = True
+            except (ValueError, TypeError):
+                pass
+
+            if link:
+                add_hyperlink(
+                    para_auth,
+                    text_str,
+                    link,
+                    color=COLOR_ORANGE if is_highlight else COLOR_BLACK,
+                    font_size=Pt(10),
+                )
+            else:
+                run_auth = para_auth.add_run(text_str)
+                run_auth.font.name = "Arial"
+                run_auth.font.size = Pt(10)
+                run_auth.font.color.rgb = COLOR_ORANGE if is_highlight else COLOR_BLACK
+
+        if author_status == "omitted":
+            run_omit = para_auth.add_run("[Author Info Incomplete]\n")
+            run_omit.font.name = "Arial"
+            run_omit.font.size = Pt(10)
+            run_omit.italic = True
+            run_omit.font.color.rgb = COLOR_DARK_RED
+
+    # 2. Add Positive Citations Analysis
+    paper_dir = os.path.dirname(doc_pth)
+    analysis_filename = cit.get("filename", "")
+    if analysis_filename:
+        analysis_path = os.path.join(
+            paper_dir, "comment_analysis", f"{analysis_filename}.json"
+        )
+
+        if os.path.exists(analysis_path):
+            try:
+                with open(analysis_path, "r") as f:
+                    analysis_data = json.load(f)
+
+                positive_cits = [
+                    c
+                    for c in analysis_data.get("Citations", [])
+                    if c.get("Positive") is True
+                ]
+
+                if positive_cits:
+                    # Empty line
+                    # doc.add_paragraph()
+
+                    # Header for Positive Citations (Optional, but good for structure)
+                    # para_header = doc.add_paragraph()
+                    # run_header = para_header.add_run("Positive Citations:")
+                    # run_header.bold = True
+
+                    for pc in positive_cits:
+                        para_pc = doc.add_paragraph()
+                        para_pc.paragraph_format.first_line_indent = Pt(0)
+
+                        text = pc.get("Text", "").strip()
+                        analysis = pc.get("Analysis", "").strip()
+
+                        run_text = para_pc.add_run(f'"{text}"\n')
+                        run_text.font.name = "Arial"
+                        run_text.font.size = Pt(10)
+                        run_text.italic = True
+                        run_text.font.color.rgb = COLOR_GREY
+
+                        if analysis:
+                            run_analysis = para_pc.add_run(f"Analysis: {analysis}")
+                            run_analysis.font.name = "Microsoft YaHei"
+                            run_analysis._element.rPr.rFonts.set(
+                                docx.oxml.shared.qn("w:eastAsia"), "Microsoft YaHei"
+                            )
+                            run_analysis.font.size = Pt(10)
+                            run_analysis.font.color.rgb = (
+                                COLOR_DARK_BLUE  # Dark Blue for analysis
+                            )
+
+            except Exception as e:
+                logging.error(f"Error reading analysis file {analysis_path}: {e}")
 
     doc.save(doc_pth)
 
@@ -184,10 +302,10 @@ def report_worker(paper_title):
 
     for cit in cit_list:
         display_cit(cit)
-        
+
         # Determine PDF link
         pdf_filename = None
-        
+
         # 1. Check exact match
         exact_pdf_name = f"{cit['filename']}.pdf"
         if os.path.exists(os.path.join(paper_dir, exact_pdf_name)):
@@ -197,7 +315,7 @@ def report_worker(paper_title):
             fuzzy_match = get_locallink(cit, pdf_files)
             if fuzzy_match:
                 pdf_filename = fuzzy_match
-        
+
         input_docx(cit, doc_pth, pdf_filename)
 
         logging.info(
@@ -247,4 +365,3 @@ def generate_all_reports(paper_ls):
         f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
     logging.info("\n\n\n")
-
