@@ -13,10 +13,17 @@ from serpapi import GoogleSearch
 import config
 
 
-
 class Citation:
     def __init__(
-        self, title="", info="", abstract="", PDF="", filename="", link=""
+        self,
+        title="",
+        info="",
+        abstract="",
+        PDF="",
+        filename="",
+        link="",
+        authors=None,
+        author_status="complete",  # "complete" or "omitted"
     ) -> None:
         self.title = title
         self.info = info
@@ -24,6 +31,8 @@ class Citation:
         self.PDF = PDF
         self.filename = filename
         self.link = link
+        self.authors = authors if authors else []
+        self.author_status = author_status
 
     def display(self):
         print(
@@ -33,6 +42,9 @@ class Citation:
         print(f"filename: {self.filename}")
         print(f"info: {self.info}")
         print(f"abstract: {self.abstract}")
+        if self.authors:
+            print(f"authors: {json.dumps(self.authors, ensure_ascii=False)}")
+        print(f"author_status: {self.author_status}")
         if self.PDF == "":
             print("no PDF resource.")
         else:
@@ -123,10 +135,59 @@ def get_info(chicago_str, pro_str):
     return info_str
 
 
+def process_firstname_chicago(chicago_str):
+    first_comma_index = chicago_str.find(",")
+    if first_comma_index != -1:
+        second_comma_index = min(
+            chicago_str.find(",", first_comma_index + 1),
+            chicago_str.find(".", first_comma_index + 1),
+        )
+        name_1 = chicago_str[:second_comma_index]
+        chicago_str = chicago_str[second_comma_index:]
+
+        comma_1 = name_1.find(",")
+        last_name = name_1[:comma_1]
+        first_name = name_1[(comma_1 + 2) :]
+        name_1 = first_name + " " + last_name
+        chicago_str = name_1 + chicago_str
+    return chicago_str
+
+
 def contains_cjk(text):
     # 使用正则表达式匹配中文、日文、韩文字符
     pattern = re.compile(r"[\u4e00-\u9fff\u3040-\u30FF\uAC00-\uD7AF]+")
     return bool(pattern.search(text))
+
+
+def get_author_citation_count(link):
+    if not link:
+        return "N/A"
+
+    match = re.search(r"user=([^&]+)", link)
+    if not match:
+        return "N/A"
+    author_id = match.group(1)
+
+    params = {
+        "engine": "google_scholar_author",
+        "author_id": author_id,
+        "api_key": config.API_KEY,
+    }
+
+    search = google_search(params)
+    if not search:
+        return "N/A"
+
+    results = search.get_dict()
+    try:
+        if "cited_by" in results and "table" in results["cited_by"]:
+            return results["cited_by"]["table"][0]["citations"]["all"]
+    except Exception:
+        pass
+    return "N/A"
+
+
+# 需要判断作者状态，如果有省略，需要标注出来
 
 
 def get_citation(paper_div):
@@ -141,14 +202,43 @@ def get_citation(paper_div):
     if "link" in paper_div:
         paper.link = paper_div["link"]
 
+    if "publication_info" in paper_div and "authors" in paper_div["publication_info"]:
+        authors_with_links = [
+            auth for auth in paper_div["publication_info"]["authors"] if "link" in auth
+        ]
+        target_authors = (
+            authors_with_links[-3:]
+            if len(authors_with_links) >= 3
+            else authors_with_links
+        )
+        # pdb.set_trace()
+        for auth in target_authors:
+            name = auth.get("name", "")
+            link = auth.get("link", "")
+            citations = get_author_citation_count(link)
+            paper.authors.append({"name": name, "link": link, "citations": citations})
+
     pro_info = paper_div["publication_info"]["summary"]
+
+    # Check for author omission
+    idx_dots = pro_info.find("…")
+    idx_dash = pro_info.find(" - ")
+    if idx_dots != -1 and (idx_dash == -1 or idx_dots < idx_dash):
+        paper.author_status = "omitted"
+    else:
+        paper.author_status = "complete"
+
     result_id = paper_div["result_id"]
 
     if contains_cjk(pro_info):
         paper.info = pro_info
     else:
         chicago = get_chicago(result_id)
-        paper.info = get_info(chicago, pro_info)
+        # paper.info = get_info(chicago, pro_info)
+        if chicago:
+            paper.info = process_firstname_chicago(chicago)
+        else:
+            paper.info = pro_info
     return paper
 
 
@@ -171,6 +261,8 @@ def get_citation_info(index, paper):
         "PDF": paper.PDF,
         "filename": paper.filename,
         "link": paper.link,
+        "authors": paper.authors,
+        "author_status": paper.author_status,
     }
     return cit_dict
 
@@ -184,8 +276,15 @@ def get_chicago(qkey):
 
     search = google_search(params)
     results = search.get_dict()
+    # pdb.set_trace()
     citations = results["citations"]
-    chicago = citations[2]["snippet"]
+    chicago = ""
+    # chicago需要找到citations[i]["title"]=="Chicago"的一项
+    for citation in citations:
+        if citation["title"] == "Chicago":
+            chicago = citation["snippet"]
+            break
+
     return chicago
 
 
@@ -308,6 +407,7 @@ def paper_worker(paper):
             continue
         organic_results = results["organic_results"]
         for element in organic_results:
+            # pdb.set_trace()
             index = i + int(element["position"])
             if index > num:
                 break
