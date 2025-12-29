@@ -1,6 +1,6 @@
 import os
-from comment_analysis import prompts
-from comment_analysis.model_config import ModelConfig
+from report_gen import prompts
+from report_gen.model_config import ModelConfig
 
 # Configuration settings
 GET_PDF = True  # Default value, can be overridden by CLI arguments
@@ -18,9 +18,12 @@ author_name = ""  # For author crawler
 
 NUM_WORDS_IN_FILENAME = 8  # Number of words to keep in the filename
 
+# Threshold for highlighting high citation authors
+CITATION_HIGHLIGHT_THRESHOLD = 5000
+
 # Paper List for crawler (example)
 paper_list = [
-    "CFA: Class-wise Calibrated Fair Adversarial Training",
+    "Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning via Augmentation Overlap",
 ]
 
 # Default configurations
