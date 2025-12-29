@@ -2,6 +2,20 @@
 
 > **CiteGen** 是为 ZERO Lab 设计的一套**引用管理与评论分析工具链**，用于简化论文引用的收集、整理与分析流程，服务于学术写作与相关研究工作。
 
+## ✨ 效果演示
+
+### 1. 自动生成的文件结构
+CiteGen 会自动整理下载的 PDF 和生成的分析文件，保持工作区井井有条：
+
+![文件结构示例](figure/dir.jpeg)
+
+### 2. 生成的综述报告示例
+最终生成的 Word 报告包含详细引用数据与 AI 评论分析：
+
+![报告内容示例](figure/report.png)
+
+
+
 ## 🛠️ 安装指南
 
 ### 1. 克隆仓库
@@ -104,7 +118,7 @@ python step3_analyze.py
 ```shell
 python step4_docx_gen.py
 ```
-> 最终报告 `report.docx` 将生成在各论文的文件夹中。
+> 最终报告 `<title>.docx` 将生成在各论文的文件夹中。
 
 ---
 
@@ -118,7 +132,7 @@ CiteGen/
 │   │   ├── *.pdf                    # 引用文献 PDF
 │   │   ├── comment_analysis/        # AI 分析结果
 │   │   │   └── <引用文献名>.json
-│   │   └── report.docx              # 最终生成的分析报告
+│   │   └── <title>.docx             # 最终生成的分析报告
 ├── author_info/                     # 作者模式生成的中间文件，也可用于辅助comments分析
 ├── config.py                        # 项目配置文件
 ├── step1_spider.py                  # 步骤1：爬虫脚本
