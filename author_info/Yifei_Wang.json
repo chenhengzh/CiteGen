@@ -508,5 +508,15 @@
         "cite_id": "2872567291653114698",
         "dirname": "Look Ahead or Look Around A Theoretical Comparison",
         "cite_num_within_time": 3
+    },
+    {
+        "title": "Efficient and Scalable Implicit Graph Neural Networks with Virtual Equilibrium",
+        "authors": "Q Chen, YF Wang, Y Wang, J Chang, Q Tian, J Yang, Z Lin",
+        "year": "2022",
+        "publication": "2022 IEEE BigData Long (Oral) Presentation, 864-873, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-CLy6YsAAAAJ&pagesize=100&citation_for_view=-CLy6YsAAAAJ:TQgYirikUcIC",
+        "cite_id": "6902088107767745314",
+        "dirname": "Efficient and Scalable Implicit Graph Neural Networks with",
+        "cite_num_within_time": 3
     }
 ]

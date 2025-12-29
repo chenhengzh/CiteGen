@@ -201,7 +201,7 @@ def get_author_citation_count(link):
     params = {
         "engine": "google_scholar_author",
         "author_id": author_id,
-        "api_key": config.API_KEY,
+        "api_key": config.SERP_API_KEY,
     }
 
     search = google_search(params)
@@ -303,7 +303,7 @@ def get_citation_info(index, paper):
 def get_chicago(qkey):
     params = {
         "engine": "google_scholar_cite",
-        "api_key": config.API_KEY,
+        "api_key": config.SERP_API_KEY,
         "q": qkey,
     }
 
@@ -377,7 +377,7 @@ def paper_worker(paper):
 
     params = {
         "engine": "google_scholar",
-        "api_key": config.API_KEY,
+        "api_key": config.SERP_API_KEY,
         "cites": cites_id,
         "as_ylo": str(config.start_year),
         "as_yhi": str(config.end_year),
@@ -471,7 +471,7 @@ def paper_worker(paper):
 # 专用于single_paper，获取相关信息
 def get_paper_info(title):
     query = title
-    params = {"engine": "google_scholar", "api_key": config.API_KEY, "q": query}
+    params = {"engine": "google_scholar", "api_key": config.SERP_API_KEY, "q": query}
     search = google_search(params)
     results = search.get_dict()
 

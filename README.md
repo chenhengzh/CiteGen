@@ -48,7 +48,7 @@ cp config_template.py config.py
 然后修改 `config.py` 中的关键配置：
 
 - **基础配置**
-  - `API_KEY`: SerpApi 密钥（用于 Google Scholar 搜索）
+  - `SERP_API_KEY`: SerpApi 密钥（用于 Google Scholar 搜索）
   - `start_year` / `end_year`: 爬取引用的年份范围
   - `num_ls`: 每次批量爬取的引用数量
 

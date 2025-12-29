@@ -28,7 +28,7 @@ def get_papers(aid):
     params = {
         "engine": "google_scholar_author",
         "author_id": aid,
-        "api_key": config.API_KEY,
+        "api_key": config.SERP_API_KEY,
         "num": "100",
         "start": "0",
     }
@@ -79,7 +79,7 @@ def check_citation_count(paper):
 
     params = {
         "engine": "google_scholar",
-        "api_key": config.API_KEY,
+        "api_key": config.SERP_API_KEY,
         "cites": paper["cite_id"],
         "as_ylo": str(config.start_year),
         "as_yhi": str(config.end_year),

@@ -7,7 +7,7 @@ GET_PDF = True  # Default value, can be overridden by CLI arguments
 TIMEOUT = 30
 PAPER_LIST_DIR = "./paper_list"
 
-API_KEY = ""  # SerpApi
+SERP_API_KEY = ""  # SerpApi
 
 start_year = 2025
 end_year = 2025

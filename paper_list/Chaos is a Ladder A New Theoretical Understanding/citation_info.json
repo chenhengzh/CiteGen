@@ -238,5 +238,54 @@
             }
         ],
         "author_status": "complete"
+    },
+    {
+        "index": "011",
+        "title": "Self-Supervised Contrastive Learning is Approximately Supervised Contrastive Learning",
+        "info": "A Luthra, T Yang, T Galanti - arXiv preprint arXiv:2506.04411, 2025 - arxiv.org",
+        "abstract": "Despite its empirical success, the theoretical foundations of self-supervised contrastive learning (CL) are not yet fully established. In this work, we address this gap by showing that …",
+        "PDF": "https://arxiv.org/pdf/2506.04411?",
+        "filename": "Self-Supervised Contrastive Learning is Approximately Supervised Contrastive Learning",
+        "link": "https://arxiv.org/abs/2506.04411",
+        "authors": [
+            {
+                "name": "A Luthra",
+                "link": "https://scholar.google.com/citations?user=37Cxhr0AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 667
+            },
+            {
+                "name": "T Yang",
+                "link": "https://scholar.google.com/citations?user=BCxFU0EAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 11848
+            },
+            {
+                "name": "T Galanti",
+                "link": "https://scholar.google.com/citations?user=ut_ISVIAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 1070
+            }
+        ],
+        "author_status": "complete"
+    },
+    {
+        "index": "012",
+        "title": "Generalization Analysis for Supervised Contrastive Representation Learning under Non-IID Settings",
+        "info": "Nong Minh Hieu, and Antoine Ledent. \"Generalization Analysis for Supervised Contrastive Representation Learning under Non-IID Settings.\" arXiv preprint arXiv:2505.04937 (2025).",
+        "abstract": "Contrastive Representation Learning (CRL) has achieved impressive success in various domains in recent years. Nevertheless, the theoretical understanding of the generalization …",
+        "PDF": "https://arxiv.org/pdf/2505.04937",
+        "filename": "Generalization Analysis for Supervised Contrastive Representation Learning under",
+        "link": "https://arxiv.org/abs/2505.04937",
+        "authors": [
+            {
+                "name": "NM Hieu",
+                "link": "https://scholar.google.com/citations?user=6ZtPiA8AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 163
+            },
+            {
+                "name": "A Ledent",
+                "link": "https://scholar.google.com/citations?user=xxbYi-MAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 293
+            }
+        ],
+        "author_status": "complete"
     }
 ]
