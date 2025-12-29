@@ -9,7 +9,7 @@ CiteGen 会自动整理下载的 PDF 和生成的分析文件，保持工作区�
 
 ![文件结构示例](figure/dir.jpeg)
 
-### 2. 生成的综述报告示例
+### 2. 生成的引用报告示例
 最终生成的 Word 报告包含详细引用数据与 AI 评论分析：
 
 ![报告内容示例](figure/report.png)
@@ -106,7 +106,7 @@ streamlit run manual_download_helper.py
 
 ### Step 3：AI 引用分析
 
-利用大模型（如 DeepSeek）读取 PDF 内容，分析引用上下文与评价：
+利用大模型（如 DeepSeek）读取 PDF 内容，分析引用上下文与评论：
 ```shell
 python step3_analyze.py
 ```
@@ -114,7 +114,7 @@ python step3_analyze.py
 
 ### Step 4：生成最终报告
 
-汇总引用信息与 AI 分析结果，生成 Word 报告：
+汇总引用信息与评论分析结果，生成 Word 报告：
 ```shell
 python step4_docx_gen.py
 ```
@@ -133,7 +133,7 @@ CiteGen/
 │   │   ├── comment_analysis/        # AI 分析结果
 │   │   │   └── <引用文献名>.json
 │   │   └── <title>.docx             # 最终生成的分析报告
-├── author_info/                     # 作者模式生成的中间文件，也可用于辅助comments分析
+├── author_info/                     # 作者模式生成的中间文件，也可用于辅助评论分析
 ├── config.py                        # 项目配置文件
 ├── step1_spider.py                  # 步骤1：爬虫脚本
 ├── step2_pdf_download.py            # 步骤2：下载脚本
