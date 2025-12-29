@@ -1,0 +1,15 @@
+{
+  "Filename": "Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and",
+  "Markers": [],
+  "PaperInfo": "Lilang Lin, Jiahang Zhang, and Jiaying Liu. \"Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and Reconstruct.\" IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).",
+  "Citations": [],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "curacy in the actionlet region is always greater\nthan in the non-actionlet region. This indicates that the actionlet\nAuthorized licensed use limited to: Peking University. Downloaded on October 18,2025 at 09:50:16 UTC from IEEE Xplore.  Restrictions apply. \n10832\nIEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 47, NO. 11, NOVEMBER 2025\nFig. 13.\nAction recognition accuracy of actionlet regions and non-actionlet\nregions.\nFig. 14.\nHeat map of skeleton joints and action labels. [20, 3, 2, 1, 0] are trunk\nindexes, [8, 9, 10, 11, 23, 24] are left hand indexes, [4, 5, 6, 7, 21, 22] are right\nhand indexes, [16, 17, 18, 19] are left leg indexes and [12, 13, 14, 15] are right\nleg indexes.\nFig. 15.\nHeat map of skeleton frames and action labels. We perform 4-fold\ndownsampling in the temporal domain.\nregions extracted by our method contain more recognition-\nrelated information. Whereas the accuracy of non-actionlet re-\ngions ﬁrst rises and then falls, we believe this is because actionlet\nminin",
+    "a, “What\nmakes for good views for contrastive learning?,” in Proc. Adv. Neural Inf.\nProcess. Syst., 2020, pp. 6827–6839.\n[18] J. Robinson, L. Sun, K. Yu, K. Batmanghelich, S. Jegelka, and S. Sra, “Can\ncontrastive learning avoid shortcut solutions?,” in Proc. Adv. Neural Inf.\nProcess. Syst., 2021, pp. 4974–4986.\n[19] T. Wang and P. Isola, “Understanding contrastive representation learning\nthrough alignment and uniformity on the hypersphere,” in Proc. Int. Conf.\nMach. Learn., 2020, pp. 9929–9939.\n[20] Y. Wang, Q. Zhang, Y. Wang, J. Yang, and Z. Lin, “Chaos is a ladder:\nA new theoretical understanding of contrastive learning via augmentation\noverlap,” in Proc. Int. Conf. Learn. Representations, 2022, pp. 1–15.\n[21] Y. Tian, X. Chen, and S. Ganguli, “Understanding self-supervised learning\ndynamics without contrastive pairs,” in Proc. Int. Conf. Mach. Learn.,\n2021, pp. 10268–10278.\n[22] J. Wang, Z. Liu, Y. Wu, and J. Yuan, “Mining actionlet ensemble for action\nrecognition with depth cameras,” in Proc. IEEE Conf. Comput. Vis. Pattern\nRecognit., 2012, pp. 1290–12"
+  ]
+}

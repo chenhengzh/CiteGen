@@ -1,11 +1,11 @@
 {
   "Filename": "Parameter interpolation adversarial training for robust image classification",
-  "PaperInfo": "Xin Liu, Yichen Yang, Kun He, and John E. Hopcroft - IEEE Transactions on Information Forensics and Security (2025) - ieeexplore.ieee.org",
+  "PaperInfo": "Xin Liu, Yichen Yang, Kun He, and John E. Hopcroft. \"Parameter interpolation adversarial training for robust image classification.\" IEEE Transactions on Information Forensics and Security (2025).",
   "Citations": [
     {
       "Text": "CFA [38] customizes training configurations for different classes to enhance both robustness and fairness in adversarial training, addressing disparities in robustness among classes.",
-      "Analysis": "描述了被引论文的方法和贡献，但没有明确称赞或深入参考其内容。",
-      "Positive": false
+      "Analysis": "描述了被引论文的方法和贡献，指出其定制训练配置以增强鲁棒性和公平性，并解决类别间鲁棒性差异，属于正面评价。",
+      "Positive": true
     },
     {
       "Text": "We compare the PIAT integrated with NMSE regularization with the following AT baselines: ALP [10], TRADES [11], MART [23], MAIL [16], CFA [38], RAT [30] on CNNs.",

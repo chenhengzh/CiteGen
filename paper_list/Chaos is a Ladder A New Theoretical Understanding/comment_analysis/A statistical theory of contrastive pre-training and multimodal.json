@@ -1,0 +1,25 @@
+{
+  "Filename": "A statistical theory of contrastive pre-training and multimodal",
+  "Markers": [
+    "WZW`22",
+    "Wang et al., 2022",
+    "Chaos is a Ladder"
+  ],
+  "PaperInfo": "Kazusato Oko, Licong Lin, Yuhang Cai, and Song Mei. \"A statistical theory of contrastive pre-training and multimodal generative ai.\" arXiv preprint arXiv:2501.04641 (2025).",
+  "Citations": [
+    {
+      "Text": "[SPA`19, WZW`22, AGKM21] provide generalization bounds for InfoNCE minimizers in downstream classification tasks that are comprised of a subset of the same set of latent classes.",
+      "Analysis": "作为提供泛化界限的多个工作之一进行列举，没有特别评价被引论文。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "formity on the hypersphere. In International conference on machine learn-\ning, pages 9929–9939. PMLR, 2020.\n[WJ`08]\nMartin J Wainwright, Michael I Jordan, et al. Graphical models, exponential families, and\nvariational inference. Foundations and Trends® in Machine Learning, 1(1–2):1–305, 2008.\n[WL21]\nZixin Wen and Yuanzhi Li.\nToward understanding the feature learning process of self-\nsupervised contrastive learning.\nIn International Conference on Machine Learning, pages\n11112–11122. PMLR, 2021.\n[WZW`22]\nYifei Wang, Qi Zhang, Yisen Wang, Jiansheng Yang, and Zhouchen Lin. Chaos is a ladder:\nA new theoretical understanding of contrastive learning via augmentation overlap.\narXiv\npreprint arXiv:2203.13457, 2022.\n[XZ24]\nXiangxiang Xu and Lizhong Zheng. Dependence induced representations. In 2024 60th Annual\nAllerton Conference on Communication, Control, and Computing, pages 1–8. IEEE, 2024.\n[YPPN21]\nShunyu Yao, Binghui Peng, Christos Papadimitriou, and Karthik Narasimhan. Self-attention\nnetworks ca",
+    " that InfoNCE loss (de-\nrived from the InfoMax principle [Lin88]) maximizes a lower bound on mutual information between posi-\ntive sample pairs [OLV18, POVDO`19, HFLM`18, BHB19, TKI20, ZSS`21, LZS`24], which aligns with\nLemma 1 and Theorem 1. [WI20] interpret contrastive loss through the concepts of alignment and unifor-\nmity, where alignment ensures that positive pairs have similar representations, and uniformity encourages a\nbroader spread of representations across the feature space. [SPA`19, WZW`22, AGKM21] provide general-\nization bounds for InfoNCE minimizers in downstream classification tasks that are comprised of a subset of\nthe same set of latent classes. [TKH21a] adopt a topic modeling perspective, demonstrating that contrastive\nloss minimizers reveal underlying topic posterior information to linear models, while [TKH21b] shows that\nlinear functions of learned representations perform nearly optimally on downstream tasks when the two\nviews contain redundant label information. [HWGM21"
+  ]
+}

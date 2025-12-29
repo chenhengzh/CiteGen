@@ -1,0 +1,12 @@
+{
+  "Filename": "Aroid Improving adversarial robustness through online instance-wise data",
+  "PaperInfo": "Lin Li, Jianing Qiu, and Michael Spratling. \"Aroid: Improving adversarial robustness through online instance-wise data augmentation.\" International Journal of Computer Vision 133, no. 2 (2025): 929-950.",
+  "Citations": [],
+  "AnalyzedSnippetIndices": [
+    1
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "nd robustness over the baseline\nmethods. Our method also surpasses PORT regarding both\naccuracy and robustness. Our method, compared to HAT,\nachieves a comparable robustness and a clearly higher accu-\nracy exhibiting a better trade-off between accuracy and\nrobustness. Note that HAT employs a more effective AT\nmethod, HAT, and a different activation function, SiLU, both\nof which are known to boost performance.\nNext, we test whether AROID can be applied to enhance\nthe state-of-the-art method BDM (Wang et al., 2023), which\nutilizes 50M synthetic data samples. As shown in Table 7,\nAROID achieves a marginal improvement over this baseline\nin terms of accuracy and robustness, indicating that AROID\nremains effective even in data-rich settings. However, it is\nobserved that the performance improvement provided by\nAROID diminishes when compared to results without the\nadditional 50M data. This reduction occurs because the\nrobust overﬁtting in the baseline is largely mitigated by the\nadditional data, and since AROI"
+  ]
+}

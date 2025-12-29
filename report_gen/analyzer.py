@@ -3,6 +3,7 @@ import json
 import logging
 import time
 import traceback
+import re
 import fitz  # PyMuPDF
 import openai
 import config
@@ -10,11 +11,13 @@ from .citation_utils import (
     loadPaperInfo,
     extract_references,
     extract_citation_positions,
+    extract_citation_positions_heur,
     extract_citation_snippets,
     validate_output,
     load_citation_info,
     PaperInfo,
 )
+from . import prompts
 
 
 class CitationAnalyzer:
@@ -36,7 +39,7 @@ class CitationAnalyzer:
                 "No API key provided for CitationAnalyzer. Analysis will fail if attempted."
             )
 
-    def json_model_query(self, system, user):
+    def json_model_query(self, system, user, validate=True, max_retries=3):
         if not self.client:
             raise Exception("OpenAI client not initialized (missing API key?)")
 
@@ -46,57 +49,74 @@ class CitationAnalyzer:
         logging.info("Sending request with system message:\n %s", system)
         logging.info("Sending request with user message:\n %s", user)
 
-        response = self.client.chat.completions.create(
-            model=self.config.model,
-            messages=[
-                {"role": "system", "content": system},
-                {"role": "user", "content": user},
-            ],
-            response_format=self.config.response_format,
-            temperature=0.2,
-        )
+        for attempt in range(max_retries):
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.config.model,
+                    messages=[
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": user},
+                    ],
+                    response_format=self.config.response_format,
+                    temperature=0.2,
+                )
 
-        # Log full response content from the model
-        logging.info("Received response: %s", response.choices[0].message.content)
+                # Log full response content from the model
+                logging.info(
+                    "Received response (attempt %d): %s",
+                    attempt + 1,
+                    response.choices[0].message.content,
+                )
 
-        if response.usage:
-            self.total_tokens["prompt_tokens"] += response.usage.prompt_tokens
-            self.total_tokens["completion_tokens"] += response.usage.completion_tokens
-            self.total_tokens["total_tokens"] += response.usage.total_tokens
-            logging.info(
-                f"Token usage for this request: Prompt: {response.usage.prompt_tokens}, "
-                f"Completion: {response.usage.completion_tokens}, Total: {response.usage.total_tokens}"
-            )
+                if response.usage:
+                    self.total_tokens["prompt_tokens"] += response.usage.prompt_tokens
+                    self.total_tokens[
+                        "completion_tokens"
+                    ] += response.usage.completion_tokens
+                    self.total_tokens["total_tokens"] += response.usage.total_tokens
+                    logging.info(
+                        f"Token usage for this request: Prompt: {response.usage.prompt_tokens}, "
+                        f"Completion: {response.usage.completion_tokens}, Total: {response.usage.total_tokens}"
+                    )
 
-        if response.choices[0].finish_reason != "stop":
-            raise Exception(
-                f"OpenAI API response did not finish normally: {response.choices[0].finish_reason}"
-            )
-        try:
-            msg = response.choices[0].message.content.strip()
-            # Find JSON object in response
-            start_idx = msg.find("{")
-            end_idx = msg.rfind("}")
-            if start_idx != -1 and end_idx != -1:
-                msg = msg[start_idx : end_idx + 1]
+                if response.choices[0].finish_reason != "stop":
+                    raise Exception(
+                        f"OpenAI API response did not finish normally: {response.choices[0].finish_reason}"
+                    )
 
-            result = json.loads(msg)
-            # Normalize keys if needed (case sensitivity)
-            if "citations" in result and "Citations" not in result:
-                result["Citations"] = []
-                for c in result["citations"]:
-                    new_c = {}
-                    new_c["Text"] = c.get("text", "")
-                    new_c["Analysis"] = c.get("analysis", "")
-                    new_c["Positive"] = c.get("positive", False)
-                    result["Citations"].append(new_c)
+                msg = response.choices[0].message.content.strip()
 
-            validate_output(result)
-        except Exception as e:
-            raise Exception(
-                f"Parsing failed.\nResponse:\n{response.choices[0].message.content}\nMessage:\n{str(e)}"
-            )
-        return result
+                # Find JSON object in response
+                start_idx = msg.find("{")
+                end_idx = msg.rfind("}")
+                if start_idx != -1 and end_idx != -1:
+                    msg = msg[start_idx : end_idx + 1]
+
+                result = json.loads(msg)
+
+                if validate:
+                    # Normalize keys if needed (case sensitivity)
+                    if "citations" in result and "Citations" not in result:
+                        result["Citations"] = []
+                        for c in result["citations"]:
+                            new_c = {}
+                            new_c["Text"] = c.get("text", "")
+                            new_c["Analysis"] = c.get("analysis", "")
+                            new_c["Positive"] = c.get("positive", False)
+                            result["Citations"].append(new_c)
+
+                    validate_output(result)
+
+                return result
+
+            except Exception as e:
+                logging.warning(f"Attempt {attempt + 1} failed: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(2)  # Wait a bit before retrying
+                else:
+                    raise Exception(
+                        f"Parsing failed after {max_retries} attempts.\nLast Error: {str(e)}"
+                    )
 
     def pdf_to_text(self, pdf_path):
         """Extracts text from PDF without saving to disk."""
@@ -154,9 +174,7 @@ class CitationAnalyzer:
                                     # Relaxed matching: check if dirname is contained in title (case-insensitive)
                                     # or if title is contained in dirname (handles cases where dirname has extra info)
                                     # Using simple inclusion for now as per "according to dirname"
-                                    if (
-                                        dirname == p_dirname
-                                    ):
+                                    if dirname == p_dirname:
                                         found_info = p
                                         break
                         except Exception as e:
@@ -174,7 +192,7 @@ class CitationAnalyzer:
 
                 # Save as paper_info.json
                 save_data = found_info.copy()
-                save_data["approach_name"] = "" 
+                save_data["approach_name"] = ""
                 # Ensure year exists if missing
                 if "year" not in save_data:
                     save_data["year"] = None
@@ -224,6 +242,7 @@ class CitationAnalyzer:
             # 1. Convert PDF to Text (In Memory)
             paper_text = self.pdf_to_text(pdf_path)
             if not paper_text:
+                logging.warning(f"Failed to convert PDF to text for {filename}")
                 continue
 
             # 2. Extract Snippets
@@ -237,7 +256,51 @@ class CitationAnalyzer:
                 reference_number,
                 paper_info.approach_name,
             )
+
             snippets = extract_citation_snippets(paper_text, positions)
+
+            markers = []
+            if len(snippets) == 1:
+                logging.info(
+                    f"Only 1 snippet found for {filename}. Attempting to refine reference number..."
+                )
+
+                sys_prompt = prompts.refine_reference_system
+                usr_prompt = prompts.refine_reference_user_template.format(
+                    title=paper_info.title, text=snippets[0]
+                )
+
+                try:
+                    res = self.json_model_query(sys_prompt, usr_prompt, validate=False)
+                    markers = res
+                    if isinstance(markers, str):
+                        try:
+                            # Try to parse string as JSON list if it looks like one
+                            markers = json.loads(markers)
+                            markers = markers[:3]
+                        except json.JSONDecodeError:
+                            # If not JSON list, treat as single marker
+                            markers = [markers]
+                    elif not isinstance(markers, list):
+                        markers = []  # Ensure markers is a list
+
+                    logging.info(f"Refined markers: {markers}")
+
+                    # 直接使用 markers 进行定位
+                    new_positions = extract_citation_positions_heur(paper_text, markers)
+
+                    new_snippets = extract_citation_snippets(paper_text, new_positions)
+
+                    # 如果找到了新的片段，就更新 snippets
+                    if len(new_snippets) > 0:
+                        snippets = new_snippets
+                        logging.info(
+                            f"Re-extracted {len(snippets)} snippets using refined markers"
+                        )
+                    else:
+                        logging.warning("No snippets found using refined markers.")
+                except Exception as e:
+                    logging.warning(f"Refinement failed: {e}")
 
             # 3. Analyze Snippets
             # Load existing analysis to resume/avoid re-analysis
@@ -272,6 +335,7 @@ class CitationAnalyzer:
                         if isinstance(paper_info.approach_name, list)
                         else paper_info.approach_name
                     ),
+                    markers=str(markers),
                     text=snippet,
                 )
 
@@ -295,6 +359,7 @@ class CitationAnalyzer:
                         json.dump(
                             {
                                 "Filename": filename,
+                                "Markers": markers,
                                 "PaperInfo": citation.get("info", ""),
                                 "Citations": citation_results,
                                 "AnalyzedSnippetIndices": list(

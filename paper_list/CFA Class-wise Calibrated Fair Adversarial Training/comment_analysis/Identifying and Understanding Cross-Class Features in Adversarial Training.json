@@ -1,0 +1,20 @@
+{
+  "Filename": "Identifying and Understanding Cross-Class Features in Adversarial Training",
+  "PaperInfo": "Zeming Wei, Yiwen Guo, and Yisen Wang. \"Identifying and Understanding Cross-Class Features in Adversarial Training.\" arXiv preprint arXiv:2506.05032 (2025).",
+  "Citations": [
+    {
+      "Text": "Customizing AT configurations like perturbation margins or neighborhoods is useful for improving robustness (Wei et al., 2023; Cheng et al., 2022).",
+      "Analysis": "引用了Wei et al., 2023作为改进鲁棒性的有用方法之一，但没有深入评价或应用其内容。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "tions in robust generalization research.\nFirst, similar to the robust/non-robust feature decomposi-\ntion (Tsipras et al., 2019), our cross-class feature model\nhas the potential for more in-depth modeling of adversarial\nrobustness, contributing new tools in its theoretical analysis.\nMeanwhile, for AT algorithmic design, we list some future\nperspectives of cross-class feature as follows:\n• Data (re)sampling. While generated data is prone\nto help advance adversarial robustness (Gowal et al.,\n2021; Wang et al., 2023), it requires significantly more\ndata and computational costs. From the cross-class\nfeature perspective, adaptively sampling generated data\nwith considerations of cross-class relationships may\nimprove the efficiency of large-scale AT.\n• AT configurations. Customizing AT configurations\nlike perturbation margins or neighborhoods is useful\nfor improving robustness (Wei et al., 2023; Cheng et al.,\n2022). In this regard, customizing sample-wise or\nclass-wise AT configurations based on cross-class re",
+    "ou, D., Yi, J., Bailey, J., Ma, X., and Gu, Q.\nImproving adversarial robustness requires revisiting mis-\nclassified examples. In ICLR, 2020. 2\nWang, Y., Li, L., Yang, J., Lin, Z., and Wang, Y. Balance,\nimbalance, and rebalance: Understanding robust overfit-\nting from a minimax game perspective. In NeurIPS, 2024.\n2, 6, 8\nWang, Z., Pang, T., Du, C., Lin, M., Liu, W., and Yan,\nS. Better diffusion models further improve adversarial\ntraining. In ICML, 2023. 9\nWei, Z., Wang, Y., Guo, Y., and Wang, Y. Cfa: Class-wise\ncalibrated fair adversarial training. In CVPR, 2023. 6, 8,\n9\nWong, E., Rice, L., and Kolter, J. Z. Fast is better than free:\nRevisiting adversarial training. In ICLR, 2020. 2, 8\nWu, D., Xia, S.-T., and Wang, Y. Adversarial weight per-\nturbation helps robust generalization. In NeurIPS, 2020.\n3\nWu, Y.-Y., Wang, H.-J., and Chen, S.-T. Annealing self-\ndistillation rectification improves adversarial training. In\nICLR, 2024. 3\nYu, C., Han, B., Gong, M., Shen, L., Ge, S., Du, B., and Liu,\n"
+  ]
+}

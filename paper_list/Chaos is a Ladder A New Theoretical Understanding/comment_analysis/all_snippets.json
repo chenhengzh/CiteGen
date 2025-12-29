@@ -1,0 +1,90 @@
+[
+  {
+    "Citations": [
+      {
+        "Text": "A recent study [12] highlights the importance of strong augmentations in instance discrimination by showing that augmentations can cause different intra-class samples to align when their augmented views overlap (i.e., two different cars appear similar when both are cropped to show only the wheels).",
+        "Analysis": "引用了被引论文[12]，强调了强数据增强在实例判别中的重要性，并解释了增强视图重叠如何导致类内样本对齐，这是对被引论文内容的正面评价和深入参考。",
+        "Positive": true
+      },
+      {
+        "Text": "Augmentations are only effective if the augmented views of a sample have sufficient representational similarity with views of other intra-class samples [11, 12].",
+        "Analysis": "作为参考文献中的一个进行列举，并没有特别评价。",
+        "Positive": false
+      },
+      {
+        "Text": "More recently, data augmentations have become a central component of SSL, with stronger transformations applied to boost sample diversity [1, 12, 44].",
+        "Analysis": "作为增强样本多样性的方法之一进行列举，没有特别评价被引论文的内容或贡献。",
+        "Positive": false
+      }
+    ],
+    "Paper": "Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections. Berken Utku Demirel, and Christian Holz. \"Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections.\" arXiv preprint arXiv:2510.22655 (2025).",
+    "ID": 10,
+    "Filename": "Learning Without Augmenting Unsupervised Time Series Representation Learning"
+  },
+  {
+    "Citations": [
+      {
+        "Text": "[SPA`19, WZW`22, AGKM21] provide generalization bounds for InfoNCE minimizers in downstream classification tasks that are comprised of a subset of the same set of latent classes.",
+        "Analysis": "作为提供泛化界限的多个工作之一进行列举，没有特别评价被引论文。",
+        "Positive": false
+      }
+    ],
+    "Paper": "A statistical theory of contrastive pre-training and multimodal generative ai. Kazusato Oko, Licong Lin, Yuhang Cai, and Song Mei. \"A statistical theory of contrastive pre-training and multimodal generative ai.\" arXiv preprint arXiv:2501.04641 (2025).",
+    "ID": 1,
+    "Filename": "A statistical theory of contrastive pre-training and multimodal"
+  },
+  {
+    "Citations": [],
+    "Paper": "Improving surgical phase recognition using self-supervised deep learning. Alba Centeno López, Ángela González-Cebrián, Igor Paredes, Alfonso Lagares, and Paula de Toledo. \"Improving surgical phase recognition using self-supervised deep learning.\" Scientific Reports 15, no. 1 (2025): 39087.",
+    "ID": 3,
+    "Filename": "Improving surgical phase recognition using self-supervised deep learning"
+  },
+  {
+    "Citations": [
+      {
+        "Text": "However, high uniformity and alignment alone do not guarantee separability of classes, as shown by Wang et al. [38].",
+        "Analysis": "引用了被引论文来指出高对齐性和均匀性不能保证类别的可分性，这是对被引论文内容的参考，但没有明确正面评价。",
+        "Positive": false
+      }
+    ],
+    "Paper": "A Tale of Two Classes: Adapting Supervised Contrastive Learning to Binary Imbalanced Datasets. David Mildenberger, Paul Hager, Daniel Rueckert, and Martin J. Menten. \"A Tale of Two Classes: Adapting Supervised Contrastive Learning to Binary Imbalanced Datasets.\" In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 10305-10314. 2025.",
+    "ID": 4,
+    "Filename": "A Tale of Two Classes Adapting Supervised Contrastive"
+  },
+  {
+    "Citations": [],
+    "Paper": "Rethinking generalizability and discriminability of self-supervised learning from evolutionary game theory perspective. Jiangmeng Li, Zehua Zang, Qirui Ji, Chuxiong Sun, Wenwen Qiang, Junge Zhang, Changwen Zheng, Fuchun Sun, and Hui Xiong. \"Rethinking generalizability and discriminability of self-supervised learning from evolutionary game theory perspective.\" International Journal of Computer Vision 133, no. 6 (2025): 3542-3567.",
+    "ID": 6,
+    "Filename": "Rethinking generalizability and discriminability of self-supervised learning from"
+  },
+  {
+    "Citations": [
+      {
+        "Text": "Theoretical understanding of contrastive learning. Thus far, there is a rich body of literature on the theoretical understanding of self-supervised learning [SPA`19, POVDO`19, TKI20, WI20, VKSG`21, NS21, ZSS`21, AGKM21, TKH21a, TKH21b, HWGM21, HYZJ21, WL21, LLSZ21, WZW`22, DBP`23, SZZ`23, SCL`23, NGD`23, SZL24, VEG24, LZS`24, OLCM25].",
+        "Analysis": "作为大量已有理论工作中的一个进行列举，并没有特别评价。",
+        "Positive": false
+      }
+    ],
+    "Paper": "A statistical theory of contrastive learning via approximate sufficient statistics. Licong Lin, and Song Mei. \"A statistical theory of contrastive learning via approximate sufficient statistics.\" arXiv preprint arXiv:2503.17538 (2025).",
+    "ID": 7,
+    "Filename": "A statistical theory of contrastive learning via approximate"
+  },
+  {
+    "Citations": [],
+    "Paper": "Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and Reconstruct. Lilang Lin, Jiahang Zhang, and Jiaying Liu. \"Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and Reconstruct.\" IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).",
+    "ID": 8,
+    "Filename": "Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and"
+  },
+  {
+    "Citations": [
+      {
+        "Text": "Wang et al. (2022) study how learned representations transfer across tasks and distributions.",
+        "Analysis": "作为众多研究中的一个进行列举，并没有特别评价。",
+        "Positive": false
+      }
+    ],
+    "Paper": "Eigenfunction Extraction for Ordered Representation Learning. Burak Varıcı, Che-Ping Tsai, Ritabrata Ray, Nicholas M. Boffi, and Pradeep Ravikumar. \"Eigenfunction Extraction for Ordered Representation Learning.\" arXiv preprint arXiv:2510.24672 (2025).",
+    "ID": 9,
+    "Filename": "Eigenfunction Extraction for Ordered Representation Learning"
+  }
+]

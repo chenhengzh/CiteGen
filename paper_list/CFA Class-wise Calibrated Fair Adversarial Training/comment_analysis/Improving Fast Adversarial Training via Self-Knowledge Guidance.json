@@ -1,0 +1,27 @@
+{
+  "Filename": "Improving Fast Adversarial Training via Self-Knowledge Guidance",
+  "PaperInfo": "Chengze Jiang, Junkai Wang, Minjing Dong, Jie Gui, Xinli Shi, Yuan Cao, Yuan Yan Tang, and James Tin-Yau Kwok. \"Improving Fast Adversarial Training via Self-Knowledge Guidance.\" IEEE Transactions on Information Forensics and Security (2025).",
+  "Citations": [
+    {
+      "Text": "Then, the cross-entropy loss L(fθ(x), y) is adopted to scale the performance of the classifier fθ, and the empirical risk of the classifier fθ is formulated as L(fθ(X), Y) = Ex∈X [(fθ(x), y)] [25].",
+      "Analysis": "通过引用编号[25]引用了被引论文，用于支持经验风险公式的表述，但没有评价被引论文的内容或方法。",
+      "Positive": false
+    },
+    {
+      "Text": "Meanwhile, recent advances demonstrate that addressing or exploiting these performance disparities can significantly improve adversarial robustness [25].",
+      "Analysis": "引用了被引论文[25]作为近期进展，表明其工作能显著提高对抗鲁棒性，属于正面评价。",
+      "Positive": true
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2,
+    3
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "efine a classifier fθ(x) : x →y with weight parameter\nθ for the classification task of dataset X = {x1, · · · , xn}\nwith label Y subject to distribution D. For example x ∈X,\nthe groundtruth label is represented as y ∈Rm, where n\nand m denotes the number of examples and classes in the\ndataset, respectively. Then, the cross-entropy loss L(fθ(x), y)\nis adopted to scale the performance of the classifier fθ,\nand the empirical risk of the classifier fθ is formulated as\nL(fθ(X), Y) = Ex∈X [(fθ(x), y)] [25].\nB. Multi-Step Adversarial Training\nAdversarial training improves the robustness of the model\nfθ(·) by adding perturbations to clean examples, thereby\ngenerating AEs x′, which are then incorporated into the\ntraining data [27]–[29]. This process can be mathematically\nrepresented as a minimax optimization problem:\nmin\nθ\nn\nE{x,y}∼D\nh\nmax\nx′:∥x′−x∥p≤ϵ L\n\u0000fθ(x′), y\n\u0001io\n,\n(1)\nwhere ϵ denotes the perturbation budget, ∥· ∥p is the p-\nnorm operator, and AE x′ = x + δ with δ representing the\nadversarial ",
+    "mitigating catastrophic overfitting, they adopt a uni-\nfied optimization and processing for all examples, overlooking\nthe impact of robust accuracy disparity among examples [24],\n[26]. The performance variations caused by accuracy disparity\nin standard adversarial training [41] prompt us to investigate\nwhether FAT exhibits similar characteristics. Meanwhile, re-\ncent advances demonstrate that addressing or exploiting these\nperformance disparities can significantly improve adversarial\nrobustness [25]. This drives our exploration of performance\ndisparities within the FAT paradigm, leveraging empirical\nanalysis to guide novel strategies that enhance FAT perfor-\nmance without extensive hyperparameter tuning or sacrificing\ncomputational efficiency. To this end, we design and conduct\ncomprehensive experiments, analyzing FAT from a class-wise\nperspective and uncovering some counter-intuitive phenomena.\nAs a result, we introduce a new analytical framework that\nexamines the holistic properties of e",
+    "22] S. Goyal, S. Doddapaneni, M. M. Khapra, and B. Ravindran, “A survey\nof adversarial defenses and robustness in nlp,” ACM Computing Surveys,\nvol. 55, no. 14s, pp. 1–39, 2023.\n[23] X. Yue, M. Ningping, Q. Wang, and L. Zhao, “Revisiting adversarial\nrobustness distillation from the perspective of robust fairness,” NeurIPS,\nvol. 36, 2024.\n[24] H. Xu, X. Liu, Y. Li, A. Jain, and J. Tang, “To be robust or to be fair:\nTowards fairness in adversarial training,” in ICML.\nPMLR, 2021, pp.\n11 492–11 501.\n[25] Z. Wei, Y. Wang, Y. Guo, and Y. Wang, “Cfa: Class-wise calibrated fair\nadversarial training,” in CVPR, 2023, pp. 8193–8201.\n[26] H. Lee, S. Lee, H. Jang, J. Park, H. Bae, and S. Yoon, “Dafa: Distance-\naware fair adversarial training,” in ICLR, 2023.\n[27] M. Balunovi´c and M. Vechev, “Adversarial training and provable de-\nfenses: Bridging the gap,” in ICLR, 2020.\n[28] J. Cui, S. Liu, L. Wang, and J. Jia, “Learnable boundary guided\nadversarial training,” in CVPR, 2021, pp. 15 721–15 730.\n[29] Z. Wang, T. Pang, C. Du, M. Lin, W. Liu, and S"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Filename": "Improving surgical phase recognition using self-supervised deep learning",
+  "Markers": [
+    "[45]",
+    "Wang et al., 2022",
+    "Chaos is a ladder"
+  ],
+  "PaperInfo": "Alba Centeno López, Ángela González-Cebrián, Igor Paredes, Alfonso Lagares, and Paula de Toledo. \"Improving surgical phase recognition using self-supervised deep learning.\" Scientific Reports 15, no. 1 (2025): 39087.",
+  "Citations": [],
+  "AnalyzedSnippetIndices": [
+    1
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "0​3​1​-​4​3​9​\n0​4​-​9​_​5​5​​\n\t43.\t Nasirihaghighi, S., Ghamsarian, N., Sznitman, R. & Schoeffmann, K. Dual Invariance Self-Training for Reliable Semi-Supervised \nSurgical Phase Recognition. in IEEE 22nd International Symposium on Biomedical Imaging (ISBI) 1–5 (IEEE, 2025). 1–5 (IEEE, \n2025). (2025).\n\t44.\t Cai, T. T., Frankle, J., Schwab, D. J. & Morcos, A. S. Are all negatives created equal in contrastive instance discrimination? (2020).\n\t45.\t Wang, Y., Zhang, Q., Wang, Y., Yang, J. & Lin, Z. Chaos is a ladder: A new theoretical Understanding of contrastive learning via \naugmentation overlap. ArXiv (2022). abs/2203.13457.\n\t46.\t Huang, W., Yi, M. & Zhao, X. Towards the generalization of contrastive Self-Supervised learning. CoRR (2021). abs/2111.00743.\nScientific Reports |        (2025) 15:39087 \n15\n| https://doi.org/10.1038/s41598-025-23697-2\nwww.nature.com/scientificreports/\n\t47.\t Joshi, S. et al. Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning C"
+  ]
+}

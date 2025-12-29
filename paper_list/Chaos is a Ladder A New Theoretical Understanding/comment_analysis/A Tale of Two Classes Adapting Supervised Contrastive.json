@@ -1,0 +1,21 @@
+{
+  "Filename": "A Tale of Two Classes Adapting Supervised Contrastive",
+  "Markers": [],
+  "PaperInfo": "David Mildenberger, Paul Hager, Daniel Rueckert, and Martin J. Menten. \"A Tale of Two Classes: Adapting Supervised Contrastive Learning to Binary Imbalanced Datasets.\" In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 10305-10314. 2025.",
+  "Citations": [
+    {
+      "Text": "However, high uniformity and alignment alone do not guarantee separability of classes, as shown by Wang et al. [38].",
+      "Analysis": "引用了被引论文来指出高对齐性和均匀性不能保证类别的可分性，这是对被引论文内容的参考，但没有明确正面评价。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "troduced the notions of representation space\nalignment and uniformity [37]. Alignment measures how\nclosely semantically similar samples are located in the rep-\nresentation space. Uniformity quantifies the utilization of\nthe representation space’s capacity. Both metrics have been\nempirically validated as strong indicators of the representa-\ntion space’s quality and downstream utility. However, high\nuniformity and alignment alone do not guarantee separabil-\nity of classes, as shown by Wang et al. [38]. In a subsequent\nstudy, Li et al. proposed analyzing alignment and unifor-\nmity at the level of semantic classes instead of individual\nsamples [21]. While this improves upon sample-wise analy-\nsis, it still fails to properly compare representations between\nclasses, which is crucial for downstream classification per-\nformance. We address this limitation by introducing two\nnovel metrics, enabling the evaluation of sample and class\nconsistency within representation neighborhoods.\n2.2. Supervised c",
+    "2893, 2021. 5,\n11\n[36] Peng Wang, Kai Han, Xiu-Shen Wei, Lei Zhang, and Lei\nWang. Contrastive learning based hybrid networks for long-\ntailed image classification. In Proceedings of the IEEE/CVF\nconference on computer vision and pattern recognition,\npages 943–952, 2021. 1\n[37] Tongzhou Wang and Phillip Isola. Understanding contrastive\nrepresentation learning through alignment and uniformity on\nthe hypersphere.\nIn International conference on machine\nlearning, pages 9929–9939. PMLR, 2020. 2, 3, 4\n[38] Yifei Wang, Qi Zhang, Yisen Wang, Jiansheng Yang, and\nZhouchen Lin.\nChaos is a ladder: A new theoretical un-\nderstanding of contrastive learning via augmentation over-\nlap. In International Conference on Learning Representa-\ntions, 2022. 2, 11\n[39] Yihao Xue, Siddharth Joshi, Eric Gan, Pin-Yu Chen, and\nBaharan Mirzasoleiman. Which features are learnt by con-\ntrastive learning? On the role of simplicity bias in class col-\nlapse and feature suppression. In Proceedings of the 40th In-\nternational Conference on Machine Learning, pages 38938–\n38970. PMLR, 2023. 2\n[40] Jiancheng Yang,"
+  ]
+}

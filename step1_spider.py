@@ -16,7 +16,7 @@ def main():
     parser.add_argument(
         "--mode",
         choices=["author", "paper"],
-        required=True,
+        default="paper",
         help="Crawl mode: by author or by paper list",
     )
 

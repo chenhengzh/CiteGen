@@ -1,0 +1,35 @@
+{
+  "Filename": "Learning Without Augmenting Unsupervised Time Series Representation Learning",
+  "Markers": [],
+  "PaperInfo": "Berken Utku Demirel, and Christian Holz. \"Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections.\" arXiv preprint arXiv:2510.22655 (2025).",
+  "Citations": [
+    {
+      "Text": "Augmentations are only effective if the augmented views of a sample have sufficient representational similarity with views of other intra-class samples [11, 12].",
+      "Analysis": "作为参考文献中的一个进行列举，并没有特别评价。",
+      "Positive": false
+    },
+    {
+      "Text": "A recent study [12] highlights the importance of strong augmentations in instance discrimination by showing that augmentations can cause different intra-class samples to align when their augmented views overlap (i.e., two different cars appear similar when both are cropped to show only the wheels).",
+      "Analysis": "引用了被引论文[12]，强调了强数据增强在实例判别中的重要性，并解释了增强视图重叠如何导致类内样本对齐，这是对被引论文内容的正面评价和深入参考。",
+      "Positive": true
+    },
+    {
+      "Text": "More recently, data augmentations have become a central component of SSL, with stronger transformations applied to boost sample diversity [1, 12, 44].",
+      "Analysis": "作为增强样本多样性的方法之一进行列举，没有特别评价被引论文的内容或贡献。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "k is known, designing\neffective augmentations can be challenging for data types lacking a well-defined structure, i.e., text,\ntabular, signals [6–9], as the overly strong augmentations can cause model collapse [10].\nSimply increasing sample diversity through random augmentations does not guarantee improved\nperformance in representation learning. Augmentations are only effective if the augmented views of\na sample have sufficient representational similarity with views of other intra-class samples [11, 12].\nWithout adequate representational similarity, the model struggles to generalize across classes, leading\nto degraded performance on downstream tasks where intra-class variability is not fully captured\nthrough augmentations [13–15]. Since achieving representational similarity in high-dimensional\nspaces is challenging [16], a key limitation of augmentation-based self-supervised learning lies in\nits reliance on handcrafted transformations. These transformations can distort critical class-level\nstr",
+    "Do we need data augmentations?\nData augmentations are widely viewed as essential for learning\nrepresentations from unlabeled data [1, 53]. A celebrated theory, InfoMin [27], argues that effective\naugmentations reduce mutual information between views while retaining task-relevant features.\nHowever, our method does not rely on asymmetric views but instead uses unitary transformations\nthat preserve all information. Our results suggest that asymmetric views are not essential for SSL.\nA recent study [12] highlights the importance of strong augmentations in instance discrimination by\nshowing that augmentations can cause different intra-class samples to align when their augmented\nviews overlap (i.e., two different cars appear similar when both are cropped to show only the wheels).\n8\nTable 5: Ablation on proposed method in IMU datasets for Activity and Step\nMethod\nHHAR\nUSC\nClemson\nAcc ↑\nW-F1 ↑\nF1 ↑\nAcc ↑\nW-F1 ↑\nF1 ↑\nMAPE ↓\nMAE ↓\nRMSE ↓\nOurs\n89.36±0.66\n89.37±0.69\n88.59±0.61\n52.21±1.09\n48.64±1.52\n48",
+    "s competitive runtime compared to state-of-the-art works.\n9\n6\nRelated Work\nData augmentation in SSL\nLearning representations through data transformations dates back\nto early self-supervised learning methods, which introduced pretext tasks that reformulated the\nproblem into a supervised one, such as predicting image rotations [55] or spatial contexts [56,\n57]. More recently, data augmentations have become a central component of SSL, with stronger\ntransformations applied to boost sample diversity [1, 12, 44]. However, learning representations\nwith strong augmentations introduce new challenges [22, 58]. Mainly, strong augmentations can\nalter the label of a sample [59], leading to model collapse [27], and may suppress informative\nfeatures [22]. This often causes models to rely on a subset of features aligned with augmentation-\ninduced invariances, potentially ignoring others that are critical for downstream performance [19,\n20, 22]. Motivated by these, we propose a method that replaces data augmentat",
+    " Pascal Vincent, Yann LeCun, and Yuandong Tian. Understanding dimensional\ncollapse in contrastive self-supervised learning. In International Conference on Learning\nRepresentations, 2022.\n[11] Vlad Sobal, Mark Ibrahim, Randall Balestriero, Vivien Cabannes, Diane Bouchacourt, Pietro\nAstolfi, Kyunghyun Cho, and Yann LeCun. $\\mathbb{X}$-sample contrastive loss: Improving\ncontrastive learning with sample similarity graphs. In The Thirteenth International Conference\non Learning Representations, 2025.\n[12] Yifei Wang, Qi Zhang, Yisen Wang, Jiansheng Yang, and Zhouchen Lin. Chaos is a ladder: A\nnew theoretical understanding of contrastive learning via augmentation overlap. In The Tenth\nInternational Conference on Learning Representations, ICLR 2022, Virtual Event, April 25-29,\n2022, 2022.\n[13] Yifei Wang, Qi Zhang, Tianqi Du, Jiansheng Yang, Zhouchen Lin, and Yisen Wang. A message\npassing perspective on learning dynamics of contrastive learning. In International Conference\non Learning Representations, 2023.\n[14] Nikunj Saunshi, Jordan Ash, Surbhi Goel, Dipendra Misra, Cyril Zhang, "
+  ]
+}

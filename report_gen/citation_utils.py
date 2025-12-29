@@ -262,6 +262,36 @@ def extract_citation_positions(
     return results
 
 
+def extract_citation_positions_heur(paper_text, markers):
+    results = []
+    if not markers:
+        return results
+
+    if isinstance(markers, str):
+        markers = [markers]
+
+    for marker in markers:
+        if not marker:
+            continue
+
+        # 清理 marker 文本并进行正则转义，直接匹配字面量
+        marker_text = str(marker).strip()
+        if not marker_text:
+            continue
+
+        try:
+            # 使用 re.escape 确保 marker 中的特殊字符（如 [], . 等）被当作普通字符处理
+            pattern = re.escape(marker_text)
+            for match in re.finditer(pattern, paper_text):
+                results.append((match.start(), match.end()))
+        except re.error:
+            continue
+
+    # 按起始位置排序
+    results.sort(key=lambda x: x[0])
+    return results
+
+
 def extract_citation_snippets(paper_text, citation_positions):
     snippet_length = 1000
     snippets = []

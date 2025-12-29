@@ -1,0 +1,23 @@
+{
+  "Filename": "Eigenfunction Extraction for Ordered Representation Learning",
+  "Markers": [
+    "Wang et al., 2022",
+    "Wang et al. (2022)",
+    "[3]"
+  ],
+  "PaperInfo": "Burak Varıcı, Che-Ping Tsai, Ritabrata Ray, Nicholas M. Boffi, and Pradeep Ravikumar. \"Eigenfunction Extraction for Ordered Representation Learning.\" arXiv preprint arXiv:2510.24672 (2025).",
+  "Citations": [
+    {
+      "Text": "Wang et al. (2022) study how learned representations transfer across tasks and distributions.",
+      "Analysis": "作为众多研究中的一个进行列举，并没有特别评价。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "al than our eigenfunction extraction framework.\nOther works approach representation learning from diverse theoretical perspectives. Garrido et al. (2023b)\nshows that contrastive objectives and non-contrastive methods are equivalent under certain assumptions.\n16\nHjelm et al. (2019); Tschannen et al. (2020) show that representation learning can be seen as maximizing\nmutual information between inputs and their latent representations. Zhai et al. (2024a); Wang et al. (2024a);\nSaunshi et al. (2022); Wang et al. (2022); Lee et al. (2021); Brady et al. (2023, 2025) study how learned\nrepresentations transfer across tasks and distributions. The works on feature dynamics (Wang and Isola,\n2020; Wang et al., 2023; Huang et al., 2025; Wen and Li, 2021) and equivariance/invariance (Gupta et al.,\n2024; Garrido et al., 2023c; Xiao et al., 2021) focus on how representations evolve during training and how\nstructural constraints, such as symmetry or transformation consistency, shape the learned embedding space.\nReizinger "
+  ]
+}

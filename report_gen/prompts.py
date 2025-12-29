@@ -32,7 +32,7 @@ Yican Sun, Xuanyu Peng, Yingfei Xiong*. Synthesizing Efficient Memoization Algor
 分析：在SynMem的基础上设计了实验，并称赞SynMem是目前效果最好（state-of-the-art）的记忆化算法合成方法。
 正面评价：True
 
-句子：There are a lot of existing work for program synthesis [1, 11, 20-25, 35].</Text>
+句子：There are a lot of existing work for program synthesis [1, 11, 20-25, 35].
 分析：只是作为大量已有工作中的一个进行列举，并没有正面评价或者深入参考被引论文内容。
 正面评价：False
 
@@ -64,6 +64,7 @@ short_system = """
   * 通过编号引用（如“[20, 30]”和“[18-25]”都引用了[20]），
   * 通过作者引用（如“Xiong et al. 2023”引用了Xiong作为一作在2023年撰写的论文），
   * 通过方法名称引用（如“SynMem is ....”引用SynMem）。
+  * 通过可能的引用标记引用（如“[TKI20]”引用TKI20）
   * 注意参考文献本身不应该提取。
 * 正面引用包括
   * 称赞被引论文，比如称赞被引论文重要、提出新颖的方法、首次提出了某种思路、效果突出等；
@@ -75,6 +76,7 @@ short_system = """
 * 论文信息：Yican Sun, Xuanyu Peng, Yingfei Xiong*. Synthesizing Efficient Memoization Algorithms. OOPSLA'23: Object-Oriented Programming, Systems, Languages and Applications, October 2023.
 * 引用编号：[20]
 * 方法名称：SynMem
+* 可能的引用标记：
 * 待分析文本：Program Synthesis for complex algorithms is an important research problem [1, 18, 25]. There are a lot of existing approaches to this problem in recent years [1, 18-25]. For such approaches, designing a framework is critical. Sun et al. (2023) propose a framework consisting of a deductive part and an inductive part. We designed our approach following this framework.
 [20] Yican Sun, Xuanyu Peng, Yingfei Xiong*. Synthesizing Efficient Memoization Algorithms. OOPSLA'23: Object-Oriented Programming, Systems, Languages and Applications, October 2023.
 ### 输出（请按照JSON格式输出）：
@@ -146,6 +148,35 @@ qwen_system = """
 user_template = """* 论文信息：{paper}
 * 引用编号：[{reference_number}]
 * 方法名称：{approach_name}
+* 可能的引用标记：{markers}
 * 待分析文本：
 {text}
+"""
+
+
+refine_reference_system = """You are a research assistant. Your task is to determine how a specific paper is cited within another paper.
+You should analyze the reference list to extract or infer the citation label(s) corresponding to the target paper,
+and identify the possible citation markers used in the main text.
+"""
+
+refine_reference_user_template = """The following text is likely a reference entry for the paper titled "{title}".
+
+The references related to this paper are shown below:
+{text}
+
+Based on these references, infer the citation marker(s) that are likely used in the main text.
+
+Guidelines:
+- If the reference explicitly provides a label (e.g., [TKI20]), include the label without brackets (e.g., TKI20).
+- If the reference uses numeric indexing (e.g., [12]), include the full marker (e.g., [12]).
+- If no explicit label is provided, infer reasonable citation markers, such as:
+  - author–year abbreviations like Bardes et al., 2022,
+  - method or paper name abbreviations,
+  - other commonly used shorthand forms.
+
+You may propose at most 3 plausible citation markers.
+
+Return the final result strictly in the following JSON format:
+[<list of possible citation markers>]
+Do not include any additional text outside the JSON object.
 """

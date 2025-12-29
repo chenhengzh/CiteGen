@@ -1,0 +1,25 @@
+{
+  "Filename": "A statistical theory of contrastive learning via approximate",
+  "Markers": [
+    "WZW`22",
+    "Wang et al., 2022",
+    "Chaos is a Ladder"
+  ],
+  "PaperInfo": "Licong Lin, and Song Mei. \"A statistical theory of contrastive learning via approximate sufficient statistics.\" arXiv preprint arXiv:2503.17538 (2025).",
+  "Citations": [
+    {
+      "Text": "Theoretical understanding of contrastive learning. Thus far, there is a rich body of literature on the theoretical understanding of self-supervised learning [SPA`19, POVDO`19, TKI20, WI20, VKSG`21, NS21, ZSS`21, AGKM21, TKH21a, TKH21b, HWGM21, HYZJ21, WL21, LLSZ21, WZW`22, DBP`23, SZZ`23, SCL`23, NGD`23, SZL24, VEG24, LZS`24, OLCM25].",
+      "Analysis": "作为大量已有理论工作中的一个进行列举，并没有特别评价。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "ICL [LZS`24]. These\nlosses utilize cross-entropy and its variants to distinguish paired from non-paired samples. Most relevant to\nour work is the InfoNCE loss [OLV18], which is derived based on the InfoMax principle [Lin88, HFLM`18].\nTheoretical understanding of contrastive learning.\nThus far, there is a rich body of literature on the\ntheoretical understanding of self-supervised learning [SPA`19, POVDO`19, TKI20, WI20, VKSG`21, NS21,\nZSS`21, AGKM21, TKH21a, TKH21b, HWGM21, HYZJ21, WL21, LLSZ21, WZW`22, DBP`23, SZZ`23,\nSCL`23, NGD`23, SZL24, VEG24, LZS`24, OLCM25]. Notably, early works [SPA`19, WI20, AGKM21] de-\nrived generalization error bounds for downstream classification tasks, using linear classifiers trained on repre-\nsentations learned by minimizing the InfoNCE loss. [WI20] explained contrastive learning through alignment\n(pulling paired samples together) and uniformity (separating non-paired samples). [ZSS`21] showed that\nInfoNCE minimization can implicitly learn the inverse of the da",
+    "es in Statistical and Probabilistic Mathematics, Cambridge University Press, 2019.\n[WI20]\nTongzhou Wang and Phillip Isola, Understanding contrastive representation learning through\nalignment and uniformity on the hypersphere, International conference on machine learning,\nPMLR, 2020, pp. 9929–9939.\n[WL21]\nZixin Wen and Yuanzhi Li, Toward understanding the feature learning process of self-\nsupervised contrastive learning, International Conference on Machine Learning, PMLR, 2021,\npp. 11112–11122.\n[WZW`22]\nYifei Wang, Qi Zhang, Yisen Wang, Jiansheng Yang, and Zhouchen Lin, Chaos is a ladder: A\nnew theoretical understanding of contrastive learning via augmentation overlap, arXiv preprint\narXiv:2203.13457 (2022).\n[XZ24]\nXiangxiang Xu and Lizhong Zheng, Dependence induced representations, 2024 60th Annual\nAllerton Conference on Communication, Control, and Computing, IEEE, 2024, pp. 1–8.\n[ZIE16]\nRichard Zhang, Phillip Isola, and Alexei A Efros, Colorful image colorization, Computer\nVision–ECCV 2016:"
+  ]
+}

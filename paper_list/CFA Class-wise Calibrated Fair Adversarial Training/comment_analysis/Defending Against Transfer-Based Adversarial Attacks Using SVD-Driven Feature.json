@@ -1,0 +1,20 @@
+{
+  "Filename": "Defending Against Transfer-Based Adversarial Attacks Using SVD-Driven Feature",
+  "PaperInfo": "Xinlei Liu, Tao Hu, Peng Yi, Qingtao Pan, Hailong Ma, Yiming Jiang, and Baolin Li. \"Defending Against Transfer-Based Adversarial Attacks Using SVD-Driven Feature Evolution.\" In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 703-711. 2025.",
+  "Citations": [
+    {
+      "Text": "In future work, we intend to explore adaptive adversarial training methods for SDFEM based on several advanced white-box defense techniques [48, 49], aiming to enhance its robustness against gradient-based adversarial attacks.",
+      "Analysis": "作为未来工作参考的先进白盒防御技术之一进行列举，没有特别评价。",
+      "Positive": false
+    }
+  ],
+  "AnalyzedSnippetIndices": [
+    1,
+    2
+  ],
+  "EncounteredExceptions": [],
+  "Snippets": [
+    "ly, both “feature\nreconstruction” and “feature weight optimization” are the\nconvolution operations, which also facilitate gradient flow.\nConsequently, SDFEM is primarily suited for defending\nagainst transfer-based adversarial attacks in black-box sce-\nnarios, while it struggles to defend against gradient-based\nadversarial attacks in white-box scenarios. In future work,\nwe intend to explore adaptive adversarial training meth-\nods for SDFEM based on several advanced white-box de-\nfense techniques [48, 49], aiming to enhance its robustness\nagainst gradient-based adversarial attacks.\n6. Conclusion\nIn this paper, we reveal that the contributions of sin-\ngular value features to adversarial attacks vary across dif-\nferent categories, making it challenging to quantitatively\nassess them.\nTo address this issue, we propose a plug-\nand-play module named SDFEM to suppress the singular\nvalue features that significantly contribute to adversarial at-\ntacks, thereby assisting target classification models in de",
+    "ions to the Theory of Games II, pages 307–317. Princeton\nUniversity Press, 1953. 7\n[47] Van Der Maaten Laurens and Geoffrey Hinton. Visualizing\ndata using t-sne. Journal of Machine Learning Research, 9\n(2605):2579–2605, 2008. 7\n[48] Rahul Rade and Seyed-Mohsen Moosavi-Dezfooli. Reduc-\ning excessive margin to achieve a better accuracy vs. robust-\nness trade-off.\nIn The Tenth International Conference on\nLearning Representations, ICLR 2022, Virtual Event, April\n25-29, 2022. OpenReview.net, 2022. 7\n[49] Zeming Wei, Yifei Wang, Yiwen Guo, and Yisen Wang.\nCFA: class-wise calibrated fair adversarial training.\nIn\nIEEE/CVF Conference on Computer Vision and Pattern\nRecognition, CVPR 2023, Vancouver, BC, Canada, June 17-\n24, 2023, pages 8193–8201. IEEE, 2023. 7\n711\n"
+  ]
+}

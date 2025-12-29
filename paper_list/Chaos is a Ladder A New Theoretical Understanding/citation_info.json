@@ -1,0 +1,242 @@
+[
+    {
+        "index": "001",
+        "title": "A statistical theory of contrastive pre-training and multimodal generative ai",
+        "info": "Kazusato Oko, Licong Lin, Yuhang Cai, and Song Mei. \"A statistical theory of contrastive pre-training and multimodal generative ai.\" arXiv preprint arXiv:2501.04641 (2025).",
+        "abstract": "Multi-modal generative AI systems, such as those combining vision and language, rely on contrastive pre-training to learn representations across different modalities. While their …",
+        "PDF": "https://arxiv.org/pdf/2501.04641?",
+        "filename": "A statistical theory of contrastive pre-training and multimodal",
+        "link": "https://arxiv.org/abs/2501.04641",
+        "authors": [
+            {
+                "name": "L Lin",
+                "link": "https://scholar.google.com/citations?user=b1y1LooAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 633
+            },
+            {
+                "name": "Y Cai",
+                "link": "https://scholar.google.com/citations?user=sJI2aOYAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 133
+            },
+            {
+                "name": "S Mei",
+                "link": "https://scholar.google.com/citations?user=MhDyxdYAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 6430
+            }
+        ],
+        "author_status": "complete"
+    },
+    {
+        "index": "002",
+        "title": "Deep contrastive representation learning for supervised tasks",
+        "info": "Chenguang Duan, Yuling Jiao, Lican Kang, Jerry Zhijian Yang, and Fusheng Zhou. \"Deep contrastive representation learning for supervised tasks.\" Pattern Recognition 161 (2025): 111309.",
+        "abstract": "Abstract Representation learning, with its capability to extract and encapsulate the inherent structure and information embedded within raw data, assumes a crucial role in facilitating …",
+        "PDF": "",
+        "filename": "Deep contrastive representation learning for supervised tasks",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0031320324010604",
+        "authors": [
+            {
+                "name": "C Duan",
+                "link": "https://scholar.google.com/citations?user=RpmGgyMAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 135
+            },
+            {
+                "name": "Y Jiao",
+                "link": "https://scholar.google.com/citations?user=yFDDsVgAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 2702
+            }
+        ],
+        "author_status": "complete"
+    },
+    {
+        "index": "003",
+        "title": "Improving surgical phase recognition using self-supervised deep learning",
+        "info": "Alba Centeno López, Ángela González-Cebrián, Igor Paredes, Alfonso Lagares, and Paula de Toledo. \"Improving surgical phase recognition using self-supervised deep learning.\" Scientific Reports 15, no. 1 (2025): 39087.",
+        "abstract": "In recent decades, there has been growing interest in developing intelligent systems that provide real-time decision support to surgeons in the operating room. Surgical Phase …",
+        "PDF": "https://www.nature.com/articles/s41598-025-23697-2.pdf",
+        "filename": "Improving surgical phase recognition using self-supervised deep learning",
+        "link": "https://www.nature.com/articles/s41598-025-23697-2",
+        "authors": [
+            {
+                "name": "A Centeno López",
+                "link": "https://scholar.google.com/citations?user=DU7Ysq8AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 1
+            },
+            {
+                "name": "Á González-Cebrián",
+                "link": "https://scholar.google.com/citations?user=uwIPoREAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 6
+            },
+            {
+                "name": "I Paredes",
+                "link": "https://scholar.google.com/citations?user=ypEvoAoAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 3194
+            }
+        ],
+        "author_status": "omitted"
+    },
+    {
+        "index": "004",
+        "title": "A Tale of Two Classes: Adapting Supervised Contrastive Learning to Binary Imbalanced Datasets",
+        "info": "David Mildenberger, Paul Hager, Daniel Rueckert, and Martin J. Menten. \"A Tale of Two Classes: Adapting Supervised Contrastive Learning to Binary Imbalanced Datasets.\" In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 10305-10314. 2025.",
+        "abstract": "Supervised contrastive learning (SupCon) has proven to be a powerful alternative to the standard cross-entropy loss for classification of multi-class balanced datasets. However, it …",
+        "PDF": "https://openaccess.thecvf.com/content/CVPR2025/papers/Mildenberger_A_Tale_of_Two_Classes_Adapting_Supervised_Contrastive_Learning_to_CVPR_2025_paper.pdf",
+        "filename": "A Tale of Two Classes Adapting Supervised Contrastive",
+        "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Mildenberger_A_Tale_of_Two_Classes_Adapting_Supervised_Contrastive_Learning_to_CVPR_2025_paper.html",
+        "authors": [
+            {
+                "name": "D Mildenberger",
+                "link": "https://scholar.google.com/citations?user=t0SKj94AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 5
+            },
+            {
+                "name": "P Hager",
+                "link": "https://scholar.google.com/citations?user=LeI7UOYAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 13732
+            }
+        ],
+        "author_status": "omitted"
+    },
+    {
+        "index": "005",
+        "title": "Self-attentive rationalization for interpretable graph contrastive learning",
+        "info": "Sihang Li, Yanchen Luo, An Zhang, Xiang Wang, Longfei Li, Jun Zhou, and Tat-Seng Chua. \"Self-attentive rationalization for interpretable graph contrastive learning.\" ACM Transactions on Knowledge Discovery from Data 19, no. 2 (2025): 1-21.",
+        "abstract": "Graph augmentation is the key component to reveal instance-discriminative features of a graph as its rationale—an interpretation for it—in graph contrastive learning (GCL). Existing …",
+        "PDF": "https://dl.acm.org/doi/pdf/10.1145/3665894",
+        "filename": "Self-attentive rationalization for interpretable graph contrastive learning",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3665894",
+        "authors": [
+            {
+                "name": "X Wang",
+                "link": "https://scholar.google.com/citations?user=HdhaQB0AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 33451
+            },
+            {
+                "name": "L Li",
+                "link": "https://scholar.google.com/citations?user=x5rfjSEAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 2621
+            },
+            {
+                "name": "J Zhou",
+                "link": "https://scholar.google.com/citations?user=mCVvloEAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 10190
+            }
+        ],
+        "author_status": "omitted"
+    },
+    {
+        "index": "006",
+        "title": "Rethinking generalizability and discriminability of self-supervised learning from evolutionary game theory perspective",
+        "info": "Jiangmeng Li, Zehua Zang, Qirui Ji, Chuxiong Sun, Wenwen Qiang, Junge Zhang, Changwen Zheng, Fuchun Sun, and Hui Xiong. \"Rethinking generalizability and discriminability of self-supervised learning from evolutionary game theory perspective.\" International Journal of Computer Vision 133, no. 6 (2025): 3542-3567.",
+        "abstract": "Abstract Representations learned by self-supervised approaches are generally considered to possess sufficient generalizability and discriminability. However, we disclose a nontrivial …",
+        "PDF": "https://arxiv.org/pdf/2412.00542?",
+        "filename": "Rethinking generalizability and discriminability of self-supervised learning from",
+        "link": "https://link.springer.com/article/10.1007/s11263-024-02321-2",
+        "authors": [
+            {
+                "name": "C Sun",
+                "link": "https://scholar.google.com/citations?user=GQU6hBUAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 123
+            },
+            {
+                "name": "W Qiang",
+                "link": "https://scholar.google.com/citations?user=7U1v1vsAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 683
+            },
+            {
+                "name": "J Zhang",
+                "link": "https://scholar.google.com/citations?user=gbStvusAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 6874
+            }
+        ],
+        "author_status": "omitted"
+    },
+    {
+        "index": "007",
+        "title": "A statistical theory of contrastive learning via approximate sufficient statistics",
+        "info": "Licong Lin, and Song Mei. \"A statistical theory of contrastive learning via approximate sufficient statistics.\" arXiv preprint arXiv:2503.17538 (2025).",
+        "abstract": "Contrastive learning--a modern approach to extract useful representations from unlabeled data by training models to distinguish similar samples from dissimilar ones--has driven …",
+        "PDF": "https://arxiv.org/pdf/2503.17538",
+        "filename": "A statistical theory of contrastive learning via approximate",
+        "link": "https://arxiv.org/abs/2503.17538",
+        "authors": [
+            {
+                "name": "L Lin",
+                "link": "https://scholar.google.com/citations?user=b1y1LooAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 633
+            },
+            {
+                "name": "S Mei",
+                "link": "https://scholar.google.com/citations?user=MhDyxdYAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 6430
+            }
+        ],
+        "author_status": "complete"
+    },
+    {
+        "index": "008",
+        "title": "Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and Reconstruct",
+        "info": "Lilang Lin, Jiahang Zhang, and Jiaying Liu. \"Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and Reconstruct.\" IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).",
+        "abstract": "Contrastive learning has shown remarkable success in the domain of skeleton-based action recognition. However, the design of data transformations, which is crucial for effective …",
+        "PDF": "http://39.96.165.147/Pub%20Files/2025/lll_TPAMI25.pdf",
+        "filename": "Self-Supervised Skeleton Representation Learning Via Actionlet Contrast and",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11123705/",
+        "authors": [
+            {
+                "name": "J Liu",
+                "link": "https://scholar.google.com/citations?user=-OcSne0AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 26560
+            }
+        ],
+        "author_status": "complete"
+    },
+    {
+        "index": "009",
+        "title": "Eigenfunction Extraction for Ordered Representation Learning",
+        "info": "Burak Varıcı, Che-Ping Tsai, Ritabrata Ray, Nicholas M. Boffi, and Pradeep Ravikumar. \"Eigenfunction Extraction for Ordered Representation Learning.\" arXiv preprint arXiv:2510.24672 (2025).",
+        "abstract": "Recent advances in representation learning reveal that widely used objectives, such as contrastive and non-contrastive, implicitly perform spectral decomposition of a contextual …",
+        "PDF": "https://arxiv.org/pdf/2510.24672",
+        "filename": "Eigenfunction Extraction for Ordered Representation Learning",
+        "link": "https://arxiv.org/abs/2510.24672",
+        "authors": [
+            {
+                "name": "CP Tsai",
+                "link": "https://scholar.google.com/citations?user=UTIYD_gAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 261
+            },
+            {
+                "name": "R Ray",
+                "link": "https://scholar.google.com/citations?user=a8P6ZLkAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 8
+            },
+            {
+                "name": "NM Boffi",
+                "link": "https://scholar.google.com/citations?user=_jkX2q0AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 1759
+            }
+        ],
+        "author_status": "omitted"
+    },
+    {
+        "index": "010",
+        "title": "Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections",
+        "info": "Berken Utku Demirel, and Christian Holz. \"Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections.\" arXiv preprint arXiv:2510.22655 (2025).",
+        "abstract": "Self-supervised learning (SSL) has emerged as a powerful paradigm for learning representations without labeled data. Most SSL approaches rely on strong, well-established …",
+        "PDF": "https://arxiv.org/pdf/2510.22655",
+        "filename": "Learning Without Augmenting Unsupervised Time Series Representation Learning",
+        "link": "https://arxiv.org/abs/2510.22655",
+        "authors": [
+            {
+                "name": "BU Demirel",
+                "link": "https://scholar.google.com/citations?user=zbgxpdIAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 419
+            },
+            {
+                "name": "C Holz",
+                "link": "https://scholar.google.com/citations?user=OfXP9jMAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 9940
+            }
+        ],
+        "author_status": "complete"
+    }
+]
