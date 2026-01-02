@@ -41,7 +41,7 @@ def add_hyperlink(paragraph, text, url):
 
 
 # 加载 JSON 数据
-json_file_path = "author_info/Yisen_Wang.json"
+json_file_path = "author_info/Zhouchen_Lin.json"
 with open(json_file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
 
@@ -130,7 +130,7 @@ for entry in data:
             run.font.name = "Arial"
             run.font.size = Pt(9)
 
-output_file_path = "2025年引用摘录分工_yisen.docx"
+output_file_path = "2025年引用摘录分工_zlin.docx"
 doc.save(output_file_path)
 
 print(f"文档已保存到 {output_file_path}")

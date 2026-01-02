@@ -214,11 +214,8 @@ def input_docx(cit, doc_pth, pdf_filename=None):
                 with open(analysis_path, "r") as f:
                     analysis_data = json.load(f)
 
-                positive_cits = [
-                    c
-                    for c in analysis_data.get("Citations", [])
-                    if c.get("Positive") is True
-                ]
+                citations = analysis_data.get("Citations", [])
+                positive_cits = [c for c in citations if c.get("Positive") is True]
 
                 if positive_cits:
                     # Empty line
@@ -252,6 +249,16 @@ def input_docx(cit, doc_pth, pdf_filename=None):
                             run_analysis.font.color.rgb = (
                                 COLOR_DARK_BLUE  # Dark Blue for analysis
                             )
+
+                elif any(c.get("Positive") is False for c in citations):
+                    para_neutral = doc.add_paragraph()
+                    para_neutral.paragraph_format.first_line_indent = Pt(0)
+
+                    run_neutral = para_neutral.add_run("Only Neutral Comments")
+                    run_neutral.font.name = "Arial"
+                    run_neutral.font.size = Pt(10)
+                    run_neutral.italic = True
+                    run_neutral.font.color.rgb = COLOR_GREY
 
             except Exception as e:
                 logging.error(f"Error reading analysis file {analysis_path}: {e}")
