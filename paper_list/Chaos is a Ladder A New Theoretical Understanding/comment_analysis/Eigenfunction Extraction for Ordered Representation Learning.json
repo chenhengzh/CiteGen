@@ -2,22 +2,24 @@
   "Filename": "Eigenfunction Extraction for Ordered Representation Learning",
   "Markers": [
     "Wang et al., 2022",
-    "Wang et al. (2022)",
-    "[3]"
+    "Wang et al., ICLR 2022",
+    "Wang et al."
   ],
   "PaperInfo": "Burak Varıcı, Che-Ping Tsai, Ritabrata Ray, Nicholas M. Boffi, and Pradeep Ravikumar. \"Eigenfunction Extraction for Ordered Representation Learning.\" arXiv preprint arXiv:2510.24672 (2025).",
   "Citations": [
     {
       "Text": "Wang et al. (2022) study how learned representations transfer across tasks and distributions.",
-      "Analysis": "作为众多研究中的一个进行列举，并没有特别评价。",
+      "Analysis": "作为列举的多个工作之一，研究表示学习在不同任务和分布间的迁移性，没有特别评价。",
       "Positive": false
     }
   ],
   "AnalyzedSnippetIndices": [
-    1
+    1,
+    2
   ],
   "EncounteredExceptions": [],
   "Snippets": [
-    "al than our eigenfunction extraction framework.\nOther works approach representation learning from diverse theoretical perspectives. Garrido et al. (2023b)\nshows that contrastive objectives and non-contrastive methods are equivalent under certain assumptions.\n16\nHjelm et al. (2019); Tschannen et al. (2020) show that representation learning can be seen as maximizing\nmutual information between inputs and their latent representations. Zhai et al. (2024a); Wang et al. (2024a);\nSaunshi et al. (2022); Wang et al. (2022); Lee et al. (2021); Brady et al. (2023, 2025) study how learned\nrepresentations transfer across tasks and distributions. The works on feature dynamics (Wang and Isola,\n2020; Wang et al., 2023; Huang et al., 2025; Wen and Li, 2021) and equivariance/invariance (Gupta et al.,\n2024; Garrido et al., 2023c; Xiao et al., 2021) focus on how representations evolve during training and how\nstructural constraints, such as symmetry or transformation consistency, shape the learned embedding space.\nReizinger "
+    "th varying computational budgets. The core idea\naligns with the principle of joint nesting, where objectives are summed across embedding lengths derived\nfrom the same full-dimensional vector. Since its introduction, this concept has been extended to a wide\nrange of applications, including large language models (OpenAI, 2024; Nussbaum et al., 2025; Yu et al., 2025;\nVera et al., 2025), diffusion models (Gu et al., 2023), multi-modal models (Cai et al., 2025; Hu et al., 2024),\nrecommender systems (Wang et al., 2024c), text embeddings (Cai et al., 2025), sparse autoencoder (Bussmann\net al., 2025), and federated learning (Yi et al., 2024).\nStructured representations can also be achieved through various methods. Wang et al. (2024b) introduced\nnon-negative contrastive learning, showing that sparse yet expressive representations can be learned with\ndeep encoders. In this approach, representations remain high-dimensional but can be stored in sparse\nmatrices, substantially reducing computational and storage costs. This idea has also been demonstrated in\nstate-of-the-art embedding models (Wen et al., 2025). Other approaches incorporate additional structure into\nthe learned representations, such as hierarchical represen",
+    "tive learning\nsettings, making it less general than our eigenfunction extraction framework.\nOther works approach representation learning from diverse theoretical perspectives. Garrido et al. (2023b)\nshows that contrastive objectives and non-contrastive methods are equivalent under certain assumptions.\n16\nHjelm et al. (2019); Tschannen et al. (2020) show that representation learning can be seen as maximizing\nmutual information between inputs and their latent representations. Zhai et al. (2024a); Wang et al. (2024a);\nSaunshi et al. (2022); Wang et al. (2022); Lee et al. (2021); Brady et al. (2023, 2025) study how learned\nrepresentations transfer across tasks and distributions. The works on feature dynamics (Wang and Isola,\n2020; Wang et al., 2023; Huang et al., 2025; Wen and Li, 2021) and equivariance/invariance (Gupta et al.,\n2024; Garrido et al., 2023c; Xiao et al., 2021) focus on how representations evolve during training and how\nstructural constraints, such as symmetry or transformation consistency, shape the learned embedding space.\nReizinger et al. (2025b); Daunhawer et al. (2023); Rusak et al. (2025); Lyu et al. (2022) propose identifia-\nbility theories showing that these representation learning techniques recover some part"
   ]
 }

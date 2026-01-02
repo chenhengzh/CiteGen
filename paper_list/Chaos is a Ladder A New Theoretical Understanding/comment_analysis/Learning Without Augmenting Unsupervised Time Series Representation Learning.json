@@ -4,26 +4,14 @@
   "PaperInfo": "Berken Utku Demirel, and Christian Holz. \"Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections.\" arXiv preprint arXiv:2510.22655 (2025).",
   "Citations": [
     {
-      "Text": "Augmentations are only effective if the augmented views of a sample have sufficient representational similarity with views of other intra-class samples [11, 12].",
-      "Analysis": "作为参考文献中的一个进行列举，并没有特别评价。",
-      "Positive": false
-    },
-    {
       "Text": "A recent study [12] highlights the importance of strong augmentations in instance discrimination by showing that augmentations can cause different intra-class samples to align when their augmented views overlap (i.e., two different cars appear similar when both are cropped to show only the wheels).",
-      "Analysis": "引用了被引论文[12]，强调了强数据增强在实例判别中的重要性，并解释了增强视图重叠如何导致类内样本对齐，这是对被引论文内容的正面评价和深入参考。",
-      "Positive": true
-    },
-    {
-      "Text": "More recently, data augmentations have become a central component of SSL, with stronger transformations applied to boost sample diversity [1, 12, 44].",
-      "Analysis": "作为增强样本多样性的方法之一进行列举，没有特别评价被引论文的内容或贡献。",
+      "Analysis": "引用了被引论文[12]，强调了强增强在实例判别中的重要性，并描述了其核心观点，但没有明确评价或应用其内容。",
       "Positive": false
     }
   ],
   "AnalyzedSnippetIndices": [
     1,
-    2,
-    3,
-    4
+    2
   ],
   "EncounteredExceptions": [],
   "Snippets": [

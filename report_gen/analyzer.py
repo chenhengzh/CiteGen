@@ -68,17 +68,6 @@ class CitationAnalyzer:
                     response.choices[0].message.content,
                 )
 
-                if response.usage:
-                    self.total_tokens["prompt_tokens"] += response.usage.prompt_tokens
-                    self.total_tokens[
-                        "completion_tokens"
-                    ] += response.usage.completion_tokens
-                    self.total_tokens["total_tokens"] += response.usage.total_tokens
-                    logging.info(
-                        f"Token usage for this request: Prompt: {response.usage.prompt_tokens}, "
-                        f"Completion: {response.usage.completion_tokens}, Total: {response.usage.total_tokens}"
-                    )
-
                 if response.choices[0].finish_reason != "stop":
                     raise Exception(
                         f"OpenAI API response did not finish normally: {response.choices[0].finish_reason}"
@@ -429,8 +418,4 @@ def run_analysis(paper_list_dir=None):
     for paper_dir in sorted(paper_dirs):
         analyzer.analyze_paper_folder(paper_dir)
 
-    logging.info(
-        f"Total token usage for this run: Prompt: {analyzer.total_tokens['prompt_tokens']}, "
-        f"Completion: {analyzer.total_tokens['completion_tokens']}, "
-        f"Total: {analyzer.total_tokens['total_tokens']}"
-    )
+
