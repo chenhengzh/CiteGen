@@ -1,0 +1,1142 @@
+[
+    {
+        "title": "Symmetric cross entropy for robust learning with noisy labels",
+        "authors": "Y Wang, X Ma, Z Chen, Y Luo, J Yi, J Bailey",
+        "year": "2019",
+        "publication": "ICCV 2019, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:M3ejUd6NZC8C",
+        "cite_id": "8655187014532302594",
+        "dirname": "Symmetric cross entropy for robust learning with noisy",
+        "cite_num_within_time": 303
+    },
+    {
+        "title": "Improving Adversarial Robustness Requires Revisiting Misclassified Examples",
+        "authors": "Y Wang, D Zou, J Yi, J Bailey, X Ma, Q Gu",
+        "year": "2020",
+        "publication": "ICLR2020, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:QIV2ME_5wuYC",
+        "cite_id": "7100431639219605362",
+        "dirname": "Improving Adversarial Robustness Requires Revisiting Misclassified Examples",
+        "cite_num_within_time": 230
+    },
+    {
+        "title": "Characterizing adversarial subspaces using local intrinsic dimensionality",
+        "authors": "X Ma, B Li, Y Wang, SM Erfani, S Wijewickrema, ME Houle, ...",
+        "year": "2018",
+        "publication": "ICLR2018, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:3fE2CSJIrl8C",
+        "cite_id": "17134144151462669065",
+        "dirname": "Characterizing adversarial subspaces using local intrinsic dimensionality",
+        "cite_num_within_time": 128
+    },
+    {
+        "title": "Adversarial Weight Perturbation Helps Robust Generalization",
+        "authors": "D Wu, S Xia, Y Wang",
+        "year": "2020",
+        "publication": "NeurIPS 2020, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:dhFuZR0502QC",
+        "cite_id": "11514034281833757978,3038718237454193318",
+        "dirname": "Adversarial Weight Perturbation Helps Robust Generalization",
+        "cite_num_within_time": 188
+    },
+    {
+        "title": "Understanding Adversarial Attacks on Deep Learning Based Medical Image Analysis Systems",
+        "authors": "X Ma, Y Niu, L Gu, Y Wang, Y Zhao, J Bailey, F Lu",
+        "year": "2019",
+        "publication": "Pattern Recognition, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:Wp0gIr-vW9MC",
+        "cite_id": "10197732447171783357",
+        "dirname": "Understanding Adversarial Attacks on Deep Learning Based Medical",
+        "cite_num_within_time": 161
+    },
+    {
+        "title": "Normalized Loss Functions for Deep Learning with Noisy Labels",
+        "authors": "X Ma, H Huang, Y Wang, S Romano, S Erfani, J Bailey",
+        "year": "2020",
+        "publication": "ICML2020, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:7PzlFSSx8tAC",
+        "cite_id": "15594415410821742634",
+        "dirname": "Normalized Loss Functions for Deep Learning with Noisy",
+        "cite_num_within_time": 129
+    },
+    {
+        "title": "Dimensionality-Driven Learning with Noisy Labels",
+        "authors": "X Ma, Y Wang, ME Houle, S Zhou, SM Erfani, ST Xia, S Wijewickrema, ...",
+        "year": "2018",
+        "publication": "ICML2018, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:KlAtU1dfN6UC",
+        "cite_id": "13671594748199391279",
+        "dirname": "Dimensionality-Driven Learning with Noisy Labels",
+        "cite_num_within_time": 58
+    },
+    {
+        "title": "On the Convergence and Robustness of Adversarial Training",
+        "authors": "Y Wang, X Ma, J Bailey, J Yi, B Zhou, Q Gu",
+        "year": "2019",
+        "publication": "ICML2019, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:_kc_bZDykSQC",
+        "cite_id": "16521650606363835532",
+        "dirname": "On the Convergence and Robustness of Adversarial Training",
+        "cite_num_within_time": 57
+    },
+    {
+        "title": "Skip Connections Matter: On the Transferability of Adversarial Examples Generated with ResNets",
+        "authors": "D Wu, Y Wang, ST Xia, J Bailey, X Ma",
+        "year": "2020",
+        "publication": "ICLR2020, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:4DMP91E08xMC",
+        "cite_id": "6211233010132912229",
+        "dirname": "Skip Connections Matter On the Transferability of Adversarial",
+        "cite_num_within_time": 85
+    },
+    {
+        "title": "Adversarial Neuron Pruning Purifies Backdoored Deep Models",
+        "authors": "D Wu, Y Wang",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:JV2RwH3_ST0C",
+        "cite_id": "6050825940162092618",
+        "dirname": "Adversarial Neuron Pruning Purifies Backdoored Deep Models",
+        "cite_num_within_time": 143
+    },
+    {
+        "title": "Jailbreak and guard aligned language models with only few in-context demonstrations",
+        "authors": "Z Wei, Y Wang, A Li, Y Mo, Y Wang",
+        "year": "2023",
+        "publication": "arXiv preprint arXiv:2310.06387, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:KxtntwgDAa4C",
+        "cite_id": "3774405247295136210",
+        "dirname": "Jailbreak and guard aligned language models with only",
+        "cite_num_within_time": 250
+    },
+    {
+        "title": "Iterative Learning with Open-set Noisy Labels",
+        "authors": "Y Wang, W Liu, X Ma, J Bailey, H Zha, L Song, ST Xia",
+        "year": "2018",
+        "publication": "CVPR2018, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:kNdYIx-mwKoC",
+        "cite_id": "17508278419210766419",
+        "dirname": "Iterative Learning with Open-set Noisy Labels",
+        "cite_num_within_time": 40
+    },
+    {
+        "title": "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles",
+        "authors": "R Duan, X Ma, Y Wang, J Bailey, AK Qin, Y Yang",
+        "year": "2020",
+        "publication": "CVPR2020, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:9ZlFYXVOiuMC",
+        "cite_id": "17515584599994156419",
+        "dirname": "Adversarial Camouflage Hiding Physical-World Attacks with Natural Styles",
+        "cite_num_within_time": 68
+    },
+    {
+        "title": "Unlearnable Examples: Making Personal Data Unexploitable",
+        "authors": "H Huang, X Ma, SM Erfani, J Bailey, Y Wang",
+        "year": "2021",
+        "publication": "ICLR 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:hFOr9nPyWt4C",
+        "cite_id": "17937052451720151059",
+        "dirname": "Unlearnable Examples Making Personal Data Unexploitable",
+        "cite_num_within_time": 75
+    },
+    {
+        "title": "Training High-Performance Low-Latency Spiking Neural Networks by Differentiation on Spike Representation",
+        "authors": "Q Meng, M Xiao, S Yan, Y Wang, Z Lin, ZQ Luo",
+        "year": "2022",
+        "publication": "CVPR 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:2P1L_qKh6hAC",
+        "cite_id": "3967951227165330050",
+        "dirname": "Training High-Performance Low-Latency Spiking Neural Networks by Differentiation",
+        "cite_num_within_time": 73
+    },
+    {
+        "title": "Improving adversarial robustness via channel-wise activation suppressing",
+        "authors": "Y Bai, Y Zeng, Y Jiang, ST Xia, X Ma, Y Wang",
+        "year": "2021",
+        "publication": "ICLR 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:TQgYirikUcIC",
+        "cite_id": "16315998776184141539",
+        "dirname": "Improving adversarial robustness via channel-wise activation suppressing",
+        "cite_num_within_time": 26
+    },
+    {
+        "title": "Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning via Augmentation Overlap",
+        "authors": "Y Wang, Q Zhang, Y Wang, J Yang, Z Lin",
+        "year": "2022",
+        "publication": "ICLR 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:lSLTfruPkqcC",
+        "cite_id": "7197581293948710911",
+        "dirname": "Chaos is a Ladder A New Theoretical Understanding",
+        "cite_num_within_time": 31
+    },
+    {
+        "title": "Leveraged Weighted Loss for Partial Label Learning",
+        "authors": "H Wen, J Cui, H Hang, J Liu, Y Wang, Z Lin",
+        "year": "2021",
+        "publication": "ICML 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:j3f4tGmQtD8C",
+        "cite_id": "5461608260366903450",
+        "dirname": "Leveraged Weighted Loss for Partial Label Learning",
+        "cite_num_within_time": 44
+    },
+    {
+        "title": "Exploring Architectural Ingredients of Adversarially Robust Deep Neural Networks",
+        "authors": "H Huang, Y Wang, S Erfani, Q Gu, J Bailey, X Ma",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:maZDTaKrznsC",
+        "cite_id": "17017038540474728130",
+        "dirname": "Exploring Architectural Ingredients of Adversarially Robust Deep Neural",
+        "cite_num_within_time": 26
+    },
+    {
+        "title": "A novel consistent random forest framework: Bernoulli random forests",
+        "authors": "Y Wang, ST Xia, Q Tang, J Wu, X Zhu",
+        "year": "2017",
+        "publication": "IEEE transactions on neural networks and learning systems 29 (8), 3510-3523, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:-f6ydRqryjwC",
+        "cite_id": "12439557282993867985,5214193571386244907",
+        "dirname": "A novel consistent random forest framework Bernoulli random",
+        "cite_num_within_time": 17
+    },
+    {
+        "title": "Can Subnetwork Structure be the Key to Out-of-Distribution Generalization?",
+        "authors": "D Zhang, K Ahuja, Y Xu, Y Wang, A Courville",
+        "year": "2021",
+        "publication": "ICML 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:r0BpntZqJG4C",
+        "cite_id": "15879924505927996377",
+        "dirname": "Can Subnetwork Structure be the Key to Out-of-Distribution",
+        "cite_num_within_time": 18
+    },
+    {
+        "title": "A unified approach to interpreting and boosting adversarial transferability",
+        "authors": "X Wang, J Ren, S Lin, X Zhu, Y Wang, Q Zhang",
+        "year": "2020",
+        "publication": "ICLR 2021, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:L8Ckcad2t8MC",
+        "cite_id": "14338812229446111631",
+        "dirname": "A unified approach to interpreting and boosting adversarial",
+        "cite_num_within_time": 22
+    },
+    {
+        "title": "Residual convolutional CTC networks for automatic speech recognition",
+        "authors": "Y Wang, X Deng, S Pu, Z Huang",
+        "year": "2017",
+        "publication": "arXiv preprint arXiv:1702.07793, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:ufrVoPGSRksC",
+        "cite_id": "7316351790167518909",
+        "dirname": "Residual convolutional CTC networks for automatic speech recognition",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Dissecting the Diffusion Process in Linear Graph Convolutional Networks",
+        "authors": "Y Wang, Y Wang, J Yang, Z Lin",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:R3hNpaxXUhUC",
+        "cite_id": "953644699740016159",
+        "dirname": "Dissecting the Diffusion Process in Linear Graph Convolutional",
+        "cite_num_within_time": 38
+    },
+    {
+        "title": "Towards memory-and time-efficient backpropagation for training spiking neural networks",
+        "authors": "Q Meng, M Xiao, S Yan, Y Wang, Z Lin, ZQ Luo",
+        "year": "2023",
+        "publication": "Proceedings of the IEEE/CVF international conference on computer vision …, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:_xSYboBqXhAC",
+        "cite_id": "4514526700504386789",
+        "dirname": "Towards memory-and time-efficient backpropagation for training spiking neural",
+        "cite_num_within_time": 65
+    },
+    {
+        "title": "How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders",
+        "authors": "Q Zhang, Y Wang, Y Wang",
+        "year": "2022",
+        "publication": "NeurIPS 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:3s1wT3WcHBgC",
+        "cite_id": "12421230382199683849",
+        "dirname": "How Mask Matters Towards Theoretical Understandings of Masked",
+        "cite_num_within_time": 46
+    },
+    {
+        "title": "When more is less: Understanding chain-of-thought length in llms",
+        "authors": "Y Wu, Y Wang, Z Ye, T Du, S Jegelka, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2502.07266, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:V3AGJWp-ZtQC",
+        "cite_id": "414613819840578874",
+        "dirname": "When more is less Understanding chain-of-thought length in",
+        "cite_num_within_time": 105
+    },
+    {
+        "title": "When Adversarial Training Meets Vision Transformers: Recipes from Training to Architecture",
+        "authors": "Y Mo, D Wu, Y Wang, Y Guo, Y Wang",
+        "year": "2022",
+        "publication": "NeurIPS 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:rO6llkc54NcC",
+        "cite_id": "4979980809128856359",
+        "dirname": "When Adversarial Training Meets Vision Transformers Recipes from",
+        "cite_num_within_time": 50
+    },
+    {
+        "title": "On Training Implicit Models",
+        "authors": "Z Geng, XY Zhang, S Bai, Y Wang, Z Lin",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:ns9cj8rnVeAC",
+        "cite_id": "15707261069141178694",
+        "dirname": "On Training Implicit Models",
+        "cite_num_within_time": 25
+    },
+    {
+        "title": "CFA: Class-wise Calibrated Fair Adversarial Training",
+        "authors": "Z Wei, Y Wang, Y Guo, Y Wang",
+        "year": "2023",
+        "publication": "CVPR 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:EUQCXRtRnyEC",
+        "cite_id": "6251380337317124347",
+        "dirname": "CFA Class-wise Calibrated Fair Adversarial Training",
+        "cite_num_within_time": 38
+    },
+    {
+        "title": "Query efficient black-box adversarial attack on deep neural networks",
+        "authors": "Y Bai, Y Wang, Y Zeng, Y Jiang, ST Xia",
+        "year": "2023",
+        "publication": "Pattern Recognition 133, 109037, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:SeFeTyx0c_EC",
+        "cite_id": "8586358529915715888",
+        "dirname": "Query efficient black-box adversarial attack on deep neural",
+        "cite_num_within_time": 35
+    },
+    {
+        "title": "Training feedback spiking neural networks by implicit differentiation on the equilibrium state",
+        "authors": "M Xiao, Q Meng, Z Zhang, Y Wang, Z Lin",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:k_IJM867U9cC",
+        "cite_id": "6586041422303063440",
+        "dirname": "Training feedback spiking neural networks by implicit differentiation",
+        "cite_num_within_time": 25
+    },
+    {
+        "title": "Decoupled networks",
+        "authors": "W Liu, Z Liu, Z Yu, B Dai, R Lin, Y Wang, JM Rehg, L Song",
+        "year": "2018",
+        "publication": "CVPR2018, 2771-2779, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:Zph67rFs4hoC",
+        "cite_id": "3704565974334617829",
+        "dirname": "Decoupled networks",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "ContraNorm: A Contrastive Learning Perspective on Oversmoothing and Beyond",
+        "authors": "X Guo, Y Wang, T Du, Y Wang",
+        "year": "2023",
+        "publication": "ICLR 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:cFHS6HbyZ2cC",
+        "cite_id": "10107504895816145562",
+        "dirname": "ContraNorm A Contrastive Learning Perspective on Oversmoothing and",
+        "cite_num_within_time": 46
+    },
+    {
+        "title": "Self-Ensemble Adversarial Training for Improved Robustness",
+        "authors": "H Wang, Y Wang",
+        "year": "2022",
+        "publication": "ICLR 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:RYcK_YlVTxYC",
+        "cite_id": "5523117763790476247",
+        "dirname": "Self-Ensemble Adversarial Training for Improved Robustness",
+        "cite_num_within_time": 21
+    },
+    {
+        "title": "Improving query efficiency of black-box adversarial attack",
+        "authors": "Y Bai, Y Zeng, Y Jiang, Y Wang, ST Xia, W Guo",
+        "year": "2020",
+        "publication": "ECCV2020, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:IWHjjKOFINEC",
+        "cite_id": "10845525895682642585",
+        "dirname": "Improving query efficiency of black-box adversarial attack",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Towards a Unified Game-Theoretic View of Adversarial Perturbations and Robustness",
+        "authors": "J Ren, D Zhang, Y Wang, L Chen, Z Zhou, Y Chen, X Cheng, X Wang, ...",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:NaGl4SEjCO4C",
+        "cite_id": "1689510385782967282,10405183538906234310,2814495352598482364",
+        "dirname": "Towards a Unified Game-Theoretic View of Adversarial Perturbations",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Hilbert-Based Generative Defense for Adversarial Examples",
+        "authors": "Y Bai, Y Feng, Y Wang, T Dai, ST Xia, Y Jiang",
+        "year": "2019",
+        "publication": "ICCV 2019, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:aqlVkmm33-oC",
+        "cite_id": "6302408891461932544",
+        "dirname": "Hilbert-Based Generative Defense for Adversarial Examples",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Analysis and Applications of Class-wise Robustness in Adversarial Training",
+        "authors": "Q Tian, K Kuang, K Jiang, F Wu, Y Wang",
+        "year": "2021",
+        "publication": "KDD 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:iH-uZ7U-co4C",
+        "cite_id": "17614500227635237800",
+        "dirname": "Analysis and Applications of Class-wise Robustness in Adversarial",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Fight back against jailbreaking via prompt adversarial tuning",
+        "authors": "Y Mo, Y Wang, Z Wei, Y Wang",
+        "year": "2024",
+        "publication": "NeurIPS 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:eflP2zaiRacC",
+        "cite_id": "16358571454265026813,3775244979245496399",
+        "dirname": "Fight back against jailbreaking via prompt adversarial tuning",
+        "cite_num_within_time": 40
+    },
+    {
+        "title": "Optimization-Induced Graph Implicit Nonlinear Diffusion",
+        "authors": "Q Chen, Y Wang, Y Wang, J Yang, Z Lin",
+        "year": "2022",
+        "publication": "ICML 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:M05iB0D1s5AC",
+        "cite_id": "1600506523476072350",
+        "dirname": "Optimization-Induced Graph Implicit Nonlinear Diffusion",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "A less-greedy two-term Tsallis Entropy Information Metric approach for decision tree classification",
+        "authors": "Y Wang, ST Xia, J Wu",
+        "year": "2017",
+        "publication": "Knowledge-Based Systems 120, 34-42, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:W7OEmFMy1HYC",
+        "cite_id": "1587165738710653672",
+        "dirname": "A less-greedy two-term Tsallis Entropy Information Metric approach",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "Gauge Equivariant Transformer",
+        "authors": "L He, Y Dong, Y Wang, D Tao, Z Lin",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:YFjsv_pBGBYC",
+        "cite_id": "4151917808216145361",
+        "dirname": "Gauge Equivariant Transformer",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "A Theoretical Understanding of Self-Correction through In-context Alignment",
+        "authors": "Y Wang, Y Wu, Z Wei, S Jegelka, Y Wang",
+        "year": "2024",
+        "publication": "NeurIPS 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:geHnlv5EZngC",
+        "cite_id": "14232417896736061252",
+        "dirname": "A Theoretical Understanding of Self-Correction through In-context Alignment",
+        "cite_num_within_time": 33
+    },
+    {
+        "title": "Training much deeper spiking neural networks with a small number of time-steps",
+        "authors": "Q Meng, S Yan, M Xiao, Y Wang, Z Lin, ZQ Luo",
+        "year": "2022",
+        "publication": "Neural Networks 153, 254-268, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:g5m5HwL7SMYC",
+        "cite_id": "15965734151119810943",
+        "dirname": "Training much deeper spiking neural networks with a",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "Residual Relaxation for Multi-view Representation Learning",
+        "authors": "Y Wang, Z Geng, F Jiang, C Li, Y Wang, J Yang, Z Lin",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:M3NEmzRMIkIC",
+        "cite_id": "4123025705657781235",
+        "dirname": "Residual Relaxation for Multi-view Representation Learning",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Do Generated Data Always Help Contrastive Learning?",
+        "authors": "Y Wang, J Zhang, Y Wang",
+        "year": "2024",
+        "publication": "ICLR 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:WbkHhVStYXYC",
+        "cite_id": "15329480813033951720",
+        "dirname": "Do Generated Data Always Help Contrastive Learning",
+        "cite_num_within_time": 21
+    },
+    {
+        "title": "Optimization induced equilibrium networks",
+        "authors": "X Xie, Q Wang, Z Ling, X Li, Y Wang, G Liu, Z Lin",
+        "year": "2021",
+        "publication": "arXiv preprint arXiv:2105.13228, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:TFP_iSt0sucC",
+        "cite_id": "15523915636024084676,141905930586774912",
+        "dirname": "Optimization induced equilibrium networks",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Unifying attribute splitting criteria of decision trees by Tsallis entropy",
+        "authors": "Y Wang, ST Xia",
+        "year": "2017",
+        "publication": "ICASSP: 2017 IEEE International Conference on Acoustics, Speech and Signal …, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:hqOjcs7Dif8C",
+        "cite_id": "12976970526766277655,11515046975122900962,8327042285702063292",
+        "dirname": "Unifying attribute splitting criteria of decision trees by",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Rethinking the Effect of Data Augmentation in Adversarial Contrastive Learning",
+        "authors": "R Luo, Y Wang, Y Wang",
+        "year": "2023",
+        "publication": "ICLR 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:yD5IFk8b50cC",
+        "cite_id": "7552996629882222774",
+        "dirname": "Rethinking the Effect of Data Augmentation in Adversarial",
+        "cite_num_within_time": 16
+    },
+    {
+        "title": "Efficient Equivariant Network",
+        "authors": "L He, Y Chen, Y Dong, Y Wang, Z Lin",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:hMod-77fHWUC",
+        "cite_id": "547182555419234548",
+        "dirname": "Efficient Equivariant Network",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "What is Wrong with Perplexity for Long-context Language Modeling?",
+        "authors": "L Fang, Y Wang, Z Liu, C Zhang, S Jegelka, J Gao, B Ding, Y Wang",
+        "year": "2024",
+        "publication": "ICLR 2025, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:fQNAKQ3IYiAC",
+        "cite_id": "7489640204968154750",
+        "dirname": "What is Wrong with Perplexity for Long-context Language",
+        "cite_num_within_time": 36
+    },
+    {
+        "title": "On the Generalization of Multi-modal Contrastive Learning",
+        "authors": "Q Zhang, Y Wang, Y Wang",
+        "year": "2023",
+        "publication": "ICML 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:P5F9QuxV20EC",
+        "cite_id": "5619043935059173603",
+        "dirname": "On the Generalization of Multi-modal Contrastive Learning",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Collaborative representation cascade for single-image super-resolution",
+        "authors": "Y Zhang, Y Zhang, J Zhang, D Xu, Y Fu, Y Wang, X Ji, Q Dai",
+        "year": "2017",
+        "publication": "IEEE Transactions on Systems, Man, and Cybernetics: Systems 49 (5), 845-860, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:UebtZRa9Y70C",
+        "cite_id": "15820904625532716845",
+        "dirname": "Collaborative representation cascade for single-image super-resolution",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "SaLoRA: Safety-Alignment Preserved Low-Rank Adaptation",
+        "authors": "M Li, WM Si, M Backes, Y Zhang, Y Wang",
+        "year": "2025",
+        "publication": "ICLR 2025, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:BrmTIyaxlBUC",
+        "cite_id": "507768616016306541",
+        "dirname": "SaLoRA Safety-Alignment Preserved Low-Rank Adaptation",
+        "cite_num_within_time": 32
+    },
+    {
+        "title": "Dirichlet Latent Variable Hierarchical Recurrent Encoder-Decoder in Dialogue Generation",
+        "authors": "M Zeng, Y Wang, Y Luo",
+        "year": "2019",
+        "publication": "EMNLP 2019, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:qxL8FJ1GzNcC",
+        "cite_id": "4982329886691822816",
+        "dirname": "Dirichlet Latent Variable Hierarchical Recurrent Encoder-Decoder in Dialogue",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "G CN: Graph Gaussian Convolution Networks with Concentrated Graph Filters",
+        "authors": "M Li, X Guo, Y Wang, Y Wang, Z Lin",
+        "year": "2022",
+        "publication": "ICML 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:pqnbT2bcN3wC",
+        "cite_id": "9435672911110832415",
+        "dirname": "G CN Graph Gaussian Convolution Networks with Concentrated",
+        "cite_num_within_time": 11
+    },
+    {
+        "title": "Towards a Unified Theoretical Understanding of Non-contrastive Learning via Rank Differential Mechanism",
+        "authors": "Z Zhuo, Y Wang, J Ma, Y Wang",
+        "year": "2023",
+        "publication": "ICLR 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:f2IySw72cVMC",
+        "cite_id": "1105090783123590248",
+        "dirname": "Towards a Unified Theoretical Understanding of Non-contrastive Learning",
+        "cite_num_within_time": 14
+    },
+    {
+        "title": "A Message Passing Perspective on Learning Dynamics of Contrastive Learning",
+        "authors": "Y Wang, Q Zhang, T Du, J Yang, Z Lin, Y Wang",
+        "year": "2023",
+        "publication": "ICLR 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:NhqRSupF_l8C",
+        "cite_id": "6958484984272361068",
+        "dirname": "A Message Passing Perspective on Learning Dynamics of",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Laplacian Canonization: A Minimalist Approach to Sign and Basis Invariant Spectral Embedding",
+        "authors": "J Ma, Y Wang, Y Wang",
+        "year": "2023",
+        "publication": "NeurIPS 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:p2g8aNsByqUC",
+        "cite_id": "6748014451676080528",
+        "dirname": "Laplacian Canonization A Minimalist Approach to Sign and",
+        "cite_num_within_time": 14
+    },
+    {
+        "title": "Architecture Matters: Uncovering Implicit Mechanisms in Graph Contrastive Learning",
+        "authors": "X Guo, Y Wang, Z Wei, Y Wang",
+        "year": "2023",
+        "publication": "NeurIPS 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:OU6Ihb5iCvQC",
+        "cite_id": "3213070113013102632",
+        "dirname": "Architecture Matters Uncovering Implicit Mechanisms in Graph Contrastive",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Adversarial examples are not real features",
+        "authors": "A Li, Y Wang, Y Guo, Y Wang",
+        "year": "2023",
+        "publication": "NeurIPS 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:UxriW0iASnsC",
+        "cite_id": "14400685504660216518",
+        "dirname": "Adversarial examples are not real features",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Non-negative Contrastive Learning",
+        "authors": "Y Wang, Q Zhang, Y Guo, Y Wang",
+        "year": "2024",
+        "publication": "ICLR 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:738O_yMBCRsC",
+        "cite_id": "2111794499205366772",
+        "dirname": "Non-negative Contrastive Learning",
+        "cite_num_within_time": 13
+    },
+    {
+        "title": "Improving Out-of-Distribution Generalization by Adversarial Training with Structured Priors",
+        "authors": "Q Wang, Y Wang, H Zhu, Y Wang",
+        "year": "2022",
+        "publication": "NeurIPS 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:ZHo1McVdvXMC",
+        "cite_id": "847890003773472313",
+        "dirname": "Improving Out-of-Distribution Generalization by Adversarial Training with Structured",
+        "cite_num_within_time": 13
+    },
+    {
+        "title": "Unbiased Multivariate Correlation Analysis",
+        "authors": "Y Wang, S Romano, V Nguyen, J Bailey, X Ma, ST Xia",
+        "year": "2017",
+        "publication": "AAAI: Proceedings of the Thirty-First AAAI Conference on Artificial …, 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:YsMSGLbcyi4C",
+        "cite_id": "14871287352607755368",
+        "dirname": "Unbiased Multivariate Correlation Analysis",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Terd: A unified framework for safeguarding diffusion models against backdoors",
+        "authors": "Y Mo, H Huang, M Li, A Li, Y Wang",
+        "year": "2024",
+        "publication": "ICML 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:tOudhMTPpwUC",
+        "cite_id": "14889553547558109813",
+        "dirname": "Terd A unified framework for safeguarding diffusion models",
+        "cite_num_within_time": 20
+    },
+    {
+        "title": "Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective",
+        "authors": "Y Wang, L Li, J Yang, Z Lin, Y Wang",
+        "year": "2023",
+        "publication": "NeurIPS 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:SP6oXDckpogC",
+        "cite_id": "15564378337763276524",
+        "dirname": "Balance, Imbalance, and Rebalance Understanding Robust Overfitting from",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "Clustering Effect of (Linearized) Adversarial Robust Models",
+        "authors": "Y Bai, X Yan, Y Jiang, ST Xia, Y Wang",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:O3NaXMp0MMsC",
+        "cite_id": "5519373508175035676",
+        "dirname": "Clustering Effect of (Linearized) Adversarial Robust Models",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Generalist: Decoupling Natural and Robust Generalization",
+        "authors": "H Wang, Y Wang",
+        "year": "2023",
+        "publication": "CVPR 2023 Highlight, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:pyW8ca7W8N0C",
+        "cite_id": "5717833951621201555",
+        "dirname": "Generalist Decoupling Natural and Robust Generalization",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Finding Optimal Tangent Points for Reducing Distortions of Hard-label Attacks",
+        "authors": "C Ma, X Guo, L Chen, JH Yong, Y Wang",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:NMxIlDl6LWMC",
+        "cite_id": "2435511386343410332",
+        "dirname": "Finding Optimal Tangent Points for Reducing Distortions of",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Rethinking Weak Supervision in Helping Contrastive Learning",
+        "authors": "J Cui, W Huang, Y Wang, Y Wang",
+        "year": "2023",
+        "publication": "ICML 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:1sJd4Hv_s6UC",
+        "cite_id": "17626362695425587481",
+        "dirname": "Rethinking Weak Supervision in Helping Contrastive Learning",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "SPIDE: A purely spike-based method for training feedback spiking neural networks",
+        "authors": "M Xiao, Q Meng, Z Zhang, Y Wang, Z Lin",
+        "year": "2023",
+        "publication": "Neural Networks 161, 9-24, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:dfsIfKJdRG4C",
+        "cite_id": "14752066082223758260",
+        "dirname": "SPIDE A purely spike-based method for training feedback",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "Proving common mechanisms shared by twelve methods of boosting adversarial transferability",
+        "authors": "Q Zhang, X Wang, J Ren, X Cheng, S Lin, Y Wang, X Zhu",
+        "year": "2022",
+        "publication": "arXiv preprint arXiv:2207.11694, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:u_35RYKgDlwC",
+        "cite_id": "2305350052420325087",
+        "dirname": "Proving common mechanisms shared by twelve methods of",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "A Unified Contrastive Energy-based Model for Understanding the Generative Ability of Adversarial Training",
+        "authors": "Y Wang, Y Wang, J Yang, Z Lin",
+        "year": "2022",
+        "publication": "ICLR 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:70eg2SAEIzsC",
+        "cite_id": "9237224064252747933,6144592589118913683",
+        "dirname": "A Unified Contrastive Energy-based Model for Understanding the",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "GBHT: Gradient Boosting Histogram Transform for Density Estimation",
+        "authors": "J Cui, H Hang, Y Wang, Z Lin",
+        "year": "2021",
+        "publication": "ICML 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:bEWYMUwI8FkC",
+        "cite_id": "12614114366715223664",
+        "dirname": "GBHT Gradient Boosting Histogram Transform for Density Estimation",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "CerDEQ: Certifiable Deep Equilibrium Model",
+        "authors": "M Li, Y Wang, Z Lin",
+        "year": "2022",
+        "publication": "ICML 2022, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:HoB7MX3m0LUC",
+        "cite_id": "17073707072704399328",
+        "dirname": "CerDEQ Certifiable Deep Equilibrium Model",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Morié Attack (MA): A New Potential Risk of Screen Photos",
+        "authors": "D Niu, R Guo, Y Wang",
+        "year": "2021",
+        "publication": "NeurIPS 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:35N4QoGY0k4C",
+        "cite_id": "5204824031822855869",
+        "dirname": "Morié Attack (MA) A New Potential Risk of",
+        "cite_num_within_time": 7
+    },
+    {
+        "title": "AttnGCG: Enhancing jailbreaking attacks on LLMs with attention manipulation",
+        "authors": "Z Wang, H Tu, J Mei, B Zhao, Y Wang, C Xie",
+        "year": "2024",
+        "publication": "arXiv preprint arXiv:2410.09040, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:vRqMK49ujn8C",
+        "cite_id": "4746879930407635436",
+        "dirname": "AttnGCG Enhancing jailbreaking attacks on LLMs with attention",
+        "cite_num_within_time": 15
+    },
+    {
+        "title": "Equilibrium image denoising with implicit differentiation",
+        "authors": "Q Chen, Y Wang, Z Geng, Y Wang, J Yang, Z Lin",
+        "year": "2023",
+        "publication": "IEEE Transactions on Image Processing 32, 1868-1881, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:bFI3QPDXJZMC",
+        "cite_id": "2047514656424453784",
+        "dirname": "Equilibrium image denoising with implicit differentiation",
+        "cite_num_within_time": 9
+    },
+    {
+        "title": "Fooling adversarial training with inducing noise",
+        "authors": "Z Wang, Y Wang, Y Wang",
+        "year": "2021",
+        "publication": "arXiv preprint arXiv:2111.10130, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:BqipwSGYUEgC",
+        "cite_id": "9373800430483313870",
+        "dirname": "Fooling adversarial training with inducing noise",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Can In-context Learning Really Generalize to Out-of-distribution Tasks?",
+        "authors": "Q Wang, Y Wang, Y Wang, X Ying",
+        "year": "2024",
+        "publication": "ICLR 2025, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:B3FOqHPlNUQC",
+        "cite_id": "11397184075075982918",
+        "dirname": "Can In-context Learning Really Generalize to Out-of-distribution Tasks",
+        "cite_num_within_time": 14
+    },
+    {
+        "title": "Identifiable Contrastive Learning with Automatic Feature Importance Discovery",
+        "authors": "Q Zhang, Y Wang, Y Wang",
+        "year": "2023",
+        "publication": "NeurIPS 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:uWQEDVKXjbEC",
+        "cite_id": "5568463507952202155",
+        "dirname": "Identifiable Contrastive Learning with Automatic Feature Importance Discovery",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "On the Connection between Invariant Learning and Adversarial Training for Out-of-Distribution Generalization",
+        "authors": "S Xin, Y Wang, J Su, Y Wang",
+        "year": "2022",
+        "publication": "AAAI 2023, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:fPk4N6BV_jEC",
+        "cite_id": "937386001847011663",
+        "dirname": "On the Connection between Invariant Learning and Adversarial",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "A novel feature subspace selection method in random forests for high dimensional data",
+        "authors": "Y Wang, ST Xia",
+        "year": "2016",
+        "publication": "2016 International Joint Conference on Neural Networks (IJCNN), 4383-4389, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:Tyk-4Ss8FVUC",
+        "cite_id": "767449997682770364",
+        "dirname": "A novel feature subspace selection method in random",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Improving decision trees by tsallis entropy information metric method",
+        "authors": "Y Wang, C Song, ST Xia",
+        "year": "2016",
+        "publication": "2016 International Joint Conference on Neural Networks (IJCNN), 4729-4734, 2016",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:zYLM7Y9cAGgC",
+        "cite_id": "14823455991450343133",
+        "dirname": "Improving decision trees by tsallis entropy information metric",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Sampling complex topology structures for spiking neural networks",
+        "authors": "S Yan, Q Meng, M Xiao, Y Wang, Z Lin",
+        "year": "2024",
+        "publication": "Neural Networks 172, 106121, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:tS2w5q8j5-wC",
+        "cite_id": "5852181989356600441",
+        "dirname": "Sampling complex topology structures for spiking neural networks",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning",
+        "authors": "A Li, Y Mo, M Li, Y Wang, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2502.09673, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:kRWSkSYxWN8C",
+        "cite_id": "16405868489099700823",
+        "dirname": "Are Smarter LLMs Safer Exploring Safety-Reasoning Trade-offs in",
+        "cite_num_within_time": 12
+    },
+    {
+        "title": "PID: prompt-independent data protection against latent diffusion models",
+        "authors": "A Li, Y Mo, M Li, Y Wang",
+        "year": "2024",
+        "publication": "ICML 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:l7t_Zn2s7bgC",
+        "cite_id": "13585677613216683671",
+        "dirname": "PID prompt-independent data protection against latent diffusion models",
+        "cite_num_within_time": 10
+    },
+    {
+        "title": "A Canonization Perspective on Invariant and Equivariant Learning",
+        "authors": "G Ma, Y Wang, D Lim, S Jegelka, Y Wang",
+        "year": "2024",
+        "publication": "NeurIPS 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:8AbLer7MMksC",
+        "cite_id": "16022766083872922047",
+        "dirname": "A Canonization Perspective on Invariant and Equivariant Learning",
+        "cite_num_within_time": 6
+    },
+    {
+        "title": "On the Role of Discrete Tokenization in Visual Representation Learning",
+        "authors": "T Du, Y Wang, Y Wang",
+        "year": "2024",
+        "publication": "ICLR 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:Tiz5es2fbqcC",
+        "cite_id": "4826259883001592827",
+        "dirname": "On the Role of Discrete Tokenization in Visual",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Learning deep hidden nonlinear dynamics from aggregate data",
+        "authors": "Y Wang, B Dai, L Kong, SM Erfani, J Bailey, H Zha",
+        "year": "2018",
+        "publication": "UAI 2018, 2018",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:qUcmZB5y_30C",
+        "cite_id": "4970938620604269561",
+        "dirname": "Learning deep hidden nonlinear dynamics from aggregate data",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Unbiased Stochastic Proximal Solver for Graph Neural Networks with Equilibrium States",
+        "authors": "M Li, Y Wang, Y Wang, Z Lin",
+        "year": "2023",
+        "publication": "ICLR 2023, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:a0OBvERweLwC",
+        "cite_id": "6277806646538631936",
+        "dirname": "Unbiased Stochastic Proximal Solver for Graph Neural Networks",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Understanding the Role of Equivariance in Self-supervised Learning",
+        "authors": "Y Wang, K Hu, S Gupta, Z Ye, Y Wang, S Jegelka",
+        "year": "2024",
+        "publication": "NeurIPS 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&pagesize=100&citation_for_view=uMWPDboAAAAJ:VOx2b1Wkg3QC",
+        "cite_id": "12534528083567681815",
+        "dirname": "Understanding the Role of Equivariance in Self-supervised Learning",
+        "cite_num_within_time": 8
+    },
+    {
+        "title": "Reparameterized Sampling for Generative Adversarial Networks",
+        "authors": "Y Wang, Y Wang, J Yang, Z Lin",
+        "year": "2021",
+        "publication": "ECML 2021, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:4JMBOYKVnBMC",
+        "cite_id": "11680835937896061544",
+        "dirname": "Reparameterized Sampling for Generative Adversarial Networks",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "AggNCE: Asymptotically Identifiable Contrastive Learning",
+        "authors": "J Cui, W Huang, Y Wang, Y Wang",
+        "year": "2022",
+        "publication": "NeurIPS 2022 Workshop on Self-Supervised Learning Theory and Practice, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:xtRiw3GOFMkC",
+        "cite_id": "7470997737500509805",
+        "dirname": "AggNCE Asymptotically Identifiable Contrastive Learning",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "G1: Teaching LLMs to Reason on Graphs with Reinforcement Learning",
+        "authors": "X Guo, A Li, Y Wang, S Jegelka, Y Wang",
+        "year": "2025",
+        "publication": "NeurIPS 2025, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:5ugPr518TE4C",
+        "cite_id": "12219551077826992951",
+        "dirname": "G1 Teaching LLMs to Reason on Graphs with",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Advancing llm safe alignment with safety representation ranking",
+        "authors": "T Du, Z Wei, Q Chen, C Zhang, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2505.15710, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:XiVPGOgt02cC",
+        "cite_id": "9147050430051665415",
+        "dirname": "Advancing llm safe alignment with safety representation ranking",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Scalable defense against in-the-wild jailbreaking attacks with safety context retrieval",
+        "authors": "T Chen, Z Wei, A Li, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2505.15753, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:bnK-pcrLprsC",
+        "cite_id": "4981182536377238177",
+        "dirname": "Scalable defense against in-the-wild jailbreaking attacks with safety",
+        "cite_num_within_time": 5
+    },
+    {
+        "title": "Made: Graph backdoor defense with masked unlearning",
+        "authors": "X Lin, M Li, Y Wang",
+        "year": "2024",
+        "publication": "arXiv preprint arXiv:2411.18648, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:mvPsJ3kp5DgC",
+        "cite_id": "4930876346165299707",
+        "dirname": "Made Graph backdoor defense with masked unlearning",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Look ahead or look around? a theoretical comparison between autoregressive and masked pretraining",
+        "authors": "Q Zhang, T Du, H Huang, Y Wang, Y Wang",
+        "year": "2024",
+        "publication": "ICML 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:K3LRdlH-MEoC",
+        "cite_id": "2872567291653114698",
+        "dirname": "Look ahead or look around a theoretical comparison",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Efficient and scalable implicit graph neural networks with virtual equilibrium",
+        "authors": "Q Chen, Y Wang, Y Wang, J Chang, Q Tian, J Yang, Z Lin",
+        "year": "2022",
+        "publication": "2022 IEEE International Conference on Big Data (Big Data), 864-873, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:abG-DnoFyZgC",
+        "cite_id": "6902088107767745314",
+        "dirname": "Efficient and scalable implicit graph neural networks with",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "An inclusive theoretical framework of robust supervised contrastive loss against label noise",
+        "authors": "J Cui, YG Zhang, H Liu, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2501.01130, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:q3oQSFYPqjQC",
+        "cite_id": "16444875444689677875",
+        "dirname": "An inclusive theoretical framework of robust supervised contrastive",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Dissecting the Failure of Invariant Learning on Graphs",
+        "authors": "Q Wang, Y Wang, Y Wang, X Ying",
+        "year": "2024",
+        "publication": "NeurIPS 2024, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:eJXPG6dFmWUC",
+        "cite_id": "8865747706190442019",
+        "dirname": "Dissecting the Failure of Invariant Learning on Graphs",
+        "cite_num_within_time": 4
+    },
+    {
+        "title": "Know when to explore: Difficulty-aware certainty as a guide for llm reinforcement learning",
+        "authors": "A Li, Z Yuan, Y Zhang, S Liu, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2509.00125, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:t6usbXjVLHcC",
+        "cite_id": "9685739840587641310",
+        "dirname": "Know when to explore Difficulty-aware certainty as a",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "Beyond Interpretability: The Gains of Feature Monosemanticity on Model Robustness",
+        "authors": "Q Zhang, Y Wang, J Cui, X Pan, Q Lei, S Jegelka, Y Wang",
+        "year": "2024",
+        "publication": "ICLR 2025, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:08ZZubdj9fEC",
+        "cite_id": "3213071894593981876",
+        "dirname": "Beyond Interpretability The Gains of Feature Monosemanticity on",
+        "cite_num_within_time": 3
+    },
+    {
+        "title": "On the Adversarial Transferability of Generalized\" Skip Connections\"",
+        "authors": "Y Wang, Y Mo, D Wu, M Li, X Ma, Z Lin",
+        "year": "2024",
+        "publication": "arXiv preprint arXiv:2410.08950, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:sSrBHYA8nusC",
+        "cite_id": "13625620118001690374",
+        "dirname": "On the Adversarial Transferability of Generalized\" Skip Connections\"",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "EKAN: Equivariant Kolmogorov-Arnold Networks",
+        "authors": "L Hu, Y Wang, Z Lin",
+        "year": "2024",
+        "publication": "",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:4fKUyHm3Qg0C",
+        "cite_id": "6231791896746513845",
+        "dirname": "EKAN Equivariant Kolmogorov-Arnold Networks",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "Graph Neural Networks (with Proper Weights) Can Escape Oversmoothing",
+        "authors": "Z Zhuo, Y Wang, J Ma, Y Wang",
+        "year": "2024",
+        "publication": "The 16th Asian Conference on Machine Learning (Conference Track), 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:LPZeul_q3PIC",
+        "cite_id": "17506985717353220176",
+        "dirname": "Graph Neural Networks (with Proper Weights) Can Escape",
+        "cite_num_within_time": 2
+    },
+    {
+        "title": "SSL4RL: Revisiting Self-supervised Learning as Intrinsic Reward for Visual-Language Reasoning",
+        "authors": "X Guo, R Zhou, Y Wang, Q Zhang, C Zhang, S Jegelka, X Wang, J Chai, ...",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2510.16416, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:AXPGKjj_ei8C",
+        "cite_id": "12259337905919505479",
+        "dirname": "SSL4RL Revisiting Self-supervised Learning as Intrinsic Reward for",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "On the Theoretical Understanding of Identifiable Sparse Autoencoders and Beyond",
+        "authors": "J Cui, Q Zhang, Y Wang, Y Wang",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2506.15963, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:HE397vMXCloC",
+        "cite_id": "8402946105505539822",
+        "dirname": "On the Theoretical Understanding of Identifiable Sparse Autoencoders",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Long-Short Alignment for Effective Long-Context Modeling in LLMs",
+        "authors": "T Du, H Huang, Y Wang, Y Wang",
+        "year": "2025",
+        "publication": "ICML 2025, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:olpn-zPbct0C",
+        "cite_id": "15534905730157557757",
+        "dirname": "Long-Short Alignment for Effective Long-Context Modeling in LLMs",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Identifying and Understanding Cross-Class Features in Adversarial Training",
+        "authors": "Z Wei, Y Guo, Y Wang",
+        "year": "2025",
+        "publication": "ICML 2025, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:J-pR_7NvFogC",
+        "cite_id": "18237802988574529833",
+        "dirname": "Identifying and Understanding Cross-Class Features in Adversarial Training",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "Towards provable probabilistic safety for scalable embodied AI systems",
+        "authors": "L He, QS Jia, A Li, H Sang, L Wang, J Lu, T Zhang, J Zhou, Y Zhang, ...",
+        "year": "2025",
+        "publication": "arXiv preprint arXiv:2506.05171, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:1qzjygNMrQYC",
+        "cite_id": "15857560776669150114",
+        "dirname": "Towards provable probabilistic safety for scalable embodied AI",
+        "cite_num_within_time": 1
+    },
+    {
+        "title": "An Augmentation-Aware Theory for Self-Supervised Contrastive Learning",
+        "authors": "J Cui, H Wen, Y Wang",
+        "year": "2025",
+        "publication": "ICML 2025, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uMWPDboAAAAJ&cstart=100&pagesize=100&citation_for_view=uMWPDboAAAAJ:wbdj-CoPYUoC",
+        "cite_id": "126510864462095559",
+        "dirname": "An Augmentation-Aware Theory for Self-Supervised Contrastive Learning",
+        "cite_num_within_time": 1
+    }
+]

@@ -120,11 +120,12 @@ def crawl_author_papers(aid):
 
     # 2. Get raw paper list
     raw_papers = get_papers(aid)
+    raw_num = len(raw_papers)
     print(
-        f"Found {len(raw_papers)} raw papers. Checking citations within {config.start_year}-{config.end_year}..."
+        f"Found {raw_num} raw papers. Checking citations within {config.start_year}-{config.end_year}..."
     )
 
-    for paper in raw_papers:
+    for i, paper in enumerate(raw_papers):
         title = paper.get("title")
         if title in existing_titles:
             continue
@@ -134,13 +135,13 @@ def crawl_author_papers(aid):
         if count > 0:
             paper["cite_num_within_time"] = count
             filtered_papers.append(paper)
-            print(f"  [KEEP] {title} ({count} citations)")
+            print(f"  [KEEP {i+1}/{raw_num}] {title} ({count} citations)")
 
             # Save immediately (Incremental Save)
             save_author_info(filtered_papers)
         else:
             # print(f"  [DROP] {title} (0 citations)")
-            print(f"  [DROP] {title} (0 citations)")
+            print(f"  [DROP {i+1}/{raw_num}] {title} (0 citations)")
             pass
 
     print(f"Total papers saved: {len(filtered_papers)}")
