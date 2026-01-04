@@ -14,6 +14,15 @@ dependencies = [
     "fuzzywuzzy",
     "python-docx",
     "python-Levenshtein",
+    "google-search-results",
+    "openpyxl",
+    "streamlit",
+    "beautifulsoup4",
+    "jsonschema",
+    "requests-cache",
+    "openai",
+    "pymupdf",
+    "watchdog",
 ]
 
 [tool.black]

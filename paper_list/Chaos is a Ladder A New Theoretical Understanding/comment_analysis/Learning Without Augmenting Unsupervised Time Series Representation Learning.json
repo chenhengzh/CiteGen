@@ -7,11 +7,18 @@
       "Text": "A recent study [12] highlights the importance of strong augmentations in instance discrimination by showing that augmentations can cause different intra-class samples to align when their augmented views overlap (i.e., two different cars appear similar when both are cropped to show only the wheels).",
       "Analysis": "引用了被引论文[12]，强调了强增强在实例判别中的重要性，并描述了其核心观点，但没有明确评价或应用其内容。",
       "Positive": false
+    },
+    {
+      "Text": "More recently, data augmentations have become a central component of SSL, with stronger transformations applied to boost sample diversity [1, 12, 44].",
+      "Analysis": "作为众多相关工作之一进行列举，没有特别评价被引论文的内容或贡献。",
+      "Positive": false
     }
   ],
   "AnalyzedSnippetIndices": [
     1,
-    2
+    2,
+    3,
+    4
   ],
   "EncounteredExceptions": [],
   "Snippets": [
