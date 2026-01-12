@@ -9,6 +9,7 @@ import shutil
 import urllib3
 from datetime import datetime
 from serpapi import GoogleSearch
+from utils import get_filename
 
 import config
 
@@ -118,15 +119,16 @@ def google_search(para):
     return False
 
 
-def get_filename(paper_title):
-    words = paper_title.split()
-    if len(words) <= config.NUM_WORDS_IN_FILENAME:
-        fn = paper_title
-    else:
-        fn = " ".join(words[: config.NUM_WORDS_IN_FILENAME])
-    fn = fn.replace(":", "")
-    fn = fn.replace("?", "")
-    return fn
+# def get_filename(paper_title):
+#     words = paper_title.split()
+#     if len(words) <= config.NUM_WORDS_IN_FILENAME:
+#         fn = paper_title
+#     else:
+#         fn = " ".join(words[: config.NUM_WORDS_IN_FILENAME])
+#     fn = fn.replace(":", "")
+#     fn = fn.replace("?", "")
+#     fn = fn.replace("*", "")
+#     return fn
 
 
 # 无须处理publication_str，留下版本号等信息

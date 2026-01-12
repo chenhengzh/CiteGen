@@ -287,5 +287,27 @@
             }
         ],
         "author_status": "complete"
+    },
+    {
+        "index": "013",
+        "title": "Generalization Analysis for Supervised Contrastive Representation Learning under Non-IID Settings",
+        "info": "NM Hieu, A Ledent - arXiv preprint arXiv:2505.04937, 2025 - arxiv.org",
+        "abstract": "Contrastive Representation Learning (CRL) has achieved impressive success in various domains in recent years. Nevertheless, the theoretical understanding of the generalization …",
+        "PDF": "https://arxiv.org/pdf/2505.04937",
+        "filename": "Generalization Analysis for Supervised Contrastive Representation Learning under",
+        "link": "https://arxiv.org/abs/2505.04937",
+        "authors": [
+            {
+                "name": "NM Hieu",
+                "link": "https://scholar.google.com/citations?user=6ZtPiA8AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 163
+            },
+            {
+                "name": "A Ledent",
+                "link": "https://scholar.google.com/citations?user=xxbYi-MAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 293
+            }
+        ],
+        "author_status": "complete"
     }
 ]

@@ -82,6 +82,7 @@ def get_filename(paper_title):
     fn = fn.replace(":", "")
     fn = fn.replace("?", "")
     fn = fn.replace("/", "_")  # Extra safety
+    fn = fn.replace("*", "")
     return fn
 
 

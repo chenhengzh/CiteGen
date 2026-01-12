@@ -1,7 +1,8 @@
 import os
 import json
 import logging
-from .paper_crawler import paper_crawler, google_search, get_filename
+from .paper_crawler import paper_crawler, google_search
+from utils import get_filename
 import config
 
 
