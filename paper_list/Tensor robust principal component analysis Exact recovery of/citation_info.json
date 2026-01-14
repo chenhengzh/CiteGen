@@ -1,0 +1,68 @@
+[
+    {
+        "index": "001",
+        "title": "Parameterized low-rank regularizer for high-dimensional visual data",
+        "info": "Shuang Xu, Zixiang Zhao, Xiangyong Cao, Jiangjun Peng, Xi-Le Zhao, Deyu Meng, Yulun Zhang, Radu Timofte, and Luc Van Gool. \"Parameterized low-rank regularizer for high-dimensional visual data.\" International Journal of Computer Vision 133, no. 12 (2025): 8546-8569.",
+        "abstract": "Factorization models and nuclear norms, two prominent methods for characterizing the low-rank prior, encounter challenges in accurately retrieving low-rank data under severe …",
+        "PDF": "",
+        "filename": "Parameterized low-rank regularizer for high-dimensional visual data",
+        "link": "https://link.springer.com/article/10.1007/s11263-025-02569-2",
+        "authors": [
+            {
+                "name": "J Peng",
+                "link": "https://scholar.google.com/citations?user=3crYjMoAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 1577
+            },
+            {
+                "name": "XL Zhao",
+                "link": "https://scholar.google.com/citations?user=88Zs8pAAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 9603
+            },
+            {
+                "name": "D Meng",
+                "link": "https://scholar.google.com/citations?user=an6w-64AAAAJ&hl=en&num=20&oi=sra",
+                "citations": 41664
+            }
+        ],
+        "author_status": "omitted"
+    },
+    {
+        "index": "002",
+        "title": "Anchors crash tensor: efficient and scalable tensorial multi-view subspace clustering",
+        "info": "Jintian Ji, and Songhe Feng. \"Anchors crash tensor: efficient and scalable tensorial multi-view subspace clustering.\" IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).",
+        "abstract": "Tensorial Multi-view Clustering (TMC), a prominent approach in multi-view clustering, leverages low-rank tensor learning to capture high-order correlation among views for …",
+        "PDF": "",
+        "filename": "Anchors crash tensor efficient and scalable tensorial multi-view",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10829999/",
+        "authors": [
+            {
+                "name": "J Ji",
+                "link": "https://scholar.google.com/citations?user=_7nv0oAAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 104
+            },
+            {
+                "name": "S Feng",
+                "link": "https://scholar.google.com/citations?user=K5lqMYgAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 3021
+            }
+        ],
+        "author_status": "complete"
+    },
+    {
+        "index": "003",
+        "title": "An adaptive spatiotemporal tensor reconstruction method for GIMMS-3g+ NDVI",
+        "info": "Mengyang Cai, Yao Zhang, Xiaobin Guan, and Jinghao Qiu. \"An adaptive spatiotemporal tensor reconstruction method for GIMMS-3g+ NDVI.\" Remote Sensing of Environment 316 (2025): 114511.",
+        "abstract": "Satellite-derived normalized difference vegetation index (NDVI) is inevitably contaminated by clouds and aerosols, causing large uncertainties in depicting the seasonal and …",
+        "PDF": "",
+        "filename": "An adaptive spatiotemporal tensor reconstruction method for GIMMS-3g+",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0034425724005376",
+        "authors": [
+            {
+                "name": "Y Zhang",
+                "link": "https://scholar.google.com/citations?user=r0l744oAAAAJ&hl=en&num=20&oi=sra",
+                "citations": 14208
+            }
+        ],
+        "author_status": "complete"
+    }
+]

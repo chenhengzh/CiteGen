@@ -260,7 +260,7 @@ def download_pdfs_for_paper(paper_title):
     json_path = os.path.join(PAPER_LIST_DIR, dir_name, "citation_info.json")
 
     if os.path.exists(json_path):
-        with open(json_path, "r") as file:
+        with open(json_path, "r", encoding="utf-8") as file:
             cit_list = json.load(file)
     else:
         cit_list = []
@@ -279,7 +279,7 @@ def download_pdfs_for_paper(paper_title):
 
     for cit in cit_list:
         pdf_pth = os.path.join(PAPER_LIST_DIR, dir_name, f"{cit['filename']}.pdf")
-        
+
         logging.info(f"Processing citation: {cit.get('title', 'Unknown')}")
 
         # Check if PDF already exists before downloading
@@ -287,7 +287,7 @@ def download_pdfs_for_paper(paper_title):
             logging.info(f"PDF already exists at {pdf_pth}, skipping download.")
         else:
             get_pdf(cit, pdf_pth)
-        
+
         logging.info(
             "+++===================================================================================================+++\n"
         )
@@ -295,9 +295,7 @@ def download_pdfs_for_paper(paper_title):
     print(
         f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
     )
-    print(
-        f"PDF downloading for paper: [{paper_title}] has completed."
-    )
+    print(f"PDF downloading for paper: [{paper_title}] has completed.")
     print(
         f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***\n"
     )
@@ -324,7 +322,7 @@ def download_all_pdfs(paper_ls):
 
     for paper in paper_ls:
         download_pdfs_for_paper(paper)
-    
+
     print("All PDFs download tasks completed.")
 
     logging.info("\n\n\n")
@@ -336,4 +334,3 @@ def download_all_pdfs(paper_ls):
         f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
     logging.info("\n\n\n")
-

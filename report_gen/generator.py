@@ -211,7 +211,7 @@ def input_docx(cit, doc_pth, pdf_filename=None):
 
         if os.path.exists(analysis_path):
             try:
-                with open(analysis_path, "r") as f:
+                with open(analysis_path, "r", encoding="utf-8") as f:
                     analysis_data = json.load(f)
 
                 citations = analysis_data.get("Citations", [])
@@ -282,7 +282,7 @@ def report_worker(paper_title):
     json_path = os.path.join(paper_dir, "citation_info.json")
 
     if os.path.exists(json_path):
-        with open(json_path, "r") as file:
+        with open(json_path, "r", encoding="utf-8") as file:
             cit_list = json.load(file)
     else:
         cit_list = []
@@ -351,7 +351,7 @@ def generate_all_reports(paper_ls):
 
     logging.info("\n\n\n")
     logging.info(
-        f"#####***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
+        f"#####***·++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***#####"
     )
     logging.info(f"The following is a new report generation process")
     logging.info(

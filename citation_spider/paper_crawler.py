@@ -7,6 +7,7 @@ import pickle
 import re
 import shutil
 import urllib3
+import difflib
 from datetime import datetime
 from serpapi import GoogleSearch
 from utils import get_filename
@@ -424,7 +425,9 @@ def paper_worker(paper):
 
     # 如果之前爬过，则从之前的位置开始
     if os.path.exists(f"./paper_list/{dir_name}/citation_info.json"):
-        with open(f"./paper_list/{dir_name}/citation_info.json", "r") as file:
+        with open(
+            f"./paper_list/{dir_name}/citation_info.json", "r", encoding="utf-8"
+        ) as file:
             cit_list = json.load(file)
     else:
         cit_list = []
@@ -471,6 +474,7 @@ def paper_worker(paper):
 
 
 # 专用于single_paper，获取相关信息
+# 需要增加作者信息，来保证搜索准确
 def get_paper_info(title):
     query = title
     params = {"engine": "google_scholar", "api_key": config.SERP_API_KEY, "q": query}
@@ -481,16 +485,36 @@ def get_paper_info(title):
         return "no citation"
     organic_results = results["organic_results"]
 
+    # Find the best match in the first 5 results
+    best_match_idx = 0
+    best_match_ratio = -1.0
+    check_count = min(len(organic_results), 5)
+
+    for i in range(check_count):
+        res_title = organic_results[i].get("title", "")
+        ratio = difflib.SequenceMatcher(None, title.lower(), res_title.lower()).ratio()
+        if ratio > best_match_ratio:
+            best_match_ratio = ratio
+            best_match_idx = i
+        if ratio == 1.0:
+            break
+
+    best_result = organic_results[best_match_idx]
+    logging.info(
+        f"Best match for '{title}' is '{best_result.get('title', '')}' with ratio {best_match_ratio:.4f}"
+    )
+
     if (
-        "cited_by" in organic_results[0]["inline_links"]
-        and "cites_id" in organic_results[0]["inline_links"]["cited_by"]
+        "inline_links" in best_result
+        and "cited_by" in best_result["inline_links"]
+        and "cites_id" in best_result["inline_links"]["cited_by"]
     ):
-        cites_id = organic_results[0]["inline_links"]["cited_by"]["cites_id"]
+        cites_id = best_result["inline_links"]["cited_by"]["cites_id"]
     else:
         cites_id = "no citation"
-    link = organic_results[0].get("link", "")
-    authors = organic_results[0].get("authors", "")
-    publication = organic_results[0].get("publication_info", "")
+    link = best_result.get("link", "")
+    authors = best_result.get("authors", "")
+    publication = best_result.get("publication_info", "")
     data = {
         "title": title,
         "authors": authors,
