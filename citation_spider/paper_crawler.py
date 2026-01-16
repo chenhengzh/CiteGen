@@ -238,13 +238,31 @@ def get_citation(paper_div):
     if "link" in paper_div:
         paper.link = paper_div["link"]
 
+    # 先获取 publication_info 来判断 author_status
+    pro_info = ""
+    if "publication_info" in paper_div:
+        pro_info = paper_div["publication_info"].get("summary", "")
+
+        # Check for author omission
+        idx_dots = pro_info.find("…")
+        idx_dash = pro_info.find(" - ")
+        if idx_dots != -1 and (idx_dash == -1 or idx_dots < idx_dash):
+            paper.author_status = "omitted"
+        else:
+            paper.author_status = "complete"
+    else:
+        paper.author_status = "complete"
+
+    # 根据 author_status 决定获取哪些作者的引用数
     if "publication_info" in paper_div and "authors" in paper_div["publication_info"]:
         authors_with_links = [
             auth for auth in paper_div["publication_info"]["authors"] if "link" in auth
         ]
+        # 根据 author_status 设置需要获取的作者数量
+        num = 1 if paper.author_status == "omitted" else 3
         target_authors = (
-            authors_with_links[-3:]
-            if len(authors_with_links) >= 3
+            authors_with_links[-num:]
+            if len(authors_with_links) >= num
             else authors_with_links
         )
         # pdb.set_trace()
@@ -253,16 +271,6 @@ def get_citation(paper_div):
             link = auth.get("link", "")
             citations = get_author_citation_count(link)
             paper.authors.append({"name": name, "link": link, "citations": citations})
-
-    pro_info = paper_div["publication_info"]["summary"]
-
-    # Check for author omission
-    idx_dots = pro_info.find("…")
-    idx_dash = pro_info.find(" - ")
-    if idx_dots != -1 and (idx_dash == -1 or idx_dots < idx_dash):
-        paper.author_status = "omitted"
-    else:
-        paper.author_status = "complete"
 
     result_id = paper_div["result_id"]
 
