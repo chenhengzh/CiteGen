@@ -418,6 +418,8 @@ def paper_worker(paper):
         )
         print()
         return
+
+    # pdb.set_trace()
     num_str = results["search_information"]["total_results"]
     num = int(num_str)
     if num == 0:
@@ -484,7 +486,31 @@ def paper_worker(paper):
 # 专用于single_paper，获取相关信息
 # 需要增加作者信息，来保证搜索准确
 def get_paper_info(title):
+    # Check author_info first
+    author_info_dir = config.AUTHOR_INFO_DIR
+    if os.path.exists(author_info_dir):
+        for filename in os.listdir(author_info_dir):
+            if filename.endswith(".json"):
+                try:
+                    with open(os.path.join(author_info_dir, filename), "r", encoding="utf-8") as f:
+                        papers = json.load(f)
+                        for paper in papers:
+                            # Normalize titles for comparison
+                            if paper.get("title", "").strip().lower() == title.strip().lower():
+                                logging.info(f"Found paper '{title}' in {filename}")
+                                return {
+                                    "title": paper.get("title"),
+                                    "authors": paper.get("authors"),
+                                    "publication": paper.get("publication"),
+                                    "link": paper.get("link"),
+                                    "cite_id": paper.get("cite_id"),
+                                }
+                except Exception as e:
+                    logging.warning(f"Error reading {filename}: {e}")
+
     query = title
+    
+
     params = {"engine": "google_scholar", "api_key": config.SERP_API_KEY, "q": query}
     search = google_search(params)
     results = search.get_dict()
