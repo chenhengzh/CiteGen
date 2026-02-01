@@ -150,8 +150,8 @@ def crawl_author_papers(aid):
 
 
 if __name__ == "__main__":
-    if not os.path.exists("./paper_list"):
-        os.makedirs("./paper_list")
+    if not os.path.exists(config.PAPER_LIST_DIR):
+        os.makedirs(config.PAPER_LIST_DIR)
 
     # In independent execution, we run the full pipeline
     paper_ls = crawl_author_papers(config.author_id)

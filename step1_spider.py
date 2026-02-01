@@ -24,8 +24,8 @@ def main():
 
     # Setup logging for the main spider process
 
-    if not os.path.exists("./paper_list"):
-        os.makedirs("./paper_list")
+    if not os.path.exists(config.PAPER_LIST_DIR):
+        os.makedirs(config.PAPER_LIST_DIR)
 
     if args.mode == "author":
         setup_logging("author_spider")

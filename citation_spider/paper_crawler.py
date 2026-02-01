@@ -288,7 +288,7 @@ def get_citation(paper_div):
 
 def save_citation(dir_name, cit_list):
     with open(
-        os.path.join("paper_list", dir_name, "citation_info.json"),
+        os.path.join(config.PAPER_LIST_DIR, dir_name, "citation_info.json"),
         "w",
         encoding="utf-8",
     ) as f:
@@ -333,7 +333,7 @@ def get_chicago(qkey):
 
 
 def get_position(paper_list):
-    folder_path = f"./paper_list/"
+    folder_path = os.path.join(config.PAPER_LIST_DIR, "")
     paper_processed = [
         d
         for d in os.listdir(folder_path)
@@ -354,7 +354,7 @@ def get_position(paper_list):
 
 def paper_worker(paper):
     dir_name = get_filename(paper["title"])
-    os.makedirs(f"./paper_list/{dir_name}/", exist_ok=True)
+    os.makedirs(os.path.join(config.PAPER_LIST_DIR, dir_name), exist_ok=True)
     print(
         f"***++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++***"
     )
@@ -370,7 +370,7 @@ def paper_worker(paper):
     cites_id = paper["cite_id"]
     if cites_id == "no citation":
         logging.info(f"Paper: [{dir_name}] has no citation")
-        shutil.rmtree(f"./paper_list/{dir_name}/")
+        shutil.rmtree(os.path.join(config.PAPER_LIST_DIR, dir_name))
         print(f"Empty folder [{dir_name}] has been deleted.")
         logging.info(f"Empty folder [{dir_name}] has been deleted.")
         logging.info(
@@ -403,7 +403,7 @@ def paper_worker(paper):
         or "total_results" not in results["search_information"]
     ):
         logging.info(f"Paper: [{dir_name}] has no citation")
-        shutil.rmtree(f"./paper_list/{dir_name}/")
+        shutil.rmtree(os.path.join(config.PAPER_LIST_DIR, dir_name))
         print(f"Empty folder [{dir_name}] has been deleted.")
         logging.info(f"Empty folder [{dir_name}] has been deleted.")
         logging.info(
@@ -423,7 +423,7 @@ def paper_worker(paper):
     num_str = results["search_information"]["total_results"]
     num = int(num_str)
     if num == 0:
-        shutil.rmtree(f"./paper_list/{dir_name}/")
+        shutil.rmtree(os.path.join(config.PAPER_LIST_DIR, dir_name))
         print(f"Empty folder [{dir_name}] has been deleted.")
         logging.info(f"Empty folder [{dir_name}] has been deleted.")
         logging.info(
@@ -434,9 +434,9 @@ def paper_worker(paper):
     citation_list = [Citation() for i in range(num)]
 
     # 如果之前爬过，则从之前的位置开始
-    if os.path.exists(f"./paper_list/{dir_name}/citation_info.json"):
+    if os.path.exists(os.path.join(config.PAPER_LIST_DIR, dir_name, "citation_info.json")):
         with open(
-            f"./paper_list/{dir_name}/citation_info.json", "r", encoding="utf-8"
+            os.path.join(config.PAPER_LIST_DIR, dir_name, "citation_info.json"), "r", encoding="utf-8"
         ) as file:
             cit_list = json.load(file)
     else:
@@ -610,7 +610,7 @@ def paper_crawler(paper_list):
 
 if __name__ == "__main__":
 
-    if not os.path.exists("./paper_list"):
-        os.makedirs("./paper_list")
+    if not os.path.exists(config.PAPER_LIST_DIR):
+        os.makedirs(config.PAPER_LIST_DIR)
 
     paper_crawler(config.paper_list)

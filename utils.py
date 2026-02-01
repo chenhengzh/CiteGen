@@ -86,7 +86,7 @@ def get_filename(paper_title):
     return fn
 
 
-def get_citation(dir_name, file_name, base_dir="./paper_list"):
+def get_citation(dir_name, file_name, base_dir=config.PAPER_LIST_DIR):
     """Load citation data from a pickle file."""
     pth = os.path.join(base_dir, dir_name, "data", file_name)
     with open(pth, "rb") as file:
@@ -94,7 +94,7 @@ def get_citation(dir_name, file_name, base_dir="./paper_list"):
     return paper
 
 
-def list_data_in_directory(dir_name, base_dir="./paper_list"):
+def list_data_in_directory(dir_name, base_dir=config.PAPER_LIST_DIR):
     """List all files in the data directory of a paper."""
     folder_path = os.path.join(base_dir, dir_name, "data")
     if not os.path.exists(folder_path):
@@ -104,7 +104,7 @@ def list_data_in_directory(dir_name, base_dir="./paper_list"):
     return files
 
 
-def get_papers(base_dir="./paper_list"):
+def get_papers(base_dir=config.PAPER_LIST_DIR):
     """Get a list of paper directories."""
     if not os.path.exists(base_dir):
         return []

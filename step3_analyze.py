@@ -27,7 +27,7 @@ def main():
             print(f"An error occurred during analysis: {e}")
     else:
         print(
-            "Please use CitationSpider to get citation data in advance (missing ./paper_list directory)"
+            f"Please use CitationSpider to get citation data in advance (missing {PAPER_LIST_DIR} directory)"
         )
 
 
