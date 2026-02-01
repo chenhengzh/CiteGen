@@ -6,6 +6,7 @@ from report_gen.model_config import ModelConfig
 GET_PDF = True  # Default value, can be overridden by CLI arguments
 TIMEOUT = 30
 PAPER_LIST_DIR = "paper_list"
+AUTHOR_INFO_DIR = "author_info"
 
 SERP_API_KEY = ""  # SerpApi
 
