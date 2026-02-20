@@ -215,9 +215,11 @@ def input_docx(cit, doc_pth, pdf_filename=None):
                     analysis_data = json.load(f)
 
                 citations = analysis_data.get("Citations", [])
-                positive_cits = [c for c in citations if c.get("Positive") is True]
+                # positive_cits = [c for c in citations if c.get("Positive") is True]
+                positive_cits = [c for c in citations]
 
                 if positive_cits:
+
                     # Empty line
                     # doc.add_paragraph()
 
