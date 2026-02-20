@@ -250,15 +250,15 @@ def input_docx(cit, doc_pth, pdf_filename=None):
                                 COLOR_DARK_BLUE  # Dark Blue for analysis
                             )
 
-                elif any(c.get("Positive") is False for c in citations):
-                    para_neutral = doc.add_paragraph()
-                    para_neutral.paragraph_format.first_line_indent = Pt(0)
+                # elif any(c.get("Positive") is False for c in citations):
+                #     para_neutral = doc.add_paragraph()
+                #     para_neutral.paragraph_format.first_line_indent = Pt(0)
 
-                    run_neutral = para_neutral.add_run("Only Neutral Comments")
-                    run_neutral.font.name = "Arial"
-                    run_neutral.font.size = Pt(10)
-                    run_neutral.italic = True
-                    run_neutral.font.color.rgb = COLOR_GREY
+                #     run_neutral = para_neutral.add_run("Only Neutral Comments")
+                #     run_neutral.font.name = "Arial"
+                #     run_neutral.font.size = Pt(10)
+                #     run_neutral.italic = True
+                #     run_neutral.font.color.rgb = COLOR_GREY
 
             except Exception as e:
                 logging.error(f"Error reading analysis file {analysis_path}: {e}")
