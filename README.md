@@ -1,3 +1,5 @@
+
+
 # CiteGen
 
 > **CiteGen** 是为 ZERO Lab 设计的一套**引用管理与评论分析工具链**，用于简化论文引用的收集、整理与分析流程，服务于学术写作与相关研究工作。
@@ -15,12 +17,11 @@ CiteGen 会自动整理下载的 PDF 和生成的分析文件，保持工作区�
 ![报告内容示例](figure/report.png)
 
 
-
 ## 🛠️ 安装指南
 
 ### 1. 克隆仓库
 ```shell
-git clone https://github.com/chenhengzh/CitationGenerator.git
+git clone https://github.com/chenhengzh/CiteGen.git
 cd CiteGen
 ```
 
